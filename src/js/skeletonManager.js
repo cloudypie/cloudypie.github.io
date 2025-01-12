@@ -24,7 +24,7 @@ class navBar extends HTMLElement {
                         </div>
                     </div>
                 
-                    <a href="/Travel_Review.html">Travel Reviews</a> 
+                    <a href="/src/html/Travel_Review.html">Travel Reviews</a> 
                     
                     <div class="dropdown">
                         <div class="dropbtn">Airlines</div>
