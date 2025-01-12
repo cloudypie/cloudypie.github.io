@@ -13,14 +13,14 @@ class navBar extends HTMLElement {
                     <div class="dropdown">
                         <div class="dropbtn">Credit Cards</div>
                         <div class="dropdown-content">
-                        <a href="/wanderexpress/src/html/Credit_Card/Amex.html">American Express</a>
-                        <a href="/wanderexpress/src/html/Credit_Card/BoA.html">Bank of America</a>
-                        <a href="/wanderexpress/src/html/Credit_Card/C1.html">Capital One</a>
-                        <a href="/wanderexpress/src/html/Credit_Card/Chase.html">Chase</a>
-                        <a href="/wanderexpress/src/html/Credit_Card/Citi.html">Citi</a>
-                        <a href="/wanderexpress/src/html/Credit_Card/USBank.html">US Bank</a>
-                        <a href="/wanderexpress/src/html/Credit_Card/WF.html">Wells Fargo</a>
-                        <a href="/wanderexpress/src/html/Credit_Card/Other.html">Other</a>
+                            <a href="/wanderexpress/src/html/Credit_Card/Amex.html">American Express</a>
+                            <a href="/wanderexpress/src/html/Credit_Card/BoA.html">Bank of America</a>
+                            <a href="/wanderexpress/src/html/Credit_Card/C1.html">Capital One</a>
+                            <a href="/wanderexpress/src/html/Credit_Card/Chase.html">Chase</a>
+                            <a href="/wanderexpress/src/html/Credit_Card/Citi.html">Citi</a>
+                            <a href="/wanderexpress/src/html/Credit_Card/USBank.html">US Bank</a>
+                            <a href="/wanderexpress/src/html/Credit_Card/WF.html">Wells Fargo</a>
+                            <a href="/wanderexpress/src/html/Credit_Card/Other.html">Other</a>
                         </div>
                     </div>
                 
