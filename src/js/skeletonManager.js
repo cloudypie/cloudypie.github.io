@@ -1,13 +1,9 @@
 class navBar extends HTMLElement {
     connectedCallback() {
-        const fullUrl = window.location.href;
-        const url = new URL(fullUrl);
-        const rootUrl = url.origin;
-        console.log(rootUrl)
         this.innerHTML = `
         <header>  
             <a href="/index.html">
-                <img src="~/wanderexpress/src/assets/LogoNav.png" alt="Travel Express" width="187" height="150">
+                <img src="/src/assets/LogoNav.png" alt="Travel Express" width="187" height="150">
             </a>
             <div class="centerText">
                 <h6>
@@ -17,14 +13,14 @@ class navBar extends HTMLElement {
                     <div class="dropdown">
                         <div class="dropbtn">Credit Cards</div>
                         <div class="dropdown-content">
-                        <a href="~/wanderexpress/src/html/Credit_Card/Amex.html">American Express</a>
-                        <a href="~/wanderexpress/src/html/Credit_Card/BoA.html">Bank of America</a>
-                        <a href="~/wanderexpress/src/html/Credit_Card/C1.html">Capital One</a>
-                        <a href="~/wanderexpress/src/html/Credit_Card/Chase.html">Chase</a>
-                        <a href="~/wanderexpress/src/html/Credit_Card/Citi.html">Citi</a>
-                        <a href="~/wanderexpress/src/html/Credit_Card/USBank.html">US Bank</a>
-                        <a href="~/wanderexpress/src/html/Credit_Card/WF.html">Wells Fargo</a>
-                        <a href="~/wanderexpress/src/html/Credit_Card/Other.html">Other</a>
+                        <a href="/src/html/Credit_Card/Amex.html">American Express</a>
+                        <a href="/src/html/Credit_Card/BoA.html">Bank of America</a>
+                        <a href="/src/html/Credit_Card/C1.html">Capital One</a>
+                        <a href="/src/html/Credit_Card/Chase.html">Chase</a>
+                        <a href="/src/html/Credit_Card/Citi.html">Citi</a>
+                        <a href="/src/html/Credit_Card/USBank.html">US Bank</a>
+                        <a href="/src/html/Credit_Card/WF.html">Wells Fargo</a>
+                        <a href="/src/html/Credit_Card/Other.html">Other</a>
                         </div>
                     </div>
                 
@@ -33,32 +29,32 @@ class navBar extends HTMLElement {
                     <div class="dropdown">
                         <div class="dropbtn">Airlines</div>
                         <div class="dropdown-content">
-                            <a href="~/wanderexpress/src/html/Airlines/AS.html">Alaska</a>
-                            <a href="~/wanderexpress/src/html/Airlines/AA.html">American</a>
-                            <a href="~/wanderexpress/src/html/Airlines/DL.html">Delta</a>
-                            <a href="~/wanderexpress/src/html/Airlines/UA.html">United</a>
-                            <a href="~/wanderexpress/src/html/Airlines/AC.html">Air Canada</a>
-                            <a href="~/wanderexpress/src/html/Airlines/IAG.html">IAG/Avios</a>
-                            <a href="~/wanderexpress/src/html/Airlines/AFKLM.html">Air France/KLM</a>
-                            <a href="~/wanderexpress/src/html/Airlines/ANA.html">ANA</a>
-                            <a href="~/wanderexpress/src/html/Airlines/EVA.html">EVA</a>
+                            <a href="/src/html/Airlines/AS.html">Alaska</a>
+                            <a href="/src/html/Airlines/AA.html">American</a>
+                            <a href="/src/html/Airlines/DL.html">Delta</a>
+                            <a href="/src/html/Airlines/UA.html">United</a>
+                            <a href="/src/html/Airlines/AC.html">Air Canada</a>
+                            <a href="/src/html/Airlines/IAG.html">IAG/Avios</a>
+                            <a href="/src/html/Airlines/AFKLM.html">Air France/KLM</a>
+                            <a href="/src/html/Airlines/ANA.html">ANA</a>
+                            <a href="/src/html/Airlines/EVA.html">EVA</a>
                         </div>
                     </div>
                     
                     <div class="dropdown">
                         <div class="dropbtn">Hotels</div>
                         <div class="dropdown-content">
-                            <a href="~/wanderexpress/src/html/Hotels/Choice.html">Choice</a>
-                            <a href="~/wanderexpress/src/html/Hotels/Hilton.html">Hilton</a>
-                            <a href="~/wanderexpress/src/html/Hotels/Hyatt.html">Hyatt</a>
-                            <a href="~/wanderexpress/src/html/Hotels/IHG.html">IHG</a>
-                            <a href="~/wanderexpress/src/html/Hotels/Marriott.html">Marriott</a>
-                            <a href="~/wanderexpress/src/html/Hotels/Wyndham.html">Wyndham</a>
+                            <a href="/src/html/Hotels/Choice.html">Choice</a>
+                            <a href="/src/html/Hotels/Hilton.html">Hilton</a>
+                            <a href="/src/html/Hotels/Hyatt.html">Hyatt</a>
+                            <a href="/src/html/Hotels/IHG.html">IHG</a>
+                            <a href="/src/html/Hotels/Marriott.html">Marriott</a>
+                            <a href="/src/html/Hotels/Wyndham.html">Wyndham</a>
                         </div>
                     </div>
-                    <a href="~/wanderexpress/src/html/Flight_Sweetspots.html">Flight SweetSpots</a>
-                    <a href="~/wanderexpress/src/html/Tierlist.html">Tierlist</a>
-                    <a href="~/wanderexpress/src/html/News_Archive.html">News Archive</a>
+                    <a href="/src/html/Flight_Sweetspots.html">Flight SweetSpots</a>
+                    <a href="/src/html/Tierlist.html">Tierlist</a>
+                    <a href="/src/html/News_Archive.html">News Archive</a>
                 </nav> 
             </div>
             </header> 
