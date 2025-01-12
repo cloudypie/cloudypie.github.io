@@ -197,7 +197,7 @@ nav a:hover {
   margin:0; 
   padding: 20px; 
   background-color: #919191; 
-  background-image: url('Clouds.png');
+  background-image: url('src/assets/Clouds.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -208,7 +208,7 @@ nav a:hover {
   margin:0; 
   padding: 20px; 
   background-color: #919191; 
-  background-image: url('Grass.png');
+  background-image: url('src/assets/Grass.png');
   background-repeat: no-repeat;
   background-size: cover;
 } 
