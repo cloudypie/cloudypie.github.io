@@ -3,7 +3,7 @@ class navBar extends HTMLElement {
         this.innerHTML = `
         <header>  
             <a href="/index.html">
-                <img src="src/assets/logoNav.png" alt="Travel Express" width="187" height="150">
+                <img src="src/assets/LogoNav.png" alt="Travel Express" width="187" height="150">
             </a>
             <div class="centerText">
                 <h6>
