@@ -1,8 +1,9 @@
 class navBar extends HTMLElement {
     connectedCallback() {
-        // const fullUrl = window.location.href;
-        // const url = new URL(fullUrl);
-        // const rootUrl = url.origin;
+        const fullUrl = window.location.href;
+        const url = new URL(fullUrl);
+        const rootUrl = url.origin;
+        console.log(rootUrl)
         this.innerHTML = `
         <header>  
             <a href="/index.html">
