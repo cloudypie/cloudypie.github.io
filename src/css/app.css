@@ -194,10 +194,11 @@ nav a:hover {
 .container { 
   display: flex; 
   justify-content: left; 
-  margin:0; 
-  padding: 200px; 
+  margin-right: 150px;
+  margin-left: 150px;
+  padding: 20px; 
   background-color: #919191; 
-  background-image: url('src/assets/Clouds.png');
+  background-image: url('/src/assets/Clouds.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -208,7 +209,7 @@ nav a:hover {
   margin:0; 
   padding: 20px; 
   background-color: #919191; 
-  background-image: url('src/assets/Grass.png');
+  background-image: url('/src/assets/Grass.png');
   background-repeat: no-repeat;
   background-size: cover;
 } 
