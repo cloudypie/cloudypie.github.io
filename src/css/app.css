@@ -194,8 +194,7 @@ nav a:hover {
 .container { 
   display: flex; 
   justify-content: left; 
-  margin-right: 150px;
-  margin-left: 150px;
+  margin: 0;
   padding: 20px; 
   background-color: #919191; 
   background-image: url('/src/assets/Clouds.png');
@@ -222,6 +221,7 @@ main {
   text-align: justify; 
   margin-left: 30px; 
 } 
+
 article {
   border-style: solid;
   border-color: black;
@@ -247,5 +247,17 @@ aside {
   display: flex;
   justify-content: space-between;
   margin-right: 50px
+}
+
+.blogArticle {
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  background-color: #ffffff; 
+  margin-bottom: 20px; 
+  margin-right: 400px;
+  margin-left: 400px;
+  padding: 10px 20px; 
+  display: flex
 }
   

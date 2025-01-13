@@ -2,7 +2,7 @@ class navBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <header>  
-            <a href="/src/index.html">  
+            <a href="/index.html">  
                 <img src="/src/assets/LogoNav.png" alt="Travel Express" width="187" height="150">
             </a>
             <div class="centerText">
