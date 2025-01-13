@@ -195,7 +195,7 @@ nav a:hover {
   display: flex; 
   justify-content: left; 
   margin:0; 
-  padding: 20px; 
+  padding: 200px; 
   background-color: #919191; 
   background-image: url('src/assets/Clouds.png');
   background-repeat: no-repeat;
