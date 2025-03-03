@@ -8,6 +8,11 @@ footer {
   background: white; 
 } 
 
+image{
+  max-width: 100%;
+  height: auto;
+}
+
 h6{
   font-size: 64px;
   font-family: "Lucida Handwriting";
@@ -34,6 +39,7 @@ h1 {
 
 p {
   font-size: 18px;
+  margin-bottom: 20px;
 }
 
 a:visited {
@@ -45,7 +51,10 @@ a:link {
 }
 
 ul li {
-  margin-bottom:1em;
+  margin-top:1em;
+  font-size: 18px;
+  text-indent: -1em;
+  padding-left: 1em;
 }
 
 header { 
@@ -257,7 +266,7 @@ article {
   margin-bottom: 20px; 
   padding: 10px 20px; 
   margin-right: 10px;
-  display: flex
+  display: flex;
 }
 
 aside { 
@@ -272,8 +281,15 @@ aside {
 
 .cardEntry{
   display: flex;
-  justify-content: space-between;
-  margin-right: 50px
+  /* justify-content: space-between; */
+  margin-bottom: 28px;
+}
+
+.cardDescription{
+  text-align: left;
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .blogArticle {
