@@ -3,7 +3,7 @@ class navBar extends HTMLElement {
         this.innerHTML = `
         <header>  
             <a href="/index.html">  
-                <img src="/src/assets/LogoNav.png" alt="Worldly Express" width="187" height="120">
+                <img src="/src/assets/LogoNav.png" alt="Worldly Express" width="238" height=auto>
             </a>
             <div class="centerText">
                 <h6>
@@ -61,15 +61,15 @@ class navBar extends HTMLElement {
     }
 }
 
-class footBar extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-        <footer> 
-            <p>© 2023 Worldly Express. All rights reserved.</p> 
-        </footer> 
-        `
-    }
-}
+// class footBar extends HTMLElement {
+//     connectedCallback() {
+//         this.innerHTML = `
+//         <footer> 
+//             <p>© 2023 Worldly Express. All rights reserved.</p> 
+//         </footer> 
+//         `
+//     }
+// }
 
 customElements.define('nav-bar', navBar)
 customElements.define('foot-bar', footBar)
