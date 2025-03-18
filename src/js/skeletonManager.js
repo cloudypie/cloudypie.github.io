@@ -1,6 +1,6 @@
 class navBar extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <header>  
             <a href="/index.html">  
                 <img src="/src/assets/LogoNav.png" alt="Worldly Express" width="238" height=auto>
@@ -10,21 +10,20 @@ class navBar extends HTMLElement {
                     <a href="/index.html">Worldly Express</a>
                 </h6> 
                 <nav>
-                    <div class="dropdown">
+                    <!--<div class="dropdown">
                         <div class="dropbtn">Credit Cards</div>
                         <div class="dropdown-content">
                             <a href="/src/html/Credit_Card/Amex.html">American Express</a>
-                            <!-- <a href="/src/html/Credit_Card/BoA.html">Bank of America</a>-->
-                            <!-- <a href="/src/html/Credit_Card/C1.html">Capital One</a>-->
-                            <!-- <a href="/src/html/Credit_Card/Chase.html">Chase</a>-->
-                            <!-- <a href="/src/html/Credit_Card/Citi.html">Citi</a>-->
-                            <!-- <a href="/src/html/Credit_Card/USBank.html">US Bank</a>-->
-                            <!-- <a href="/src/html/Credit_Card/WF.html">Wells Fargo</a>-->
-                            <!-- <a href="/src/html/Credit_Card/Other.html">Other</a>-->
+                            <a href="/src/html/Credit_Card/BoA.html">Bank of America</a>
+                            <a href="/src/html/Credit_Card/C1.html">Capital One</a>
+                            <a href="/src/html/Credit_Card/Chase.html">Chase</a>
+                            <a href="/src/html/Credit_Card/Citi.html">Citi</a>
+                            <a href="/src/html/Credit_Card/USBank.html">US Bank</a>
+                            <a href="/src/html/Credit_Card/WF.html">Wells Fargo</a>
+                            <a href="/src/html/Credit_Card/Other.html">Other</a>
                         </div>
-                    </div>
-                
-                    <!-- <a href="/src/html/Travel_Review.html">Travel Reviews</a> -->
+                    </div> -->
+            
                     
                     <div class="dropdown">
                         <div class="dropbtn">Airlines</div>
@@ -53,36 +52,36 @@ class navBar extends HTMLElement {
                     </div>
                     <a href="/src/html/Flight_Sweetspots.html">Flight SweetSpots</a>
                     <!-- <a href="/src/html/Tierlist.html">Tierlist</a> -->
+                    <!-- <a href="/src/html/Travel_Review.html">Travel Reviews</a> -->
                     <!-- <a href="/src/html/News_Archive.html">News Archive</a> -->
                 </nav> 
             </div>
             </header> 
-        `
-    }
+        `;
+  }
 }
-
 
 // class footBar extends HTMLElement {
 //     connectedCallback() {
 //         this.innerHTML = `
-//         <footer> 
-//             <p>© 2023 Worldly Express. All rights reserved.</p> 
-//         </footer> 
+//         <footer>
+//             <p>© 2023 Worldly Express. All rights reserved.</p>
+//         </footer>
 //         `
 //     }
 // }
 
-customElements.define('nav-bar', navBar);
-customElements.define('foot-bar', footBar);
+customElements.define("nav-bar", navBar);
+customElements.define("foot-bar", footBar);
 
-window.onscroll = function() {
-    scrollFunction()
+window.onscroll = function () {
+  scrollFunction();
 };
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("nav").style.top = "0";
-    } else {
-      document.getElementById("nav").style.top = "-50px";
-    }
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("nav").style.top = "0";
+  } else {
+    document.getElementById("nav").style.top = "-50px";
+  }
 }
