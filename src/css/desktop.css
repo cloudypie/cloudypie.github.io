@@ -2,7 +2,7 @@
 /* Overarching */
 /* ******** */
 /*  */
-html {
+html:focus-within  {
   scroll-behavior: smooth;
 }
 
@@ -113,38 +113,40 @@ ul li {
 /* NAV BAR */
 /* ******** */
 
-nav {
-  /* position: sticky;
-  z-index: 2;
-  top: 0px;
-  align-self: start; */
-  display: flex;
-  padding: 0px;
-  text-align: center;
-  background-image: url("/src/assets/map.png");
+header {
+  /* background-image: url("/src/assets/map.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  align-items: center;
-  justify-content: center;
+  background-size: cover; */
+  background-color: #919191; 
+  justify-items: center;
+  display:block;
+  padding: 20px;
+}
+
+header img {
+  width: 400px; 
+}
+
+nav {
+  display: flex;
+  text-align: center; 
 }
 
 nav a {
   text-decoration: none;
   font-size: 22px;
-  margin-right: 80px;
   padding: 10px;
   border-bottom: 5px solid transparent;
 }
 
-nav img {
-  border-bottom: 0px;
-}
 
 .dropbtn {
-  color: #004a61;
+  color: #002f3d;
   text-decoration: none;
   font-size: 28px;
-  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
   border-bottom: 5px solid transparent;
 }
 
@@ -157,7 +159,7 @@ nav img {
   position: relative;
   display: inline-block;
   text-align: center;
-  margin-right: 80px;
+  /* margin-right: 80px; */
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -217,7 +219,7 @@ nav img {
 }
 
 .containerBottom article {
-  max-width: 780px;
+  max-width: 830px;
 }
 
 main {
@@ -247,6 +249,8 @@ aside {
 article {
   border-radius: 25px;
   background-color: #ffffff;
+  border-style:groove;
+  border-color: #ffffff;  
   padding: 5px;
   display: flex;
   margin-bottom: 40px;
@@ -281,6 +285,10 @@ article {
   font-size: 15px;
 }
 
+.indent1 {
+  text-indent: 2em;
+}
+
 .toc {
   position: sticky;
   top: 0px;
@@ -299,24 +307,25 @@ article {
   font-weight: 500;
 }
 
-.indent1 {
-  text-indent: 2em;
-}
-
 .toc ul li {
   font-size: 16px;
   list-style: none;
   text-indent: 0;
   padding-left: 0;
+  margin:0;
 }
 
-.toc ol li{
-  /* display: none; */
-  text-indent: 0;
-  padding-left: 0;
-}
 
 .toc a {
   color: black;
   transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+  text-decoration: none;
+}
+
+.sidenavbtn{
+  display: none;
+}
+
+.sidenav{
+  display: none;
 }
