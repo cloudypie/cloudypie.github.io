@@ -14,7 +14,7 @@
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 24px;
     text-align: center;
     text-decoration: underline;
   }
@@ -44,6 +44,20 @@
   /* ******** */
   /* NAV BAR */
   /* ******** */
+  header {
+    display:flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  header img {  
+    width: 200px; 
+    flex:2;
+  }
+
+  nav {
+    flex: 1;
+  }
 
   .dropdown {
     display: none;
@@ -72,7 +86,7 @@
 
   aside{
     width: 95%;
-    margin: 0px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
     padding: 5px;
   }
 
@@ -117,4 +131,83 @@
     font-size: 12px;
   }
 
+  ul li {
+    text-indent: 0;
+    padding-left: 0;
+  }
+
+  .sidenavbtn {
+    display: block;
+    margin-right: 20px;
+  }
+    /* The side navigation menu */
+  .sidenav {
+    display: block;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #c5c5c5;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-size: 36px;
+    margin-left: 0px;
+    z-index: 1;
+  }
+  .sidenav .dropbtn {
+    color: #002f3d;
+    text-decoration: none;
+    font-size: 28px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    border: none;
+    width:50%;
+  }
+  
+  .sidenav .dropbtn:hover {
+    border-bottom: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .sidenav .dropdown {
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+    transform: translatex(25%);
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .sidenav .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: none;
+    width: 50%;
+    z-index: 1;
+    transform: translatex(-95%);
+    margin: 0px;
+    border-radius: 25px;
+    border-style: groove;
+  }
+  
+  /* Links inside the dropdown */
+  .sidenav .dropdown-content a {
+    color: black;
+    padding: 0px 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 0px;
+  }
+  
 }
