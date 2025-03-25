@@ -5,7 +5,7 @@ class navBar extends HTMLElement {
 
               <!-- Mobile Navigation Bar-->
               <div id="mySidenav" class="sidenav">
-
+                <button onclick="closeNav()" class="closebtn">&times;</button>
                 <!--<div class="dropdown">
                     <div class="dropbtn">Credit Cards</div>
                     <div class="dropdown-content">
@@ -20,45 +20,43 @@ class navBar extends HTMLElement {
                     </div>
                 </div> -->
 
-                <div id="myAirline1" class="dropdown-content">
-                    <button onclick="closeAirline()" class="closebtn">&lArr;</button>
-                    <!-- <a href="/src/html/Airlines/AS.html">Alaska</a>-->
-                    <!-- <a href="/src/html/Airlines/AA.html">American</a>-->
-                    <a href="/src/html/Airlines/DL.html">Delta</a>
-                    <!-- <a href="/src/html/Airlines/UA.html">United</a>-->
-                    <!-- <a href="/src/html/Airlines/AC.html">Air Canada</a>-->
-                    <!-- <a href="/src/html/Airlines/IAG.html">IAG/Avios</a>-->
-                    <!-- <a href="/src/html/Airlines/AFKLM.html">Air France/KLM</a>-->
-                    <!-- <a href="/src/html/Airlines/ANA.html">ANA</a>-->
+                <div class="dropdown">
+                    <button onclick="openAirline()" class="dropbtn11">Airlines</button>
+                    <div id="myAirline1" class="dropdown-content">
+                        <!-- <a href="/src/html/Airlines/AS.html">Alaska</a>-->
+                        <!-- <a href="/src/html/Airlines/AA.html">American</a>-->
+                        <a href="/src/html/Airlines/DL.html">Delta</a>
+                         <a href="/src/html/Airlines/UA.html">United</a>
+                         <a href="/src/html/Airlines/AC.html">Air Canada</a>
+                        <a href="/src/html/Airlines/IAG.html">IAG/Avios</a>
+                        <!-- <a href="/src/html/Airlines/AFKLM.html">Air France/KLM</a>-->
+                        <!-- <a href="/src/html/Airlines/ANA.html">ANA</a>-->
+                    </div>
                 </div>
 
-                <div id="myHotel1" class="dropdown-content">
-                    <button onclick="closeHotel()" class="closebtn">&lArr;</button>
-                    <!-- <a href="/src/html/Hotels/Choice.html">Choice</a>-->
-                    <a href="/src/html/Hotels/Hilton.html">Hilton</a>
-                    <!-- <a href="/src/html/Hotels/Hyatt.html">Hyatt</a>-->
-                    <!-- <a href="/src/html/Hotels/IHG.html">IHG</a>-->
-                    <!-- <a href="/src/html/Hotels/Marriott.html">Marriott</a>-->
-                    <!-- <a href="/src/html/Hotels/Wyndham.html">Wyndham</a>-->
-                </div>
+                <div class="dropdown">
+                      <button onclick="openHotel()" class="dropbtn12">Hotels</button>
+                      <div id="myHotel1" class="dropdown-content">
+                          <!-- <a href="/src/html/Hotels/Choice.html">Choice</a>-->
+                          <a href="/src/html/Hotels/Hilton.html">Hilton</a>
+                          <!-- <a href="/src/html/Hotels/Hyatt.html">Hyatt</a>-->
+                          <!-- <a href="/src/html/Hotels/IHG.html">IHG</a>-->
+                          <!-- <a href="/src/html/Hotels/Marriott.html">Marriott</a>-->
+                          <!-- <a href="/src/html/Hotels/Wyndham.html">Wyndham</a>-->
+                      </div>
+                  </div>
 
-                <div id="mySS1" class="dropdown-content">
-                    <button onclick="closeSS()" class="closebtn">&lArr;</button>
-                    <!-- <a href="/src/html/Hotels/Choice.html">Choice</a>-->
-                    <a href="/src/html/FS/Domestic_SS/Domestic_SS.html">Domestic</a>
-                    <!-- <a href="/src/html/Hotels/Hyatt.html">Hyatt</a>-->
-                    <!-- <a href="/src/html/Hotels/IHG.html">IHG</a>-->
-                    <!-- <a href="/src/html/Hotels/Marriott.html">Marriott</a>-->
-                    <!-- <a href="/src/html/Hotels/Wyndham.html">Wyndham</a>-->
-                </div>
-
-                <button onclick="closeNav()" class="closebtn">&times;</button>
-
-                <button onclick="openAirline()" class="dropbtn">Airlines</button>
-
-                <button onclick="openHotel()" class="dropbtn">Hotels</button>
-
-                <button onclick="openSS()" class="dropbtn">Sweet Spots</button>
+                <div class="dropdown">
+                      <button onclick="openSS()" class="dropbtn13">Sweet Spots</button>
+                      <div id="mySS1" class="dropdown-content">
+                          <!-- <a href="/src/html/Hotels/Choice.html">Choice</a>-->
+                          <a href="/src/html/FS/Domestic_SS/Domestic_SS.html">Domestic</a>
+                          <!-- <a href="/src/html/Hotels/Hyatt.html">Hyatt</a>-->
+                          <!-- <a href="/src/html/Hotels/IHG.html">IHG</a>-->
+                          <!-- <a href="/src/html/Hotels/Marriott.html">Marriott</a>-->
+                          <!-- <a href="/src/html/Hotels/Wyndham.html">Wyndham</a>-->
+                      </div>
+                  </div>
                   
 
                   <!-- <a href="/src/html/Tierlist.html">Tierlist</a> -->
@@ -71,6 +69,11 @@ class navBar extends HTMLElement {
                 <span style="font-size:15vw;cursor:pointer" onclick="openNav()">&#9776;</span>
               </div>
 
+
+
+
+
+              <!-- Desktop Navigation Bar-->
               <a href="/index.html">  
                   <img src="/src/assets/LogoNav.png" alt="Worldly Express">
               </a>
@@ -89,11 +92,9 @@ class navBar extends HTMLElement {
                       </div>
                   </div> -->
           
-
-                  <!-- Desktop Navigation Bar-->
                   <div class="dropdown">
                       <button onclick="myFunction1()" class="dropbtn1">Airlines</button>
-                      <div class="dropdown-content">
+                      <div id="myAirline" class="dropdown-content">
                           <!-- <a href="/src/html/Airlines/AS.html">Alaska</a>-->
                           <!-- <a href="/src/html/Airlines/AA.html">American</a>-->
                           <a href="/src/html/Airlines/DL.html">Delta</a>
@@ -107,7 +108,7 @@ class navBar extends HTMLElement {
                   
                   <div class="dropdown">
                       <button onclick="myFunction2()" class="dropbtn2">Hotels</button>
-                      <div class="dropdown-content">
+                      <div id="myHotel" class="dropdown-content">
                           <!-- <a href="/src/html/Hotels/Choice.html">Choice</a>-->
                           <a href="/src/html/Hotels/Hilton.html">Hilton</a>
                           <!-- <a href="/src/html/Hotels/Hyatt.html">Hyatt</a>-->
@@ -119,7 +120,7 @@ class navBar extends HTMLElement {
 
                   <div class="dropdown">
                       <button onclick="myFunction3()" class="dropbtn3">Sweet Spots</button>
-                      <div class="dropdown-content">
+                      <div id="mySS" class="dropdown-content">
                           <!-- <a href="/src/html/Hotels/Choice.html">Choice</a>-->
                           <a href="/src/html/FS/Domestic_SS/Domestic_SS.html">Domestic</a>
                           <!-- <a href="/src/html/Hotels/Hyatt.html">Hyatt</a>-->
@@ -162,25 +163,16 @@ function openAirline() {
   document.getElementById("myAirline1").classList.toggle("show");
 }
 
-function closeAirline() {
-  document.getElementById("myAirline1").classList.toggle("show");
-}
 
 function openHotel() {
   document.getElementById("myHotel1").classList.toggle("show");
 }
 
-function closeHotel() {
-  document.getElementById("myHotel1").classList.toggle("show");
-}
 
 function openSS() {
   document.getElementById("mySS1").classList.toggle("show");
 }
 
-function closeSS() {
-  document.getElementById("mySS1").classList.toggle("show");
-}
 
 
 function myFunction1() {
