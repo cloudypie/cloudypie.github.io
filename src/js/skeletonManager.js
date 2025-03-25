@@ -2,7 +2,24 @@ class navBar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
             <header>
+
+              <!-- Mobile Navigation Bar-->
               <div id="mySidenav" class="sidenav">
+
+                <!--<div class="dropdown">
+                    <div class="dropbtn">Credit Cards</div>
+                    <div class="dropdown-content">
+                        <a href="/src/html/Credit_Card/Amex.html">American Express</a>
+                        <a href="/src/html/Credit_Card/BoA.html">Bank of America</a>
+                        <a href="/src/html/Credit_Card/C1.html">Capital One</a>
+                        <a href="/src/html/Credit_Card/Chase.html">Chase</a>
+                        <a href="/src/html/Credit_Card/Citi.html">Citi</a>
+                        <a href="/src/html/Credit_Card/USBank.html">US Bank</a>
+                        <a href="/src/html/Credit_Card/WF.html">Wells Fargo</a>
+                        <a href="/src/html/Credit_Card/Other.html">Other</a>
+                    </div>
+                </div> -->
+
                 <div id="myAirline1" class="dropdown-content">
                     <button onclick="closeAirline()" class="closebtn">&lArr;</button>
                     <!-- <a href="/src/html/Airlines/AS.html">Alaska</a>-->
@@ -44,23 +61,6 @@ class navBar extends HTMLElement {
                 <button onclick="openSS()" class="dropbtn">Sweet Spots</button>
                   
 
-                <!--<div class="dropdown">
-                      <div class="dropbtn">Credit Cards</div>
-                      <div class="dropdown-content">
-                          <a href="/src/html/Credit_Card/Amex.html">American Express</a>
-                          <a href="/src/html/Credit_Card/BoA.html">Bank of America</a>
-                          <a href="/src/html/Credit_Card/C1.html">Capital One</a>
-                          <a href="/src/html/Credit_Card/Chase.html">Chase</a>
-                          <a href="/src/html/Credit_Card/Citi.html">Citi</a>
-                          <a href="/src/html/Credit_Card/USBank.html">US Bank</a>
-                          <a href="/src/html/Credit_Card/WF.html">Wells Fargo</a>
-                          <a href="/src/html/Credit_Card/Other.html">Other</a>
-                      </div>
-                  </div> -->
-                  
-
-
-                  
                   <!-- <a href="/src/html/Tierlist.html">Tierlist</a> -->
                   <!-- <a href="/src/html/Travel_Review.html">Travel Reviews</a> -->
                   <!-- <a href="/src/html/News_Archive.html">News Archive</a> -->
@@ -89,7 +89,8 @@ class navBar extends HTMLElement {
                       </div>
                   </div> -->
           
-                  
+
+                  <!-- Desktop Navigation Bar-->
                   <div class="dropdown">
                       <button onclick="myFunction1()" class="dropbtn1">Airlines</button>
                       <div class="dropdown-content">
@@ -182,7 +183,7 @@ function closeSS() {
 }
 
 
-function myFunction() {
+function myFunction1() {
   document.getElementById("myAirline").classList.toggle("show");
 }
 
@@ -190,7 +191,7 @@ function myFunction2() {
   document.getElementById("myHotel").classList.toggle("show");
 }
 
-function myFunction2() {
+function myFunction3() {
   document.getElementById("mySS").classList.toggle("show");
 }
 
