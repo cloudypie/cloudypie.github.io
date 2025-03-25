@@ -51,7 +51,7 @@
   }
 
   header img {  
-    width: 200px; 
+    width: 50vw; 
     flex:2;
   }
 
@@ -74,6 +74,8 @@
   .container {
     display: block;
     align-items: center;
+    justify-content: center;
+    padding:10px;
   }
 
   main {
@@ -104,7 +106,7 @@
   .blogArticle {
     margin-bottom: 10px;
     padding: 5px 15px 5px 15px;
-    width: 87%;
+    width: 90%;
   }
 
   .cardEntry img {
@@ -138,7 +140,7 @@
 
   .sidenavbtn {
     display: block;
-    margin-right: 20px;
+    margin-right: 3rem;
   }
     /* The side navigation menu */
   .sidenav {
@@ -154,17 +156,18 @@
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   }
 
+
   /* Position and style the close button (top right corner) */
   .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    left: 0px;
-    font-size: 36px;
+    font-size: 42px;
     margin-left: 0px;
     z-index: 1;
+    background-color: #c5c5c5;
+    border: none;
   }
   .sidenav .dropbtn {
     color: #002f3d;
+    background-color: #c5c5c5;
     text-decoration: none;
     font-size: 28px;
     padding-left: 0px;
@@ -174,12 +177,9 @@
     width:50%;
   }
   
-  .sidenav .dropbtn:hover {
-    border-bottom: none;
-  }
-  
   /* The container <div> - needed to position the dropdown content */
   .sidenav .dropdown {
+    display: block;
     margin-top: 40px;
     display: block;
     text-align: center;
@@ -189,15 +189,15 @@
   /* Dropdown Content (Hidden by Default) */
   .sidenav .dropdown-content {
     display: none;
-    position: relative;
     background-color: #f1f1f1;
     min-width: none;
-    width: 50%;
-    z-index: 1;
-    transform: translatex(-95%);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
     margin: 0px;
     border-radius: 25px;
     border-style: groove;
+    transform: none;
   }
   
   /* Links inside the dropdown */
