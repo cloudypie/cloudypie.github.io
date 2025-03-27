@@ -114,7 +114,7 @@ ul li {
 /* ******** */
 
 header {
-  /* background-image: url("/src/assets/map.png");
+  /* background-image: url("/assets/map.png");
   background-repeat: no-repeat;
   background-size: cover; */
   background-color: #919191; 
@@ -224,7 +224,7 @@ nav a {
   display: flex;
   padding: 20px;
   background-color: #919191;
-  background-image: url("/src/assets/Clouds.png");
+  background-image: url("/assets/Clouds.png");
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
@@ -234,7 +234,7 @@ nav a {
   display: flex;
   justify-content: center;
   padding: 20px;
-  background-image: url("/src/assets/Grass.png");
+  background-image: url("/assets/Grass.png");
   background-repeat: no-repeat  ;
   background-size: cover;
 }
