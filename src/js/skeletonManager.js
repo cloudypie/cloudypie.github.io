@@ -6,62 +6,60 @@ class navBar extends HTMLElement {
               <!-- Mobile Navigation Bar-->
               <div id="mySidenav" class="sidenav">
                 <button onclick="closeNav()" class="closebtn">&times;</button>
+
                 <!--<div class="dropdown">
-                    <div class="dropbtn">Credit Cards</div>
-                    <div class="dropdown-content">
-                        <a href="/src/html/Credit_Card/Amex.html">American Express</a>
-                        <a href="/src/html/Credit_Card/BoA.html">Bank of America</a>
-                        <a href="/src/html/Credit_Card/C1.html">Capital One</a>
-                        <a href="/src/html/Credit_Card/Chase.html">Chase</a>
-                        <a href="/src/html/Credit_Card/Citi.html">Citi</a>
-                        <a href="/src/html/Credit_Card/USBank.html">US Bank</a>
-                        <a href="/src/html/Credit_Card/WF.html">Wells Fargo</a>
-                        <a href="/src/html/Credit_Card/Other.html">Other</a>
-                    </div>
-                </div> -->
+                      <button onclick="openCC()" class="dropbtn10">Credit Cards</button>
+                      <div id="myCC1" class="dropdown-content">
+                          <a href="/src/Credit_Card/Amex/">American Express</a>
+                          <a href="/src/Credit_Card/BoA/">Bank of America</a>
+                          <a href="/src/Credit_Card/C1/">Capital One</a>
+                          <a href="/src/Credit_Card/Chase/">Chase</a>
+                          <a href="/src/Credit_Card/Citi/">Citi</a>
+                          <a href="/src/Credit_Card/USBank/">US Bank</a>
+                          <a href="/src/Credit_Card/WF/">Wells Fargo</a>
+                          <a href="/src/Credit_Card/Other/">Other</a>
+                      </div>
+                  </div> -->
 
                 <div class="dropdown">
                     <button onclick="openAirline()" class="dropbtn11">Airlines</button>
                     <div id="myAirline1" class="dropdown-content">
-                        <!-- <a href="/src/html/Airlines/AS.html">Alaska</a>-->
-                        <!-- <a href="/src/html/Airlines/AA.html">American</a>-->
-                        <a href="/src/html/Airlines/DL.html">Delta</a>
-                         <a href="/src/html/Airlines/UA.html">United</a>
-                         <a href="/src/html/Airlines/AC.html">Air Canada</a>
-                        <a href="/src/html/Airlines/IAG.html">IAG/Avios</a>
-                        <!-- <a href="/src/html/Airlines/AFKLM.html">Air France/KLM</a>-->
-                        <!-- <a href="/src/html/Airlines/ANA.html">ANA</a>-->
-                    </div>
+                          <!-- <a href="/src/Airlines/Air_Canada_Guide/">Air Canada</a>-->
+                          <!-- <a href="/src/Airlines/Air_France_KLM_Guide">Air France/KLM</a>-->
+                          <!-- <a href="/src/Airlines/Alaska_Airlines_Guide/">Alaska</a>-->
+                          <!-- <a href="/src/Airlines/American_Airlines_Guide/">American</a>-->
+                          <a href="/src/Airlines/Delta_Airlines_Guide/">Delta</a>
+                          <!-- <a href="/src/Airlines/Frontier_Airlines_Guide/">Frontier</a>-->
+                          <!-- <a href="/src/Airlines/Qatar_Airways_Guide/">Qatar Airways</a>-->
+                          <!-- <a href="/src/Airlines/Southwest_Airlines_Guide/">Southwest</a>-->
+                          <!-- <a href="/src/Airlines/Starlux_Airlines_Guide/">Starlux</a>-->
+                          <!-- <a href="/src/Airlines/United_Airlines_Guide/">United</a>-->
+                      </div>
+                  </div>
+
+                <div class="dropdown">
+                  <button onclick="openHotel()" class="dropbtn12">Hotels</button>
+                  <div id="myHotel1" class="dropdown-content">
+                      <!-- <a href="/src/Hotels/Choice/">Choice</a>-->
+                      <a href="/src/Hotels/Hilton_Guide/">Hilton</a>
+                      <!-- <a href="/src/Hotels/Hyatt_Guide/">Hyatt</a>-->
+                      <!-- <a href="/src/Hotels/IHG_Guide/">IHG</a>-->
+                      <!-- <a href="/src/Hotels/Marriott_Guide/">Marriott</a>-->
+                      <!-- <a href="/src/Hotels/Wyndham_Guide/">Wyndham</a>-->
+                  </div>
                 </div>
 
                 <div class="dropdown">
-                      <button onclick="openHotel()" class="dropbtn12">Hotels</button>
-                      <div id="myHotel1" class="dropdown-content">
-                          <!-- <a href="/src/html/Hotels/Choice.html">Choice</a>-->
-                          <a href="/src/html/Hotels/Hilton.html">Hilton</a>
-                          <!-- <a href="/src/html/Hotels/Hyatt.html">Hyatt</a>-->
-                          <!-- <a href="/src/html/Hotels/IHG.html">IHG</a>-->
-                          <!-- <a href="/src/html/Hotels/Marriott.html">Marriott</a>-->
-                          <!-- <a href="/src/html/Hotels/Wyndham.html">Wyndham</a>-->
-                      </div>
-                  </div>
-
-                <div class="dropdown">
-                      <button onclick="openSS()" class="dropbtn13">Sweet Spots</button>
-                      <div id="mySS1" class="dropdown-content">
-                          <!-- <a href="/src/html/Hotels/Choice.html">Choice</a>-->
-                          <a href="/src/html/FS/Domestic_SS/Domestic_SS.html">Domestic</a>
-                          <!-- <a href="/src/html/Hotels/Hyatt.html">Hyatt</a>-->
-                          <!-- <a href="/src/html/Hotels/IHG.html">IHG</a>-->
-                          <!-- <a href="/src/html/Hotels/Marriott.html">Marriott</a>-->
-                          <!-- <a href="/src/html/Hotels/Wyndham.html">Wyndham</a>-->
-                      </div>
-                  </div>
+                    <button onclick="openSS()" class="dropbtn13">Sweet Spots</button>
+                    <div id="mySS1" class="dropdown-content">
+                      <a href="/src/Sweet_Spots/Domestic/">Domestic</a>
+                    </div>
+                </div>
                   
 
-                  <!-- <a href="/src/html/Tierlist.html">Tierlist</a> -->
-                  <!-- <a href="/src/html/Travel_Review.html">Travel Reviews</a> -->
-                  <!-- <a href="/src/html/News_Archive.html">News Archive</a> -->
+                  <!-- <a href="/src/Tierlist/">Tierlist</a> -->
+                  <!-- <a href="/src/Travel_Review/">Travel Reviews</a> -->
+                  <!-- <a href="/src/News_Archive/">News Archive</a> -->
               </div>
 
               <div class="sidenavbtn">
@@ -74,64 +72,61 @@ class navBar extends HTMLElement {
 
 
               <!-- Desktop Navigation Bar-->
-              <a href="/index.html">  
+              <a href="/">  
                   <img src="/src/assets/LogoNav.png" alt="Worldly Express">
               </a>
               <nav>
                   <!--<div class="dropdown">
                       <button onclick="myFunction()" class="dropbtn">Credit Cards</button>
                       <div class="dropdown-content">
-                          <a href="/src/html/Credit_Card/Amex.html">American Express</a>
-                          <a href="/src/html/Credit_Card/BoA.html">Bank of America</a>
-                          <a href="/src/html/Credit_Card/C1.html">Capital One</a>
-                          <a href="/src/html/Credit_Card/Chase.html">Chase</a>
-                          <a href="/src/html/Credit_Card/Citi.html">Citi</a>
-                          <a href="/src/html/Credit_Card/USBank.html">US Bank</a>
-                          <a href="/src/html/Credit_Card/WF.html">Wells Fargo</a>
-                          <a href="/src/html/Credit_Card/Other.html">Other</a>
+                          <a href="/src/Credit_Card/Amex/">American Express</a>
+                          <a href="/src/Credit_Card/BoA/">Bank of America</a>
+                          <a href="/src/Credit_Card/C1/">Capital One</a>
+                          <a href="/src/Credit_Card/Chase/">Chase</a>
+                          <a href="/src/Credit_Card/Citi/">Citi</a>
+                          <a href="/src/Credit_Card/USBank/">US Bank</a>
+                          <a href="/src/Credit_Card/WF/">Wells Fargo</a>
+                          <a href="/src/Credit_Card/Other/">Other</a>
                       </div>
                   </div> -->
           
                   <div class="dropdown">
                       <button onclick="myFunction1()" class="dropbtn1">Airlines</button>
                       <div id="myAirline" class="dropdown-content">
-                          <!-- <a href="/src/html/Airlines/AS.html">Alaska</a>-->
-                          <!-- <a href="/src/html/Airlines/AA.html">American</a>-->
-                          <a href="/src/html/Airlines/DL.html">Delta</a>
-                          <!-- <a href="/src/html/Airlines/UA.html">United</a>-->
-                          <!-- <a href="/src/html/Airlines/AC.html">Air Canada</a>-->
-                          <!-- <a href="/src/html/Airlines/IAG.html">IAG/Avios</a>-->
-                          <!-- <a href="/src/html/Airlines/AFKLM.html">Air France/KLM</a>-->
-                          <!-- <a href="/src/html/Airlines/ANA.html">ANA</a>-->
+                          <!-- <a href="/src/Airlines/Air_Canada_Guide/">Air Canada</a>-->
+                          <!-- <a href="/src/Airlines/Air_France_KLM_Guide">Air France/KLM</a>-->
+                          <!-- <a href="/src/Airlines/Alaska_Airlines_Guide/">Alaska</a>-->
+                          <!-- <a href="/src/Airlines/American_Airlines_Guide/">American</a>-->
+                          <a href="/src/Airlines/Delta_Airlines_Guide/">Delta</a>
+                          <!-- <a href="/src/Airlines/Frontier_Airlines_Guide/">Frontier</a>-->
+                          <!-- <a href="/src/Airlines/Qatar_Airways_Guide/">Qatar Airways</a>-->
+                          <!-- <a href="/src/Airlines/Southwest_Airlines_Guide/">Southwest</a>-->
+                          <!-- <a href="/src/Airlines/Starlux_Airlines_Guide/">Starlux</a>-->
+                          <!-- <a href="/src/Airlines/United_Airlines_Guide/">United</a>-->
                       </div>
                   </div>
                   
                   <div class="dropdown">
                       <button onclick="myFunction2()" class="dropbtn2">Hotels</button>
                       <div id="myHotel" class="dropdown-content">
-                          <!-- <a href="/src/html/Hotels/Choice.html">Choice</a>-->
-                          <a href="/src/html/Hotels/Hilton.html">Hilton</a>
-                          <!-- <a href="/src/html/Hotels/Hyatt.html">Hyatt</a>-->
-                          <!-- <a href="/src/html/Hotels/IHG.html">IHG</a>-->
-                          <!-- <a href="/src/html/Hotels/Marriott.html">Marriott</a>-->
-                          <!-- <a href="/src/html/Hotels/Wyndham.html">Wyndham</a>-->
+                          <!-- <a href="/src/Hotels/Choice/">Choice</a>-->
+                          <a href="/src/Hotels/Hilton_Guide/">Hilton</a>
+                          <!-- <a href="/src/Hotels/Hyatt_Guide/">Hyatt</a>-->
+                          <!-- <a href="/src/Hotels/IHG_Guide/">IHG</a>-->
+                          <!-- <a href="/src/Hotels/Marriott_Guide/">Marriott</a>-->
+                          <!-- <a href="/src/Hotels/Wyndham_Guide/">Wyndham</a>-->
                       </div>
                   </div>
 
                   <div class="dropdown">
                       <button onclick="myFunction3()" class="dropbtn3">Sweet Spots</button>
                       <div id="mySS" class="dropdown-content">
-                          <!-- <a href="/src/html/Hotels/Choice.html">Choice</a>-->
-                          <a href="/src/html/FS/Domestic_SS/Domestic_SS.html">Domestic</a>
-                          <!-- <a href="/src/html/Hotels/Hyatt.html">Hyatt</a>-->
-                          <!-- <a href="/src/html/Hotels/IHG.html">IHG</a>-->
-                          <!-- <a href="/src/html/Hotels/Marriott.html">Marriott</a>-->
-                          <!-- <a href="/src/html/Hotels/Wyndham.html">Wyndham</a>-->
+                          <a href="/src/Sweet_Spots/Domestic/">Domestic</a>
                       </div>
                   </div>
-                  <!-- <a href="/src/html/Tierlist.html">Tierlist</a> -->
-                  <!-- <a href="/src/html/Travel_Review.html">Travel Reviews</a> -->
-                  <!-- <a href="/src/html/News_Archive.html">News Archive</a> -->
+                  <!-- <a href="/src/Tierlist">Tierlist</a> -->
+                  <!-- <a href="/src/Travel_Review">Travel Reviews</a> -->
+                  <!-- <a href="/src/Concierge">Concierge</a> -->
               </nav>
             </header>
         `;
@@ -150,7 +145,6 @@ class navBar extends HTMLElement {
 
 customElements.define("nav-bar", navBar);
 
-
 function openNav() {
   document.getElementById("mySidenav").style.width = "100%";
 }
@@ -163,17 +157,13 @@ function openAirline() {
   document.getElementById("myAirline1").classList.toggle("show");
 }
 
-
 function openHotel() {
   document.getElementById("myHotel1").classList.toggle("show");
 }
 
-
 function openSS() {
   document.getElementById("mySS1").classList.toggle("show");
 }
-
-
 
 function myFunction1() {
   document.getElementById("myAirline").classList.toggle("show");
@@ -188,41 +178,41 @@ function myFunction3() {
 }
 
 // Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn1')) {
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn1")) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
+      if (openDropdown.classList.contains("show")) {
+        openDropdown.classList.remove("show");
       }
     }
   }
-}
+};
 
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn2')) {
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn2")) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
+      if (openDropdown.classList.contains("show")) {
+        openDropdown.classList.remove("show");
       }
     }
   }
-}
+};
 
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn3')) {
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn3")) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
+      if (openDropdown.classList.contains("show")) {
+        openDropdown.classList.remove("show");
       }
     }
   }
-}
+};
