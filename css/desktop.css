@@ -84,6 +84,13 @@ ul li {
   padding-left: 1em;
 }
 
+ol li {
+  margin-top: 1em;
+  font-size: 18px;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
 
 /* Add Zoom Animation */
 .animate {
@@ -216,6 +223,8 @@ nav a {
 }
 
 .show {display: block;}
+
+
 /* ******* */
 /* ARTICLE */
 /* ******* */
@@ -287,7 +296,6 @@ article {
   border-radius: 25px;
 }
 
-
 .cardDescription {
   text-align: center;
   display: block;
@@ -311,6 +319,19 @@ article {
 .indent1 {
   text-indent: 2em;
 }
+
+.words img {
+  width: 100%;
+}
+
+.words h1 {
+  margin-bottom: 0;
+}
+
+
+/* ******* */
+/* TABLE OF CONTENTS */
+/* ******* */
 
 .toc {
   position: sticky;
@@ -337,6 +358,7 @@ article {
   padding-left: 0;
   margin:0;
 }
+
 
 
 .toc a {
