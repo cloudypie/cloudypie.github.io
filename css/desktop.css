@@ -224,6 +224,7 @@ nav a {
 
 .show {display: block;}
 
+.hidelinks {display: none;}
 
 /* ******* */
 /* ARTICLE */
@@ -294,12 +295,10 @@ article {
   border-style: groove;
   border-color: rgb(230, 230, 230);
   border-radius: 25px;
-}
-
-.cardDescription {
   text-align: center;
   display: block;
 }
+
 
 .blogArticle {
   border-style: solid;
