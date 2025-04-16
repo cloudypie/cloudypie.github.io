@@ -2,6 +2,7 @@ class endLinks extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
         <div class="hidelinks">
+            <a id="amexgcc" href="#">a</a>
             <a id="amexdelbcc" href="#">a</a>
             <a id="amexdelgcc" href="#">a</a>
             <a id="amexdelpcc" href="#">a</a>
