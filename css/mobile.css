@@ -197,6 +197,14 @@
     align-items: center;
   }
 
+  .blogArticle {
+    padding: 10px 10px 10px 10px;
+  }
+
+  .words {
+    margin: 0px 10px;
+  }
+
   .hide {
     display: none;
   }
