@@ -1,34 +1,35 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- Homepage -->
   <url>
-    <loc>https://www.worldlyexpress.com</loc>
+    <loc>https://www.worldlyexpress.com/</loc>
     <lastmod>2025-04-15</lastmod>
   </url>
 
   <!-- Hilton Hotel Guide -->
   <url>
-    <loc>https://www.worldlyexpress.com/Hotels/Hilton_Guide/</loc>
+    <loc>https://www.worldlyexpress.com/hotels/hilton-guide/</loc>
     <lastmod>2025-03-27</lastmod>
   </url>
 
   <!-- Delta's Hidden Award Chart -->
   <url>
-    <loc>https://www.worldlyexpress.com/Articles/Deltas_Hidden_Award_Chart/</loc>
+    <loc>https://www.worldlyexpress.com/articles/deltas-hidden-award-chart/</loc>
     <lastmod>2025-04-09</lastmod>
   </url>
 
   <!-- Delta Airlines Guide -->
   <url>
-    <loc>https://www.worldlyexpress.com/Airlines/Delta_Airlines_Guide/</loc>
+    <loc>https://www.worldlyexpress.com/airlines/delta-airlines-guide/</loc>
     <lastmod>2025-02-02</lastmod>
   </url>
 
   <!-- Domestic Sweet Spot Guide -->
   <url>
-    <loc>https://www.worldlyexpress.com/Sweet_Spots/Domestic/</loc>
-    <lastmod>2025-11-18</lastmod>
+    <loc>https://www.worldlyexpress.com/sweet-spots/domestic/</loc>
+    <lastmod>2024-11-18</lastmod>
   </url>
 
 </urlset>
