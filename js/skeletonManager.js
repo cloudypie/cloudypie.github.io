@@ -172,30 +172,6 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
-function openAirline() {
-  document.getElementById("myAirline1").classList.toggle("show");
-}
-
-function openHotel() {
-  document.getElementById("myHotel1").classList.toggle("show");
-}
-
-function openSS() {
-  document.getElementById("mySS1").classList.toggle("show");
-}
-
-function myFunction1() {
-  document.getElementById("myAirline").classList.toggle("show");
-}
-
-function myFunction2() {
-  document.getElementById("myHotel").classList.toggle("show");
-}
-
-function myFunction3() {
-  document.getElementById("mySS").classList.toggle("show");
-}
-
 window.onclick = function (event) {
   if (!event.target.matches(".dropbtn")) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -208,5 +184,5 @@ window.onclick = function (event) {
     }
   }
 };
-  
+
 
