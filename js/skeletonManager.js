@@ -73,7 +73,7 @@ class navBar extends HTMLElement {
 
               <!-- Desktop Navigation Bar-->
               <a href="/">  
-                  <img src="/assets/LogoNav.png" alt="Worldly Express">
+                  <img src="/assets/LogoNav.webp" alt="Worldly Express">
               </a>
               <nav>
                   <!--<div class="dropdown">
