@@ -1,10 +1,8 @@
 class navBar extends HTMLElement{connectedCallback(){this.innerHTML=`
   <header>
-
     <!-- Mobile Navigation Bar-->
     <div id="mySidenav" class="sidenav">
       <button onclick="closeNav()" class="closebtn">&times;</button>
-
       <!--<div class="dropdown">
             <button onclick="openCC()" class="dropbtn10">Credit Cards</button>
             <div id="myCC1" class="dropdown-content">
@@ -53,8 +51,6 @@ class navBar extends HTMLElement{connectedCallback(){this.innerHTML=`
             <a href="/Sweet_Spots/Domestic/">Domestic</a>
           </div>
       </div>
-        
-
         <!-- <a href="/Tierlist/">Tierlist</a> -->
         <!-- <a href="/Travel_Review/">Travel Reviews</a> -->
         <!-- <a href="/News_Archive/">News Archive</a> -->
@@ -64,11 +60,7 @@ class navBar extends HTMLElement{connectedCallback(){this.innerHTML=`
       <!-- Use any element to open the sidenav -->
       <span style="font-size:15vw;cursor:pointer" onclick="openNav()">&#9776;</span>
     </div>
-
-
-
-
-
+    
     <!-- Desktop Navigation Bar-->
     <a href="/">  
         <img src="/assets/LogoNav.webp" alt="Worldly Express">
