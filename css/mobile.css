@@ -17,6 +17,10 @@
     flex: 1;
   }
 
+  nav a {
+    padding: 0px;
+  }
+
   .dropdown {
     display: none;
   }
@@ -40,14 +44,23 @@
     margin-left: 0px;
   }
 
-  .containerBottom main {
-    margin-right: 0px;
-  }
 
   aside {
     width: 95%;
     margin: 20px 0px 0px 0px;
     padding: 5px;
+  }
+
+  .signup {
+    display: none;
+  }
+
+  .containerBottom {
+    padding:20px 25px;
+  }
+
+  .containerBottom .contactleft {
+    width: 95%;
   }
 
   article {
@@ -72,12 +85,12 @@
     height: auto;
   }
 
-  .cardEntry h2 {
-    font-size: 18px;
+  aside h2 {
+    font-size: 30px;
   }
 
   .cardEntry h3 {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .dateHeading {
