@@ -219,18 +219,28 @@ nav a {
 }
 
 .containerBottom {
-  display: flex;
+  display: block;
   justify-content: center;
-  padding: 20px;
+  align-items: center;
+  padding: 20px 30%;
   background-image: url("/assets/Grass.webp");
   background-repeat: no-repeat  ;
   background-size: cover;
 }
 
-.containerBottom article {
-  max-width: 830px;
-  border-style: solid;
-  border-color: black;
+.containerBottom form input{
+  width: 100%;
+}
+
+.containerBottom form textarea{
+  width: 100%;
+}
+
+.contactleft {
+  display:flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
 }
 
 main {
@@ -247,7 +257,21 @@ main {
   margin: 0px 30px;
 }
 
+.column {
+  display: block;
+}
+
 aside {
+  background-color: #c9c9c9;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  text-align: center;
+  margin: 0px 10px;
+  padding: 20px;
+}
+
+.signup {
   background-color: #c9c9c9;
   border-style: solid;
   border-color: black;
@@ -263,7 +287,6 @@ article {
   border-style:groove;
   border-color: #ffffff;  
   padding: 5px;
-  display: flex;
   margin-bottom: 40px;
 }
 

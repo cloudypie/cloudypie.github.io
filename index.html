@@ -88,76 +88,65 @@
     </main>
 
     <!-- Credit Card Bonuses -->
-    <aside>
-      <h2>Limited Time Offers</h2>
+    <column>
+      <div class = 'signup'>
+        <h2>Sign Up for Updates!</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" class = "contactleft">
+          <input type="hidden" name="access_key" value="438fae80-70e9-43dd-bc0b-9adf25ed77dc">
 
-      <div class="cardEntry">
-        <a id="cspcc" href="#">
-          <img src="/assets/CCLogo/Chase_sapphire_preferred.webp" alt="Chase Sapphire Preferred">
-          <h3>Chase Sapphire Preferred</h3>
-        </a>
-        <h4>100k Point Offer!</h4>
-      </div>
+          <!-- Form Inputs. Each input must have a name="" attribute -->
+          <input type="text" name="name" placeholder = "Name" required>
+          <input type="email" name="email" placeholder = "Email" required>
+          <textarea name="message" placeholder = "Message (Optional)" ></textarea>
 
-      <div class="cardEntry">
-        <a id="cfucc" href="#">
-          <img src="/assets/CCLogo/Chase_freedom_unlimited.webp" alt="Chase Freedom Unlimited">
-          <h3>Chase Freedom Unlimited</h3>
-        </a>
-        <h4>25k Points Offer!</h4>
-      </div>
+          <!-- Honeypot Spam Protection -->
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
-      <div class="cardEntry">
-        <a id="amexhilacc" href="#">
-          <img src="/assets/CCLogo/Amex_hilton_aspire.webp" alt="Amex Hilton Aspire">
-          <h3>Amex Hilton Aspire</h3>
-        </a>
-        <h4>175,000 Points Offer!</h4>
-      </div>
+          <!-- Custom Confirmation / Success Page -->
+          <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
 
-      <div class="cardEntry">
-        <a id="amexhilscc" href="#">
-          <img src="/assets/CCLogo/Amex_hilton_surpass.webp" alt="Amex Hilton Surpass">
-          <h3>Amex Hilton Surpass</h3>
-        </a>
-        <h4>130,000 Points + <br>1 Free Night Certificate Offer!</h4>
+          <button type="submit">Submit Form</button>
+        </form>
       </div>
-
-      <div class="cardEntry">
-        <a id="amexhilhcc" href="#">
-          <img src="/assets/CCLogo/Amex_hilton.webp" alt="Amex Hilton Honors">
-          <h3>Amex Hilton Honors</h3>
-        </a>
-        <h4>70,000 Points + <br>1 Free Night Certificate Offer!</h4>
-      </div>
-
-      <div class="cardEntry">
-        <a id="amexhilbcc" href="#">
-          <img src="/assets/CCLogo/Amex_hilton_business.webp" alt="Amex Hilton Business">
-          <h3>Amex Hilton Business</h3>
-        </a>
-        <h4>175,000 Points Offer!</h4>
-      </div>
-
-      <div class="cardEntry">
-        <a id="amexmarbrcc" href="#">
-          <img src="/assets/CCLogo/Amex_marriott_brilliant.webp" alt="Amex Marriott Brilliant">
-          <h3>Amex Marriott Brilliant</h3>
-        </a>
-        <h4>185,000 Points Offer!</h4>
-      </div>
-
-      <div class="cardEntry">
-        <a id="amexmarbecc" href="#">
-          <img src="/assets/CCLogo/Amex_marriott_bevy.webp" alt="Amex Marriott Bevy">
-          <h3>Amex Marriott Bevy</h3>
-        </a>
-        <h4>155,000 Points Offer!</h4>
-      </div>
-    </aside>
+      <aside>
+        <h2>Limited Time Offers</h2>
+  
+        <div class="cardEntry">
+          <a id="cspcc" href="#">
+            <img src="/assets/CCLogo/Chase_sapphire_preferred.webp" alt="Chase Sapphire Preferred">
+            <h3>Chase Sapphire Preferred</h3>
+          </a>
+          <h4>100k Point Offer!</h4>
+        </div>
+  
+        <div class="cardEntry">
+          <a id="cfucc" href="#">
+            <img src="/assets/CCLogo/Chase_freedom_unlimited.webp" alt="Chase Freedom Unlimited">
+            <h3>Chase Freedom Unlimited</h3>
+          </a>
+          <h4>25k Points Offer!</h4>
+        </div>
+  
+        <div class="cardEntry">
+          <a id="amexmarbrcc" href="#">
+            <img src="/assets/CCLogo/Amex_marriott_brilliant.webp" alt="Amex Marriott Brilliant">
+            <h3>Amex Marriott Brilliant</h3>
+          </a>
+          <h4>185,000 Points Offer!</h4>
+        </div>
+  
+        <div class="cardEntry">
+          <a id="amexmarbecc" href="#">
+            <img src="/assets/CCLogo/Amex_marriott_bevy.webp" alt="Amex Marriott Bevy">
+            <h3>Amex Marriott Bevy</h3>
+          </a>
+          <h4>155,000 Points Offer!</h4>
+        </div>
+      </aside>
+    </column>
   </div>
 
-  <div class="containerBottom">
+  <!-- <div class="containerBottom">
     <article>
       <div class="words">
         <h2>Self Introduction</h2>
@@ -172,9 +161,8 @@
         </p>
       </div>
     </article>
-  </div>
+  </div> -->
   <foot-bar></foot-bar>
-  <end-links></end-links>
   <script src="/js/cclinks.js"></script>
 </body>
 
