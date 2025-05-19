@@ -373,3 +373,37 @@ article {
 .sidenav{
   display: none;
 }
+
+/* ******* */
+/* CREDIT CARD TABLE */
+/* ******* */
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+  table-layout: fixed; /* Ensures column widths are respected */
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 10px;
+  vertical-align: top;
+}
+
+th a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+/* First column (image) gets 30%, second column (text) gets 70% */
+td:first-child {
+  width: 30%;
+}
+
+td:first-child img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
