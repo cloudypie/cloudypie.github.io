@@ -145,16 +145,6 @@ class navBar extends HTMLElement {
   }
 }
 
-// class footBar extends HTMLElement {
-//     connectedCallback() {
-//         this.innerHTML = `
-//         <footer>
-//             <p>© 2023 Worldly Express. All rights reserved.</p>
-//         </footer>
-//         `
-//     }
-// }
-
 customElements.define("nav-bar", navBar);
 
 const sidenav = document.getElementById('sidenav')
