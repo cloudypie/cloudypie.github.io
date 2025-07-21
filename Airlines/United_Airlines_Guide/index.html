@@ -1,83 +1,1271 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content= 
-        "width=device-width, initial-scale=1.0"> 
-    <title>Blogging Website Layout</title> 
-    <link rel="stylesheet" type="text/css" href="/src/css/app.css" />
-    <script src="/src/js/app.js"></script>
-    <script src="/src/js/skeletonManager.js"></script>
-</head> 
+<!DOCTYPE html>
+<html lang="en">
 
-<body> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Guide to United Airlines</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/css/desktop.css" />
+    <link rel="stylesheet" type="text/css" href="/css/mobile.css" />
+    <script src="/js/skeletonManager.js"></script>
+    <script src="/js/ccVar.js"></script>
+    <script src="/js/ccTable.js"></script>
+</head>
+
+<body>
     <nav-bar></nav-bar>
 
-    <div class="container"> 
-        <main> 
-            <div class="blogArticle"> 
-                <div class="words"> 
-                <h2>Domestic Economy Sweet Spots for Miles Within the United States</h2> 
-                <p class="post-meta"> 
-                    November 18, 2024 by Travel Train 
-                </p> 
-                <p> 
-                    Welcome to my first blog! The number one thing people ask me on how to use miles 
-                    is how they can travel to see family within the United States. This guide will 
-                    be specifically for economy, to get from point A to point B the cheapest.
-                    So grab onto your hats because we have some delving to do.
-                </p> 
-                <h3>Best Value Programs</h3> 
-                <h4>Alaska Airlines</h4> 
-                <p> 
-                    The best sweet spot hands down within short to medium distances is Alaska Airlines
-                    Mileage Plan. Mileage plan has the best short distance award chart PERIOD.
-                    <br>
-                </p>
-                <img src="/src/assets/Mileage_Plan_America_AC.png">
-                <p> 
-                    Between 0-1400 miles, Alaska Airlines clock in at or less than 7,500 miles. For
-                    their own metal, their taxes and fees comes in at the $5.60 the TSA charges per 
-                    passenger. If miles are set equal to 1 cent per point, this means that for flights 
-                    up to 700 miles, they cost <b>$50.60</b> one way. Between 701 and 1400 miles, it will be <b>$80.60</b>
-                    one way. In a lot of cases, this will represent fantastic value, even comparable 
-                    to budget airline flights. What's more, Alaska Airlines doesn't charge a change fees
-                    when changing or cancelling award tickets on their own metal.
-                    <br><br>
-                    Now, you might be thinking, "Hey, I don't live on the west coast so I don't fly on
-                    Alaska Airlines." The good news is that Alaska Airlines is a part of the Oneworld Alliance, meaning
-                    that they are able to book American Airline flights. 
-                    This is a fantastic deal, even with the partner award fee for American Airlines
-                    coming in at $12.50. Doing the same calculations, the flights under 700 miles comes to 
-                    <b>$57.50</b> and flights between 701 and 1400 miles cost <b>$87.50</b>. Unfortunately, 
-                    the partner booking fee is unrefundable if you do decide to change your ticket.
-                </p> 
+    <div class="container">
+        <div class="toc">
+            <h3>Table of Contents</h3>
+            <ul>
+                <li>
+                    <a href="#hub">Takeaways</a>
+                </li>
+                <li>
+                    <a href="#hub">United Hubs</a>
+                </li>
+                <li>
+                    <a href="#fareclass">Fare Classes</a>
+                    <ol>
+                        <li>
+                            <a href="#fareclass--basic">Basic Economy</a>
+                        </li>
+                        <li>
+                            <a href="#fareclass--main">Economy</a>
+                        </li>
+                        <li>
+                            <a href="#fareclass--premium">Premium Economy</a>
+                        </li>
+                        <li>
+                            <a href="#fareclass--first">First/Business</a>
+                        </li>
+                    </ol>
 
-                <h4>Turkish</h4> 
-                <p> 
-                    The next up is a Star Alliance power house, Turkish Airlines. Despite getting devalued
-                    earlier this year, the award chart within the United States still pose a great value. 
+                </li>
+                <li>
+                    <a href="#earning">Earning MileagePlus</a>
+                    <ol>
+                        <li>
+                            <a href="#earning--flyingwunited">United Flights</a>
+                        </li>
+                        <li>
+                            <a href="#earning--partnerearning">Partner Flights</a>
+                        </li>
+                        <li>
+                            <a href="#earning--transfer">Transfer Partners</a>
+                        </li>
+                        <li>
+                            <a href="#earning--everydaypartner">Everyday Partners</a>
+                        </li>
+                        <li>
+                            <a href="#earning--portal">United Portals</a>
+                        </li>
+                        <li>
+                            <a href="#earning--otherearning">Other Partners</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#redeeming">Redeeming MileagePlus</a>
+                    <ol>
+                        <li>
+                            <a href="#redeeming--redeemUnited">United Flight</a>
+                        </li>
+                        <li>
+                            <a href="#redeeming--redeempartner">Partner Flight</a>
+                        </li>
+                        <li>
+                            <a href="#redeeming--flightupgrade">Flight upgrades</a>
+                        </li>
+                        <li>
+                            <a href="#redeeming--fixedpoint">Fixed Point Costs</a>
+                        </li>
+                        <li>
+                            <a href="#redeeming--other">Other Options</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#elitestatus">Elite Status</a>
+                    <ol>
+                        <li>
+                            <a href="#elitestatus--eliterequirements">Medallion Requirements</a>
+                        </li>
+                        <li>
+                            <a href="#elitestatus--elitebenefits">Medallion Benefits</a>
+                        </li>
+                        <li>
+                            <a href="#elitestatus--choicebenefits">Choice Benefits</a>
+                        </li>
+                        <li>
+                            <a href="#elitestatus--statusmatch">Status Match</a>
+                        </li>
+                        <li>
+                            <a href="#elitestatus--reclaimstatus">Reclaim Status</a>
+                        </li>
+                    </ol>
+                </li>
+
+                <li>
+                    <a href="#cc">MileagePlus Credit Cards</a>
+                    <ol>
+                        <li>
+                            <a href="#cc--blue">United MileagePlus Blue</a>
+                        </li>
+                        <li>
+                            <a href="#cc--gold">United MileagePlus Gold</a>
+                        </li>
+                        <li>
+                            <a href="#cc--plat">United MileagePlus Platinum</a>
+                        </li>
+                        <li>
+                            <a href="#cc--reserve">United MileagePlus Reserve</a>
+                        </li>
+                    </ol>
+                </li>
+
+            </ul>
+        </div>
+        <div class="blogArticle">
+            <div class="words">
+                <h1>Ultimate Guide to United Airlines</h1>
+                <p class="post-meta">
+                    <i>May 19, 2025 by Worldly Express </i>
+                </p>
+                <p>
+                    As a challenger trying to dethrone Delta Airlines, United Airlines is on the path to be the most
+                    profitable airline in the world.
+                    As such, they have been upping their game recently. They have expanded their route network, added
+                    premium touches to their
+                    soft product, starting to refresh their polaris seats, and revamping their credit cards. Here is a
+                    guide to their program.
+                </p>
+                <section id="takeaway">
+                    <h2> Top 5 Takeaways</h2>
+                    <p>
+                    <ol>
+                        <li>
+                            <b>No Carry On in Basic Economy
+                        </li>
+                        <li>
+                            <b>Expanded Award Availability: </b>Premier members and credit card holders have access to
+                            expanded
+                            award availability.
+                        </li>
+                        <li>
+                            <b>Marriott Partnership: </b>Reciprocal Benefits for Marriott elite members and United
+                            Premier members.
+                        </li>
+                        <li>
+                            <b>Excursionist Perk: </b>Free award flight for middle leg of 3 leg multi city award
+                            booking.
+                        </li>
+                        <li>
+                            <b>Star Alliance: </b>Biggest alliance and most extensive list of airline partners out of
+                            all US carriers.
+                        </li>
+                    </ol>
+                    </p>
+                </section>
+                <section id="hub">
+                    <h2> United Hubs</h2>
+                    <p>
+                        An airline hub is where the airline funnels all traffic in an out of. Today, most major airlines
+                        operate a hub and spoke model.
+                        Those living in a hub would have the most direct flights while those that don't would most
+                        likely transit through one of the hubs.
+                    </p>
+                    <img src="/assets/United Guide/United Map.webp">
+                    <p>
+                        United Airlines runs its operations out of hubs. These hubs connect smaller regional cities to
+                        the rest of the
+                        country and world, typically with only one stop. A unique dynamic for United is that most of
+                        their hubs are
+                        hubs unique to only the airline. They face little competition in most of their hubs. Only 2 of
+                        their hubs are hubs
+                        of other full service carriers (LAX and ORD). In the case of Chicago Ohare, they are beating
+                        American Airlines by a
+                        handy margin. However, they are losing to Delta Airlines in LAX but LAX is not as important to
+                        United, since they base
+                        most of their transpacific operations out of SFO. Their hubs are as below:
+                    <ul>
+                        <li>
+                            Denver International Airport (DEN)
+                        </li>
+                        <li>
+                            Chicago O'Hare International Airport (ORD)
+                        </li>
+                        <li>
+                            Newark Liberty International Airport (EWR)
+                        </li>
+                        <li>
+                            Houston George Bush International Airport (IAH)
+                        </li>
+                        <li>
+                            San Francisco International Airport (SFO)
+                        </li>
+                        <li>
+                            Los Angeles (LAX)
+                        </li>
+                        <li>
+                            Guam's Antonio B. Won Pat International Airport (GUA)
+                        </li>
+                    </ul>
+                    </p>
+                    <p>
+                        To complement their hubs, United has a couple of flights not operated
+                        to or from their hub airports from the following airports:
+
+                    <ul>
+                        <li>
+                            Cleaveland Hopkins International Airport (AUS)
+                        </li>
+                        <li>
+                            Tokyo-Narita International Airport (NRT)
+                        </li>
+                        <li>
+                            Hong Kong International Airport (HKG)
+                        </li>
+                    </ul>
+                    </p>
                     <br>
-                </p>
-                <img src="/src/assets/Miles_and_Smiles_America_AC.png">
-                <p> 
-                    Any award within the United States cost 10,000 miles plus $5.60 in TSA fees. By in the United
-                    States, I mean <b>IN</b> the United States. This means from East coast to Hawaii and Alaska
-                    all for the cost of 10,000 miles and $5.60. Now, again, you might be thinking, well Turkish Airlines
-                    doesn't fly within the United States. Fortunately, United Airlines do. These awards apply to United
-                    Airlines. When calculating total cost with 1 cent equal to 1 mile, this comes up to $105.6 one way.
-                    Name a time you could fly from New York to Hawaii for this price. I can't think of one. 
-                    <br><br>
-                    Now,a cautionary tale. United has been real stingy with award availability to partners recently
-                    so it may be harder and harder to find seats. Turkish Airlines also doesn't have the best award change
-                    policies or customer service so proceed with caution.
-                </p>
+                </section>
+                <section id="fareclass">
+                    <h2>Fare Classes</h2>
+                    <p>
+                        United divided their fares into 4 different buckets. These generally change the hard and soft
+                        product
+                        passengers experience, except between basic economy and main economy, in which case will
+                        experience the same
+                        products.
+                    </p>
+                    <img src="/assets/United Guide/domestic.webp">
+                    <section id="fareclass--basic">
+                        <h3>Basic Economy</h3>
+                        <p>
+                            Basic economy (N), like all other airlines, is the cheapest but most restrictive fare class
+                            in United. Basic economy fares give you all the same onboard experience (service, seat type,
+                            and amenities) as a regular economy seat would. <br><br>
+
+                            However, the difference will come with ancillary purchases, like checked bags, change fees
+                            and elite perks.<br>
+
+                            United's basic economy differs from its competition in that it does not allow for a free
+                            carry-on.
+
+                        <ul>
+                            <li>
+                                <b>Baggage Policy:</b> 1 personal item for free, carry on for fee ($40), checked bag for
+                                fee (1st: $35,
+                                2nd: $45
+                            </li>
+                            <li>
+                                <b>Boarding Group:</b> Group 6
+                            </li>
+                            <li>
+                                <b>Upgrades:</b> Upgrades using cash can be done anytime and to any fare
+                                class.
+                                <br>&emsp;
+                                <i>*Elite status and MileagePlus credit cards will not provide complimentary upgrades.
+                                    Upgrade<br>&emsp; certificates are also ineligible to be used.</i>
+                            </li>
+                            <li>
+                                <b>Seat Selection:</b> Seat Selection for a fee.
+                                <i>*Elite status preferred seat selection benefits are ineligible.</i>
+                            </li>
+                            <li>
+                                <b>Mileage Earnings:</b> Flights are ineligible to earn PQF but will earn everything
+                                else.
+                            </li>
+                            <li>
+                                <b>Same Day Changes:</b> Elite status same day confirmed or same day standby changes
+                                benefits are ineligible.
+                            </li>
+                            <li>
+                                <b>Change and Cancellation Policies: </b>
+                                <ul>
+                                    <li>
+                                        <b>24 Hour Risk-Free Cancellation:</b> All flights booked through United (cash
+                                        and MileagePlus) are eligible for a full refund or change (minus price
+                                        difference)
+                                        if cancelled within 24-hours of booking.
+                                    </li>
+                                    <li>
+                                        <b>After 24 Hours:</b> All cash flights booked through United can
+                                        be cancelled for a fee. Fee is $49.50 for domestic flights and $99.50 for
+                                        international flights.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </p>
+                    </section>
+                    <section id="fareclass--main">
+                        <h3>Main Cabin</h3>
+                        <p>
+                            Main Cabin (G,K,L,T,S,W,V,Q,H,U,E,M,B,Y) are United's regular economy fares. Fare class G is
+                            the
+                            deepest discounted main. If you see one of these, don't hesitate! It's most likely the
+                            cheapest
+                            fare you will find. Subsequently, since all basic economy fare classes are identified as n,
+                            if Main Cabin displays G for the same flight, then that means the same basic economy
+                            fare will be at its lowest price point too. Fare class K, L, T, and S are also deep discount
+                            tickets,
+                            and could represent a good time to buy too. The
+                            main perk of main cabin is the ability to make changes to the booking, select seats, and
+                            enjoy MileagePlus perks.
+
+                        <ul>
+                            <li>
+                                <b>Baggage Policy:</b> 1 personal item for free, carry on for fee ($40), checked bag for
+                                fee (1st: $35,
+                                2nd: $45
+                            </li>
+                            <li>
+                                <b>Boarding Group:</b> Group 3-5, depending on window, middle, or aisle seat.
+                            </li>
+                            <li>
+                                <b>Upgrades:</b> Upgrades using cash can be done anytime and to any fare
+                                class.
+                                <br>&emsp;
+                            </li>
+                            <li>
+                                <b>Seat Selection:</b> Free seat selection for all regular economy seating.
+                            </li>
+                            <li>
+                                <b>Change and Cancellation Policies: </b>
+                                <ul>
+                                    <li>
+                                        <b>24 Hour Risk-Free Cancellation:</b> All flights booked through United (cash
+                                        and MileagePlus) are eligible for a full refund or change (minus price
+                                        difference)
+                                        if cancelled within 24-hours of booking.
+                                    </li>
+                                    <li>
+                                        <b>After 24 Hours:</b> Non-refundable main tickets will refund full ticket price
+                                        to travel credit if cancelled.
+                                        Refundable main will refund full ticket price to original form of payment. All
+                                        changes are free and will only cost fare difference.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </p>
+                    </section>
+                    <section id="fareclass--first">
+                        <h3>First Class</h3>
+                        <p>
+                            First class (Z,I,D,C,J) is the premium cabin for most United's short haul international and
+                            domestic flights. The seats are more spacious and recline than economy seats. The best way
+                            to think about the seats is like premium economy, even though its called first class. There
+                            is also usually a bottle of water at the seat, predeparture drinks and complimentary
+                            alcoholic beverages. First class also has the best selection of food and snacks on the
+                            flight.
+                        <ul>
+                            <li>
+                                <b>Baggage Policy:</b> 1 carry-on and 1 personal item, 2 free 70 lbs checked bags, (<a
+                                    href="https://www.United.com/us/en/baggage/checked-baggage/excess-overweight-baggage?srsltid=AfmBOoqzuBwWutFW8BZ9HD85JLYnpokM2iHRkWa01W-5ADQJCUzHCRi-)">3rd-10th</a>)
+                            </li>
+                            <li>
+                                <b>Boarding Group:</b> Zone 1
+                            </li>
+                            <li>
+                                <b>Seat Selection:</b> Free seat selection for all first class seating.
+                            </li>
+                            <li>
+                                <b>Lounge Access:</b> Eligible credit cards and lounge memberships grant SkyClub access.
+                            </li>
+                            <li>
+                                <b>Change and Cancellation Policies: </b>
+                                <ul>
+                                    <li>
+                                        <b>24 Hour Risk-Free Cancellation:</b> All flights booked through United (cash
+                                        and
+                                        MileagePlus) are eligible for a full refund or change (minus price difference)
+                                        if cancelled within 24-hours of booking.
+                                    </li>
+                                    <li>
+                                        <b>After 24 Hours:</b> All award bookings can be cancelled or changed for free.
+                                        For
+                                        non-refundable flights, the change is free and the refunded amount is
+                                        returned as an e-credit, to be used on United related purchases later. For
+                                        refundable
+                                        flights, all flights are able to be refunded to the original form of
+                                        payment anytime before departure.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </p>
+                    </section>
+                    <section id="fareclass--premiumselect">
+                        <h3>Premium Select</h3>
+                        <p>
+                            Premium economy feature better recline seats,
+                            food selection, more spacious foot and arm rests than economy. Passengers are also given Sky Priority
+                            check in (separate and shorter check in line, faster baggage arrival times at the carousel,
+                            and
+                            exclusive security lines at select airports).
+                            <ul>
+                                <li>
+                                    <b>Baggage Policy:</b> 1 personal item for free, carry on for fee ($40), checked bag for
+                                    fee (1st: $35,
+                                    2nd: $45
+                                </li>
+                                <li>
+                                    <b>Boarding Group:</b> Group 3-5, depending on window, middle, or aisle seat.
+                                </li>
+                                <li>
+                                    <b>Upgrades:</b> Upgrades using cash can be done anytime and to any fare
+                                    class.
+                                    <br>&emsp;
+                                </li>
+                                <li>
+                                    <b>Seat Selection:</b> Free seat selection for all regular economy seating.
+                                </li>
+                                <li>
+                                    <b>Change and Cancellation Policies: </b>
+                                    <ul>
+                                        <li>
+                                            <b>24 Hour Risk-Free Cancellation:</b> All flights booked through United (cash
+                                            and MileagePlus) are eligible for a full refund or change (minus price
+                                            difference)
+                                            if cancelled within 24-hours of booking.
+                                        </li>
+                                        <li>
+                                            <b>After 24 Hours:</b> Non-refundable main tickets will refund full ticket price
+                                            to travel credit if cancelled.
+                                            Refundable main will refund full ticket price to original form of payment. All
+                                            changes are free and will only cost fare difference.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </p>
+                    </section>
+                    <section id="fareclass--Unitedone">
+                        <h3>United One</h3>
+                        <p>
+                            United One (C,D,I,Z,J) is most premium cabin in United's lineup and is United's version of
+                            business class. Like Premium Select, this cabin is reserved for most United's short haul
+                            international and domestic flights. The seats are lie flat and have a lot more space than
+                            all other seats. They receive the best service onboard, best food and drink menu, and best
+                            amenity kits. Like premium select, they have access to Sky Priority but this is the only
+                            cabin class that could access United Skyclub and United One lounges without a credit card or
+                            lounge membership. For flights that say United One suites, it just means that the seat will
+                            have a door, offering more privacy.
+                        <ul>
+                            <li>
+                                <b>Baggage Policy:</b> 1 carry-on and 1 personal item, 2 free 70 lbs checked bags (<a
+                                    href="https://www.United.com/us/en/baggage/checked-baggage/excess-overweight-baggage?srsltid=AfmBOoqzuBwWutFW8BZ9HD85JLYnpokM2iHRkWa01W-5ADQJCUzHCRi-)">3rd-10th</a>)
+                            </li>
+                            <li>
+                                <b>Boarding Group:</b> Zone 1
+                            </li>
+                            <li>
+                                <b>Seat Selection:</b> Free seat selection for all United One seating.
+                            </li>
+                            <li>
+                                <b>Lounge Access:</b> All passengers are eligible for United SkyClubs and United One
+                                lounges.
+                            </li>
+                            <li>
+                                <b>Change and Cancellation Policies: </b>
+                                <ul>
+                                    <li>
+                                        <b>24 Hour Risk-Free Cancellation:</b> All flights booked through United (cash
+                                        and
+                                        MileagePlus) are eligible for a full refund or change (minus price difference)
+                                        if cancelled within 24-hours of booking.
+                                    </li>
+                                    <li>
+                                        <b>After 24 Hours:</b> All award bookings can be cancelled or changed for free.
+                                        For
+                                        non-refundable flights, the change is free and the refunded amount is
+                                        returned as an e-credit, to be used on United related purchases later. For
+                                        refundable
+                                        flights, all flights are able to be refunded to the original form of
+                                        payment anytime before departure.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </p>
+                        <br>
+                    </section>
+                </section>
+                <section id="earning">
+                    <h2>Earning MileagePlus</h2>
+                    <p>
+                        Today, there are many ways to earn MileagePlus, through both flying and non-flying means.
+                        Obviously, spend on United MileagePlus credit card will earn MileagePlus but I have saved that
+                        for a
+                        later section.
+                    </p>
+                    <section id="earning--flyingwUnited">
+                        <h3>United Flights</h3>
+                        <p>
+                            United has made Skymile accrual on their own metal and marketed flights very simple: just
+                            based off how much you spend and what elite status you are at. The notable exception are
+                            basic economy tickets, which earn no MileagePlus. The following is the calculation of
+                            MileagePlus
+                            accrued on each flight: <br> <br>
+
+                            <b>General Member:</b> 5 MileagePlus per dollar <br>
+                            <b>Silver Medallion:</b> 7 MileagePlus per dollar <br>
+                            <b>Gold Medallion:</b> 8 MileagePlus per dollar <br>
+                            <b>Platinum Medallion:</b> 9 MileagePlus per dollar <br>
+                            <b>Diamond Medallion:</b> 11 MileagePlus per dollar <br>
+                        </p>
+                    </section>
+                    <section id="earning--partnerearning">
+                        <h3>Partner Flights</h3>
+                        <p>
+                            Flights marketed and operated by <a
+                                href="https://www.United.com/us/en/MileagePlus/how-to-earn-miles/airline-partners?srsltid=AfmBOooTH9A34GnvJq2weREiLqjCl7LrtCkQUp1x9qyfSN3PB3kJiJCK">
+                                partner airlines</a> earn MileagePlus based on the number of miles flown.
+                            United Partners are not limited to SkyTeam alliance partners.
+
+                        <ul>
+                            <li>
+                                *Aeroflot
+                            </li>
+                            <li>
+                                AeroMexico
+                            </li>
+                            <li>
+                                Aerolineas Argentinas
+                            </li>
+                            <li>
+                                Air Baltic
+                            </li>
+                            <li>
+                                Air Europa
+                            </li>
+                            <li>
+                                Air France
+                            </li>
+                            <li>
+                                Cape Air
+                            </li>
+                            <li>
+                                China Eastern
+                            </li>
+                            <li>
+                                China Airlines
+                            </li>
+                            <li>
+                                China Southern
+                            </li>
+                            <li>
+                                EL AL
+                            </li>
+                            <li>
+                                Garuda Indonesia
+                            </li>
+                            <li>
+                                **Hawaiian Airlines
+                            </li>
+                            <li>
+                                ***ITA Airways
+                            </li>
+                            <li>
+                                KLM
+                            </li>
+                            <li>
+                                Kenya Airways
+                            </li>
+                            <li>
+                                Korean Air
+                            </li>
+                            <li>
+                                Latam Airlines
+                            </li>
+                            <li>
+                                Middle Eastern Airlines
+                            </li>
+                            <li>
+                                Saudia Airlines
+                            </li>
+                            <li>
+                                SAS
+                            </li>
+                            <li>
+                                Tarom
+                            </li>
+                            <li>
+                                Vietnam Airlines
+                            </li>
+                            <li>
+                                Virgin Atlantic
+                            </li>
+                            <li>
+                                WestJet
+                            </li>
+                            <li>
+                                Xiamen Air
+                            </li>
+                        </ul>
+                        <h5>*Aeroflot is currently suspended due to the Ukrainian-Russian war.</h5>
+                        <h5>**Hawaiian Airlines might not be a partner once fully merged with Alaska Airlines.</h5>
+                        <h5>***ITA Airways will leave for Star Alliance soon.</h5>
+                        </p>
+                    </section>
+                    <section id="earning--transfer">
+                        <h3>Transfer Partners</h3>
+                        <p>
+                            <b>American Express Membership Rewards:</b> All membership reward (MR) points earning cards
+                            can transfer MR to MileagePlus at a rate of 1 to 1. This makes cards like the <a
+                                id="amexgcc" href="#">American Express Gold card</a>, which earns 4x points per dollar
+                            on dining
+                            and groceries, effectively earn 4x points on grocery and dining purchases. However, keep in
+                            mind that American Express does charge an excise tax offset fee when transferring to
+                            US airlines, including United. The cost to transfer points will be $0.0006 per point for a
+                            maximum of $99. This means a transfer of 10,000 MR points will cost $6 and transferring
+                            165,000 points or more will cost a flat fee of $99. Given that the value of MileagePlus is
+                            not
+                            high compared to other Amex transfer partners, I would discourage transferring unless to top
+                            off points for a redemption.<br><br>
+
+                            <b>Marriott Bonvoy:</b> Marriott Points are also able to be transferred at a rate of 3
+                            Bonvoy points to 1 MileagePlus. Generally, this is a terrible deal unless you are looking to
+                            top off a MileagePlus booking.
+                        </p>
+                    </section>
+                    <section id="earning--everydaypartner">
+                        <h3>Everyday Partners</h3>
+                        <p>
+                            These direct partners will earn X amount of MileagePlus based on the amount of money spent.
+                            Although the earning rate isn't exceptional, they could be better than earning nothing. A
+                            couple of the more notable partners are listed below: <br><br>
+                            <b>Airbnb: </b> By booking through <a
+                                href="https://www.Unitedairbnb.com/content/United-airbnb/en/overview.html">United</a>,
+                            Airbnb
+                            stays will earn 1 SkyMile per dollar spent.<br><br>
+                            <b>Hertz: </b> MileagePlus can be earned based off of how much money spent and the elite
+                            status
+                            of
+                            members when attaching MileagePlus number to your Hertz booking. This is
+                            instead of earning Hertz's reward currency so if you often get Hertz rentals, this might not
+                            be
+                            a good value proposition. <br>
+                        <div class="indent1">
+                            <b>General Member:</b> 4 MileagePlus per dollar <br>
+                        </div>
+                        <div class="indent1">
+                            <b>Silver Medallion:</b> 5 MileagePlus per dollar <br>
+                        </div>
+                        <div class="indent1">
+                            <b>Gold Medallion:</b> 6 MileagePlus per dollar <br>
+                        </div>
+
+                        <div class="indent1">
+                            <b>Platinum Medallion:</b> 7 MileagePlus per dollar <br>
+                        </div>
+                        <div class="indent1">
+                            <b>Diamond Medallion:</b> 8 MileagePlus per dollar <br>
+                        </div>
+                        <br>
+
+                        <b>Starbucks: </b> MileagePlus are now only earned from reloading money in your Starbucks
+                        account.
+                        This is more of a hassle
+                        but if you frequent Starbucks, then this could be worth doing. However, do keep in mind that the
+                        amount of MileagePlus earned are
+                        in increments based off of certain money thresholds, with the $100 reload giving most amount of
+                        MileagePlus per dollar, at 2 MileagePlus per dollar rate.
+                        <br><br>
+                        <img src="/assets/United Guide/Starbucks.webp"><br><br>
+
+                        <b>Ticket Master: </b> By booking through <a
+                            href="https://www.Unitedticketmaster.com/content/United-ticketmaster/en/overview.html">United</a>,
+                        eligible Ticket Master tickets in the United
+                        States and Canada will earn 1 SkyMile per dollar spent. <br><br>
+
+                        <b>Uber: </b> MileagePlus are accrued based off of which Uber service you order and how much you
+                        spend.
+                        <br> <br>
+                        <div class="indent1">
+                            <b>Airport Rides: </b> 1 mile per dollar spent on UberX to or from airports. <br>
+                        </div>
+                        <div class="indent1">
+                            <b>Premium Rides:</b> 2 miles per dollar spent on premium rides such as Uber Comfort and
+                            Uber
+                            Black. <br>
+                        </div>
+                        <div class="indent1">
+                            <b>Uber Reserve:</b> 3 miles per dollar spent on Uber Reserve trips. <br>
+                        </div>
+                        <div class="indent1">
+                            <b>Uber Eats:</b> 1 mile per dollar spent on $40+ restaurant and grocery orders. <br>
+                        </div>
+                        </p>
+                    </section>
+                    <section id="earning--portal">
+                        <h3>United Affiliate Portals</h3>
+                        <p>
+                            Like many other loyalty programs, United uses their popularity to try to sell services and
+                            products through their affiliate portals. By clicking through these portals, you are earning
+                            MileagePlus instead of other miles or the product's own loyalty points. As such, I would not
+                            recommend using these methods to book, as there are more ways to get value. <br>
+                            <b>United Stays: </b>Earn 2 miles per dollar spent on base hotel rates booked through <a
+                                href="https://www.travelextras-United.com/Hotels#.">United Stays</a>. <br><br>
+                            <b>United Vacations: </b> Earn up to 10,000 MileagePlus per person when booking through
+                            <a
+                                href="https://www.United.com/us/en/United-vacations?srsltid=AfmBOooUZkEL3i0UwAQWNteN4q1dkoC4H3Ju1bJVmUtyPsF3JY8ldlNL">United
+                                Vacations</a>. <br><br>
+                            <b>MileagePlus Dining: </b> This is United's dining portal. Earn MileagePlus when purchasing
+                            from
+                            participating restaurants in <a href="https://www.MileagePlusdining.com/">MileagePlus
+                                Dining</a>
+                            while using a credit linked to the dining portal. <br><br>
+                            <b>MileagePlus Shopping: </b> United's shopping portal. Earn MileagePlus when purchasing
+                            items
+                            through <a href="https://www.MileagePlusshopping.com/">MileagePlus Shopping</a>.
+                            <br>
+                        </p>
+                    </section>
+                    <section id="earning--otherearning">
+                        <h3>Other Methods/Partners </h3>
+                        <p>
+                            For other ways to earn MileagePlus and more partners, visit
+                            <a
+                                href="https://www.United.com/us/en/MileagePlus/how-to-earn-miles/MileagePlus-partners-offers?srsltid=AfmBOorBViq44p5HbOHsyy-ZjC9ehyAHMC3-8nmOBFrIZBtJjFmSVF-v">MileagePlus
+                                partners</a>.
+                        </p>
+                        <br>
+                    </section>
+                </section>
+                <section id="redeeming">
+                    <h2>Redeeming MileagePlus</h2>
+                    <p>
+                        Although often referred to as SkyPesos, I am here today to show you a couple of the ways to
+                        redeem your MileagePlus for great value.
+                    </p>
+                    <section id="redeeming--redeemUnited">
+                        <h3>United Flight </h3>
+                        <p>
+                            US carriers have one of the best online user interfaces for booking award flights. United,
+                            for instance, just requires you to check a box that says "Shop with Miles" when searching
+                            for flights.
+                        </p>
+                        <img src="/assets/United Guide/UnitedBooking.webp">
+
+                        <p>
+                            There is even an award calendar when selecting "flexible with dates"->"Price Calendar". This
+                            will allow you to look at awards with a monthly view.
+                        </p>
+                        <img src="/assets/United Guide/UnitedWeek.webp">
+                        <img src="/assets/United Guide/UnitedMonth.webp">
+
+                        <p>Generally, these MileagePlus are worth around 1-1.3 cents per point. This applies even for
+                            business
+                            class flights, which is why people call the currency
+                            SkyPesos. However, there are 4 things that stand out about United compared to other
+                            currencies.
+                        </p>
+                        <ol>
+                            <li>
+                                <b>United Flash Sales: </b> United can sometimes have no notice and barely advertised
+                                flash
+                                sales that will make flights incredibly cheap. The most
+                                recent flash sale included booking basic economy tickets from the US to Europe for
+                                32,000
+                                MileagePlus round-trip. This also stacks with the Take Off 15
+                                mentioned below to get a round trip price of 27,000 MileagePlus. Do keep in mind that I
+                                have
+                                been tracking prices for a while and US to Europe basic
+                                economy flights have generally clocked in at around 36,000 MileagePlus round-trip from
+                                the
+                                east
+                                coast. These deals are often only found in
+                                <a href="https://www.United.com/us/en/flight-deals/MileagePlus-award-deals">MileagePlus
+                                    Award
+                                    Deals</a>, where they typically advertise a low fare
+                                coming up in the next 2 or so months. Keep in mind the dates they advertise may not be
+                                the
+                                only dates, as bookings farther out can also be just
+                                as cheap.
+                            </li>
+                            <li>
+                                <b>Take Off 15: </b> All United credit card holders (except for United MileagePlus blue
+                                card)
+                                will get a 15% discount on United operated awards. This
+                                could bring the average value of flight awards to 1.3-1.5 cents per point. For domestic
+                                flights, this isn't too bad. This is also a discount,
+                                so you would only need the amount that they ask you to on screen.
+                            </li>
+                            <img src="/assets/United Guide/Takeoff15.webp">
+                            <li>
+                                <b>Fuel Surcharges: </b> United does not pass on fuel charges to your award ticket. This
+                                is
+                                most important for when you look at flights from
+                                partner airlines, which some do try to charge their members, whereas United eats those
+                                fees
+                                for you.
+                            </li>
+                            <li>
+                                <b>Free Changes and Cancellation: </b> Probably the best thing about United awards is
+                                the
+                                ability to freely change and cancel tickets if not in Basic
+                                Economy. This allows for a lot of flexibility and is a great program to book backup
+                                flights
+                                with.
+                            </li>
+                        </ol>
+                    </section>
+                    <section id="redeeming--redeempartner">
+                        <h3>Partner Flight </h3>
+                        <p>
+                            United has a wide selection of partners that MileagePlus can be redeemed. However, as a
+                            trend
+                            with
+                            Skyteam alliance in general, airlines are releasing
+                            less and less award availability so finding flights to redeem can be a YMMV moment. The
+                            <b>best</b> way to redeem MileagePlus for outsized value is
+                            to redeem on partner flights that don't originate or end in the United States or Canada.
+                            That is
+                            because United has a
+                            <a href="/Articles/Uniteds_Hidden_Award_Chart/">hidden award chart</a> for
+                            those flights. <br><br>
+
+                            To summarize the article, some of the sweetspots include Europe to Australia in business for
+                            90,000 MileagePlus, WestJet economy within the continental United States and Canada for
+                            12,500
+                            MileagePlus, and East Asia to Southeast Asia in business for 40,000 MileagePlus
+                            <br><br>
+
+                            While other blogs have touted the value of using MileagePlus on WestJet, I have found that
+                            WestJet
+                            flights are in fact dynamic so proceed with caution.<br><br>
+
+                            As of February 2025, I could only find availability for the following carriers. Do keep in
+                            mind
+                            that availability could change at any time, but
+                            interestingly, all Chinese SkyTeam carriers are absent.
+
+                        <ul>
+                            <li>
+                                AeroMexico
+                            </li>
+                            <li>
+                                Air France
+                            </li>
+                            <li>
+                                China Airlines
+                            </li>
+                            <li>
+                                EL AL
+                            </li>
+                            <li>
+                                Garuda Indonesia
+                            </li>
+                            <li>
+                                Hawaiian Airlines
+                            </li>
+                            <li>
+                                ITA Airways
+                            </li>
+                            <li>
+                                KLM
+                            </li>
+                            <li>
+                                Korean Air
+                            </li>
+                            <li>
+                                Latam Airlines
+                            </li>
+                            <li>
+                                Middle Eastern Airlines
+                            </li>
+                            <li>
+                                Saudia Airlines
+                            </li>
+                            <li>
+                                SAS
+                            </li>
+                            <li>
+                                Tarom
+                            </li>
+                            <li>
+                                Vietnam Airlines
+                            </li>
+                            <li>
+                                Virgin Atlantic
+                            </li>
+                            <li>
+                                WestJet
+                            </li>
+                        </ul>
+                        </p>
+                    </section>
+                    <section id="redeeming--flightupgrade">
+                        <h3>Flight Upgrades </h3>
+                        <p>
+                            Instead of paying cash, United can upgrade your flight using miles. This generally has a
+                            value
+                            slightly higher than 1 cent per point but not by much.
+                            Also not a great use of points.
+                        </p>
+                    </section>
+                    <section id="redeeming--fixedpoint">
+                        <h3>Fixed Point Costs </h3>
+                        <p>
+                            United has a few options that MileagePlus cost are directly tied to the cash price:
+                        <ul>
+                            <li>
+                                <b>Premium Drinks at SkyClub: </b> Purchasing drinks at SkyClub will yield 1.5 cents per
+                                MileagePlus. This is actually a pretty good use of points
+                                if you want an alcoholic beverage at the lounge.
+                            </li>
+                            <li>
+                                <b>Flights: </b> Book flights at 1 cent per SkyMile in 5000 MileagePlus or $50
+                                increments.
+                                This
+                                is incredibly poor
+                                value, as the Take Off 15 wouldn't apply and it would generally cost less to book an
+                                award
+                                ticket.
+                            </li>
+                            <li>
+                                <b>United Vacations: </b> Book United vacation packages (flight + hotel, or flight + car
+                                rental) at 1 cent per SkyMile. Same story. Poor value.
+                            </li>
+                        </ul>
+                        </p>
+                    </section>
+                    <section id="redeeming--other">
+                        <h3>Other Options </h3>
+                        <p>
+                            Because 1 SkyMile is loosely correlated with a penny now,
+                            <a
+                                href="https://www.United.com/us/en/MileagePlus/how-to-use-miles/overview?srsltid=AfmBOopffOj_EVmJ30-jGc2v1OBVuhkAtqzEH2VpbCwEw0u9gyFe1JYH">United</a>
+                            has more options on their website that also do not offer good value. Below are some of the
+                            other options to redeem points. All of these, except for the magazine subscriptions, offer
+                            poor value.
+                        <ul>
+                            <li>
+                                Magazine Subscriptions
+                            </li>
+                            <li>
+                                United Giftcards
+                            </li>
+                            <li>
+                                Skyclub Membership
+                            </li>
+                            <li>
+                                MileagePlus Experience
+                            </li>
+                        </ul>
+                        </p>
+                        <br>
+                    </section>
+                </section>
+                <section id="elitestatus">
+                    <h2>United Elite Status</h2>
+                    <p>
+                        Elite status is created to reward the company's most loyal and profitable customers.
+
+                    </p>
+                    <section id="elitestatus--eliterequirements">
+                        <h3>Medallion Requirements</h3>
+                        <p>
+                            United has 4 tiers of status for their medallion members. As you progress through the
+                            medallion tiers, the status will be more and more rewarding.
+                        </p>
+                        <img src="/assets/United Guide/medallionqual.webp">
+                        <p>
+                            Medallion Qualifying Dollars (MQD) are United's metric for how valuable a member is. Below
+                            are the ways to earn MQDs with United:
+                        <ul>
+                            <li>
+                                <b>Flights: </b> 1 MQD per dollar spent on paid flights other than in basic economy.
+                            </li>
+                            <li>
+                                <b>Award Flights: </b> 1 MQD per 100 MileagePlus spent on award flights other than in
+                                basic
+                                economy.
+                            </li>
+                            <li>
+                                <b>Exception Fares: </b> Flights booked through vacation packages or consolidator fares
+                                will
+                                earn MQD based on distance
+                                (in miles) flown.
+                            </li>
+                            <li>
+                                <b>Partner Flights </b> Paid partner flights, with the MileagePlus number attached, can
+                                earn
+                                MQD based on distance flown.
+                                <a
+                                    href="https://www.United.com/us/en/MileagePlus/how-to-earn-miles/airline-partners?srsltid=AfmBOooTH9A34GnvJq2weREiLqjCl7LrtCkQUp1x9qyfSN3PB3kJiJCK">Partners</a>
+                                may have different MQD earning rates.
+                            </li>
+                            <li>
+                                <b>Credit Cards: </b> 1 MQD per $10 spent on American Express United Personal and
+                                Business
+                                Reserve Card.
+                                1 MQD per $20 spent on American Express United Personal and Business Platinum Card. In
+                                addition, each United credit Card
+                                (personal and business) will give 2,500 MQD each year up to 10,000 MQDs as an MQD
+                                headstart
+                                benefit.
+                            </li>
+                            <li>
+                                <b>Promotions: </b> United may run promotions to earn MQDs, such as with United stays,
+                                vacations and more.
+                            </li>
+                        </ul>
+                        </p>
+                    </section>
+                    <section id="elitestatus--elitebenefits">
+                        <h3>Medallion Benefits</h3>
+                        <p>
+                            The list below are the benefits that all medallion members have. I have ranked the list in
+                            order
+                            of which I find to be the most valuable benefit.
+                        <ul>
+                            <li>
+                                1 additional free checked bag on international destinations
+                            </li>
+                            <li>
+                                Complimentary Preferred Seat Selection
+                            </li>
+                            <li>
+                                Complimentary Companion Upgrades
+                            </li>
+                            <li>
+                                Sky Priority Check In
+                            </li>
+                            <li>
+                                Priority Waitlist Status
+                            </li>
+                            <li>
+                                Reclaim status
+                            </li>
+                            <li>
+                                Luggage Tags
+                            </li>
+                            <li>
+                                United Vacations Savings
+                                <ul>
+                                    <li>
+                                        $25 off on $0-$1499 of vacation purchases
+                                    </li>
+                                    <li>
+                                        $75 off on $1500-$3999 of vacation purchases
+                                    </li>
+                                    <li>
+                                        $125 off on $4000-$6999 of vacation purchases
+                                    </li>
+                                    <li>
+                                        $250 off on $7000 or more of vacation purchases
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                        </p>
+                        <p>
+                            The chart below summarizes the benefits that differ for each tier:
+                        </p>
+                        <img src="/assets/United Guide/UnitedEliteStatusBenefits.webp">
+                        <p>
+                            Some of the benefits can be attributed Skyteam Elite status. United Silver will match to
+                            Skyteam
+                            Elite while United Gold and above will
+                            match to Skyteam Elite Plus. Some of the benefits I find valuable are the free checked bags,
+                            Skyteam lounge access and complimentary upgrades
+                            when available.
+                        </p>
+                    </section>
+                    <section id="elitestatus--choicebenefits">
+                        <h3>Choice Benefits</h3>
+                        <p>
+                            For those that reach platinum or diamond medallion, you can receive choice benefits. The
+                            options
+                            are as follows:
+                        </p>
+                        <img src="/assets/United Guide/ChoiceBenefit.webp">
+
+                        <p>
+                            Out of all of these, my pick would be the 4 regional upgrade certificates for platinum
+                            medallion
+                            members or the 4 global
+                            upgrade certificates for the diamond medallion members. I think these would provide the most
+                            value. Otherwise,
+                            I would take the MileagePlus option or the statement credit if you own a credit card and no
+                            longer
+                            want to fly United, since I value MileagePlus more than a penny each.
+                            I think MileagePlus would any day beat the United Travel Voucher but the United Vacations
+                            choice
+                            is
+                            up to personal preference.
+                        </p>
+                    </section>
+                    <section id="elitestatus--statusmatch">
+                        <h3>Status Match</h3>
+                        <p>
+                            United offers status matches to other airline elites. Eligible airlines include:
+                        <ul>
+                            <li>
+                                Air Canada
+                            </li>
+                            <li>
+                                Air New Zealand
+                            </li>
+                            <li>
+                                Alaska Airlines
+                            </li>
+                            <li>
+                                All Nippon Airways
+                            </li>
+                            <li>
+                                American Airlines
+                            </li>
+                            <li>
+                                British Airways
+                            </li>
+                            <li>
+                                Copa Airlines
+                            </li>
+                            <li>
+                                Japan Airlines
+                            </li>
+                            <li>
+                                JetBlue
+                            </li>
+                            <li>
+                                Lufthansa
+                            </li>
+                            <li>
+                                Qantas
+                            </li>
+                            <li>
+                                South African Airways
+                            </li>
+                            <li>
+                                Southwest Airlines
+                            </li>
+                            <li>
+                                United Airlines
+                            </li>
+                            <li>
+                                Virgin Australia
+                            </li>
+                        </ul>
+                        The <a
+                            href="https://www.United.com/us/en/MileagePlus/medallion-program/status-match-challenge?srsltid=AfmBOopsz824J32iPx347ZdYseQt5OgCnWMFtJ1zFlzbRt8pSjGY-i7I">requirements</a>
+                        are a reduced number of MQD spend to reach the elite status thresholds.
+                        </p>
+                        <img src="/assets/United Guide/reclaimstatus.webp">
+                    </section>
+                    <section id="elitestatus--reclaimingstatus">
+                        <h3>Reclaiming Status</h3>
+                        <p>
+                            United Allows for status to be reclaimed in case of life events. According to sources
+                            online,
+                            lots of events could qualify if you call United.
+                            All you would have to do once approved is to reach the MQD threshold for your status, same
+                            as
+                            the status match threshold.
+                        </p>
+                    </section>
+                </section>
+                <section id="cc">
+                    <h2>MileagePlus Credit Cards</h2>
+                    <p>
+                        United credit cards are very powerful for those traveling on United. Since my home airport is
+                        serviced the most by United, I
+                        frequently fly on United. My personal pick is to have either the United Business Gold or the
+                        United
+                        Business Platinum card,
+                        due to the United stays credit being higher on the business cards. These two cards are what I
+                        find to be the sweet spot in the
+                        United credit card line up. <br>
+                    </p>
+                    <section id="cc--blue">
+                        <h3>United MileagePlus Blue</h3>
+                        <div id="table-container" data-table="1"></div>
+                        <p>
+                            There is not much to write home about the United Blue card, except that this is a $0 annual
+                            fee card. This means that it is a great downgrade option for personal United cards.
+                        </p>
+                    </section>
+                    <section id="cc--gold">
+                        <h3>United MileagePlus Gold and United
+                            MileagePlus Gold Business</a></h3>
+
+                        <div id="table-container-2" data-table="2"></div>
+                        <div id="table-container-3" data-table="3"></div>
+                        <p>
+                            The United Gold cards start packing more benefits. There is a $0 introductory annual fee
+                            before $150 on renewal, meaning you can try the card out for a year to see if you like it.
+                            The card's main benefit is giving free checked bags for you and up to 8 companions.
+                            For those that fly with checked bags, this could save a lot of money.<br><br>
+                            The card also unlocks Take Off 15, giving a 15% discount on United operated award flights.
+                            The United Stays, especially on the business card, is a great way to offset the annual fee.
+                            The business gold has a $150 annual credit while the personal only has a $100 credit. The
+                            business gold card is a great card for those that fly United a couple of times a year with
+                            checked bags.
+                        </p>
+                    </section>
+                    <section id="cc--plat">
+                        <h3>United MileagePlus Platinum and United MileagePlus Platinum Business</h3>
+                        <div id="table-container-4" data-table="4"></div>
+                        <div id="table-container-5" data-table="5"></div>
+                        <p>
+                            These two cards also hold the same perks as the United Gold cards. The main difference is
+                            the
+                            introduction of additional coupons to offset and even exceed the value of the annual fee.
+                            <br><br>
+                            The main benefits and reason to hold the card instead of the United Gold card is the annual
+                            2,500 MQDs and annual companion certificate. Holding 4 United Platinum or Reserve (business
+                            and/or personal) cards will automatically grant you United Gold Medallion status.
+                            This is enough to be a Skyteam Elite Plus member, give you access to SkyTeam benefits and
+                            lounge access. <br><br>
+                            The companion certificate the card comes with is valid for any round trip main cabin United
+                            operated flight within North America (excluding Canada) and the Carribeans. This could
+                            honestly represent a ton of outsized value if used correctly, sometimes even upwards of
+                            $1000. Holding 4 United Platinum (personal or business) cards could automatically give you
+                            United Gold Medallion status and 4 companion certificates for $1,400.
+                            This is before factoring all the credits as well.
+
+                            <br><br>
+                            Even though the United Platinum does earn MQD from spend, the United Reserve
+                            cards are a better card for that purpose, as they earn
+                            more MQDs per dollar spent.
+                        </p>
+                    </section>
+                    <section id="cc--reserve">
+                        <h3>United MileagePlus Reserve and United MileagePlus Reserve Business</h3>
+                        <div id="table-container-6" data-table="6"></div>
+                        <div id="table-container-7" data-table="7"></div>
+                        <p>
+                            Again, the United Reserve cards build on the benefits and coupons of the United Platinum
+                            cards. The main selling point is the United SkyClub access the United Reserve cards provide.
+                            However, they are limited to 15 visits a year unless you spend $75,000 that year. Since the
+                            Amex Platinum card also provides 6 SkyClub visits a year, for the casual flyers of United, I
+                            would recommend getting the Amex Platinum card instead. <br><br>
+                            However, for the extreme loyalists of the airline, the card can get the most MQD for spend,
+                            at a rate of 1 MQD per $10. The card is the best for those wishing to spend towards status.
+                            <br><br>
+                            Also for all the ballers flying in first class, the annual companion certificate has the
+                            same restrictions as the United Platinum companion certificates, except it also allows for
+                            bookings in first class. I would say the main draw of this card is the ability to spend
+                            towards United elite status, for those that visit SkyClubs very often, and the elevated
+                            companion certificate.
+                        </p>
+                    </section>
+                </section>
             </div>
-        </div> 
-        </main> 
-    </div> 
+        </div>
+    </div>
 
     <foot-bar></foot-bar>
-</body> 
+    <end-links></end-links>
+    <script src="/js/cclinks.js"></script>
+</body>
 
 </html>
