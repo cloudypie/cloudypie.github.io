@@ -224,6 +224,130 @@ const tables = {
       "<b>Spend Perks:</b> Hilton Diamond Status after $40,000 spend",
     ],
   },
+
+
+  //****************************/
+  //          United Cards
+  //****************************/
+
+  12: {
+    header: {
+      text: "Chase United Gateway",
+      link: cungcc,
+    },
+    image: {
+      src: "/assets/CCLogo/United_Gateway.webp",
+      link: cungcc,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 30,000 miles after spending $1,000 and 10,000 miles after adding an authorized user card in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $0",
+      "<b>Multipliers:</b> 2x United, Gas Stations, Local Transit and 1x Base",
+      "<b>Automatic Perks:</b> 25% off United inflight purchases and Club premium drinks",
+      "<b>Spend Perks:</b> 2 free checked bags after $10,000 spend",
+    ],
+  },
+
+  13: {
+    header: {
+      text: "Chase United Explorer",
+      link: cunecc,
+    },
+    image: {
+      src: "/assets/CCLogo/United_Explorer.webp",
+      link: cunecc,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 60,000 miles after spending $3,000 and 10,000 miles after adding an authorized user card in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $0 for the first year and $150 thereafter",
+      "<b>Multipliers:</b> 2x United, Hotel Stays, Dining and 1x Base",
+      "<b>Credits: </b> 2x $50 for United Hotels (used separately), $5 a month for ride share, $10 a month Instacart, $100 a year for JSX, 2x $25 for Avis or Budget car rental (used separately), $120 Global Entry/TSA Precheck/Nexus",
+      "<b>Automatic Perks:</b> Free checked bag, 2 United Club passes, Group 2 boarding, Premier Upgrade Priority, expanded saver award availability, 25% off United inflight purchases and Club premium drinks",
+      "<b>Spend Perks:</b> 10,000 mile award discount after $20,000 spend, 1 PQP per $20 up to 1,000 PQP",
+    ],
+  },
+
+  14: {
+    header: {
+      text: "Chase United Business",
+      link: cunbcc,
+    },
+    image: {
+      src: "/assets/CCLogo/United_Business.webp",
+      link: cunbcc,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 75,000 miles and 2,000 PQP after spending $5,000 and 10,000 miles after adding an employee card in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $0 for the first year and $150 thereafter",
+      "<b>Multipliers:</b> 2x United, Gas Station, Dining Office Supply, Local Transit and 1x Base",
+      "<b>Credits: </b> 2x $50 for United Hotels (used separately), $125 United Travel credit after 5 flights of $100 or more, $5 a month for ride share, $10 a month Instacart, $100 a year for JSX, 2x $25 for Avis or Budget car rental (used separately), $25 in FareLock, $120 Global Entry/TSA Precheck/Nexus",
+      "<b>Automatic Perks:</b> 5,000 miles when holding a personal United card, Free checked bag, 2 United Club passes, Group 2 boarding, Premier Upgrade Priority, expanded saver award availability, 25% off United inflight purchases and Club premium drinks",
+      "<b>Spend Perks:</b> 2 United continental US Economy Plus seat upgrades after $25,000 spend, 1 PQP per $20 up to 4,000 PQP",
+    ],
+  },
+
+  15: {
+    header: {
+      text: "Chase United Quest",
+      link: cunqcc,
+    },
+    image: {
+      src: "/assets/CCLogo/United_Quest.webp",
+      link: cunqcc,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 70,000 miles and 1,000 PQP after spending $4,000 and 10,000 miles after adding an authorized user card in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $350",
+      "<b>Multipliers:</b> 3x United, 2x Other Travel, Dining and 1x Base",
+      "<b>Credits: </b> $200 United Travel credit, $150 United Hotels or Renowned Hotels and Resorts, $8 a month ($12 in December) for ride share, $10 and 2x $5 a month Instacart (used separately), $150 a year for JSX, 2x $40 for Avis or Budget car rental (used separately), $120 Global Entry/TSA Precheck/Nexus",
+      "<b>Automatic Perks:</b> 10,000 mile award discount, 2 Free checked bags, Group 2 boarding, Premier Upgrade Priority, expanded saver award availability, 25% off United inflight purchases and Club premium drinks",
+      "<b>Spend Perks:</b> 10,000 mile award discount after $20,000 spend, 2 United continental US Economy Plus seat upgrades after $40,000 spend, 1 PQP per $20 up to 18,000 PQP",
+    ],
+  },
+
+  16: {
+    header: {
+      text: "Chase United Club",
+      link: cunccc,
+    },
+    image: {
+      src: "/assets/CCLogo/United_Club.webp",
+      link: cunccc,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 90,000 points after spending $5,000 and 10,000 miles after adding an authorized user card in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $695",
+      "<b>Multipliers:</b> 5x Renowned Hotels and Resorts, 4x United, 2x Other Travel, Dining and 1x Base",
+      "<b>Credits: </b> $200 United Hotels or Renowned Hotels and Resorts, $8 a month ($12 in December) for ride share, 2x $10 a month Instacart (used separately), $200 a year for JSX, 2x $50 for Avis or Budget car rental (used separately), $120 Global Entry/TSA Precheck/Nexus",
+      "<b>Automatic Perks:</b> United Club Membership, 4 United Club Passes with All Access Membership, 10% discount on United saver awards within continental US and Canada, 1,500 PQP, 2 Free checked bags, IHG One Platinum, Avis President's Club, Instacart+, Group 2 boarding, Premier Upgrade Priority, expanded saver award availability, 25% off United inflight purchases and Club premium drinks",
+      "<b>Spend Perks:</b> 10,000 mile award discount after $20,000 spend, All Access membership after $50,000 spend, 1 PQP per $15 up to 28,000 PQP",
+    ],
+  },
+
+  17: {
+    header: {
+      text: "Chase United Club Business",
+      link: cuncbcc,
+    },
+    image: {
+      src: "/assets/CCLogo/United_Club_Business.webp",
+      link: cuncbcc,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 80,000 points and 2,000 PQP after spending $5,000 and 10,000 miles after adding an authorized user card in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $695",
+      "<b>Multipliers:</b> 5x Renowned Hotels and Resorts, 2x United, 1.5x Base",
+      "<b>Credits: </b> $200 United Hotels or Renowned Hotels and Resorts, $8 a month ($12 in December) for ride share, 2x $10 a month Instacart (used separately), $200 a year for JSX, 2x $50 for Avis or Budget car rental (used separately), $120 Global Entry/TSA Precheck/Nexus",
+      "<b>Automatic Perks:</b> United Club Membership, 4 United Club Passes with All Access Membership, 2 Free checked bags, Avis President's Club, Instacart+, Group 2 boarding, Premier Upgrade Priority, expanded saver award availability, $50 LifeLock, 25% off United inflight purchases and Club premium drinks",
+      "<b>Spend Perks:</b> 10,000 mile award discount after $20,000 spend, 2 United global Economy Plus seat upgrades after $40,000 spend, All Access membership after $50,000 spend, 1 PQP per $15 up to 28,000 PQP",
+    ],
+  },
 };
 
 // function to display the table
