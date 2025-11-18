@@ -39,6 +39,12 @@ class footBar extends HTMLElement{connectedCallback(){
       <a id="amexmarbrcc" href="#">a</a>
       <a id="cspcc" href="#">a</a>
       <a id="cfucc" href="#">a</a>
+      <a id="cungcc" href="#">a</a>
+      <a id="cunecc" href="#">a</a>
+      <a id="cunbcc" href="#">a</a>
+      <a id="cunqcc" href="#">a</a>
+      <a id="cunccc" href="#">a</a>
+      <a id="cuncbcc" href="#">a</a>
 
   </div>
     `}}
@@ -62,4 +68,9 @@ document.getElementById("amexmarbecc").href=amexmarbeccv;
 document.getElementById("amexmarbrcc").href=amexmarbrccv;
 document.getElementById("cspcc").href=cspccv;
 document.getElementById("cfucc").href=cfuccv;
-
+document.getElementById("cungcc").href=cfuccv;
+document.getElementById("cunecc").href=cfuccv;
+document.getElementById("cunbcc").href=cfuccv;
+document.getElementById("cunqcc").href=cfuccv;
+document.getElementById("cunccc").href=cfuccv;
+document.getElementById("cuncbcc").href=cfuccv;

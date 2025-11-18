@@ -38,7 +38,7 @@ class navBar extends HTMLElement {
                       <!-- <a href="/Airlines/Qatar_Airways_Guide/">Qatar Airways</a>-->
                       <!-- <a href="/Airlines/Southwest_Airlines_Guide/">Southwest</a>-->
                       <!-- <a href="/Airlines/Starlux_Airlines_Guide/">Starlux</a>-->
-                      <!-- <a href="/Airlines/United_Airlines_Guide/">United</a>-->
+                      <li><a href="/Airlines/United_Airlines_Guide/">United</a></li>
                     </div>
                   </ul>
                 </li>
@@ -114,7 +114,7 @@ class navBar extends HTMLElement {
                   <!-- <a href="/Airlines/Qatar_Airways_Guide/">Qatar Airways</a>-->
                   <!-- <a href="/Airlines/Southwest_Airlines_Guide/">Southwest</a>-->
                   <!-- <a href="/Airlines/Starlux_Airlines_Guide/">Starlux</a>-->
-                  <!-- <a href="/Airlines/United_Airlines_Guide/">United</a>-->
+                  <li><a href="/Airlines/United_Airlines_Guide/">United</a></li>
                 </div>
               </div>
 

@@ -18,3 +18,10 @@ var amexmarbrccv = "https://www.americanexpress.com/en-us/credit-cards/referral/
 
 var cspccv = "https://www.referyourchasecard.com/19r/IOIGBSCW5Al";
 var cfuccv = "https://www.referyourchasecard.com/18m/6EPISXSQS8";
+
+var cungcc = "https://creditcards.chase.com/travel-credit-cards/united/united-gateway?iCELL=61FY";
+var cunecc = "https://creditcards.chase.com/travel-credit-cards/united/united-explorer?iCELL=61FY";
+var cunbcc = "https://creditcards.chase.com/business-credit-cards/united/united-business-card?iCELL=61FY";
+var cunqcc = "https://creditcards.chase.com/travel-credit-cards/united/united-gateway?iCELL=61FY";
+var cunccc = "https://creditcards.chase.com/travel-credit-cards/united/united-gateway?iCELL=61FY";
+var cuncbcc = "https://creditcards.chase.com/travel-credit-cards/united/united-gateway?iCELL=61FY";
