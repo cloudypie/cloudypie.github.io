@@ -27,3 +27,8 @@ var cunbcc = "https://creditcards.chase.com/business-credit-cards/united/united-
 var cunqcc = "https://creditcards.chase.com/travel-credit-cards/united/united-quest?CELL=6TKV";
 var cunccc = "https://creditcards.chase.com/travel-credit-cards/united/club-infinite?CELL=6TKV";
 var cuncbcc = "https://creditcards.chase.com/business-credit-cards/united/united-club-business?CELL=6TKV";
+
+
+var cihgtcc = "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler?CELL=6TKV";
+var cihgpcc = "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier?CELL=6TKV";
+var cihgbcc = "https://creditcards.chase.com/business-credit-cards/IHG/business-premier?CELL=6TKV";
