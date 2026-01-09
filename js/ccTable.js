@@ -348,6 +348,70 @@ const tables = {
       "<b>Spend Perks:</b> 10,000 mile award discount after $20,000 spend, 2 United global Economy Plus seat upgrades after $40,000 spend, All Access membership after $50,000 spend, 1 PQP per $15 up to 28,000 PQP",
     ],
   },
+
+
+  //****************************/
+  //          IHG Cards
+  //****************************/
+  18: {
+    header: {
+      text: "Chase IHG One Rewards Traveler",
+      link: cihgtcc,
+    },
+    image: {
+      src: "/assets/CCLogo/Chase_IHG_traveler.webp",
+      link: cihgtcc,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 80,000 points after spending $2,000 in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $0",
+      "<b>Multipliers:</b> 5x IHG Hotels and Resorts, 3x Dining, Utilities, Select Streaming Services, Gas Stations, 2x Base",
+      "<b>Credits:</b> None",
+      "<b>Automatic Perks:</b> IHG One Silver Elite Status, 4th Night Free, 20% Rewards Points Purchase Discount, Early Access to IHG Reward Night Sales",
+      "<b>Spend Perks:</b> 10,000 bonus points after $10,000 spend, IHG One Gold Elite Status after $20,000 spend",
+    ],
+  },
+  
+  19: {
+    header: {
+      text: "Chase IHG One Rewards Premier",
+      link: cihgpcc,
+    },
+    image: {
+      src: "/assets/CCLogo/Chase_IHG_premier.webp",
+      link: cihgpcc,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 140,000 points after spending $3,000 in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $95",
+      "<b>Multipliers:</b> 10x IHG Hotels and Resorts, 5x Dining, Travel, Gas Stations, 3x Base",
+      "<b>Credits:</b> $120 TSA Pre-check, Global Entry or Nexus",
+      "<b>Automatic Perks:</b> 40,000 IHG Point Anniversary Free Night, IHG One Silver Platinum Status, 4th Night Free, $25 United Travel Bank cash every 6 months, 20% Rewards Points Purchase Discount, Early Access to IHG Reward Night Sales",
+      "<b>Spend Perks:</b> 10,000 bonus points and $100 statement credit after $10,000 spend, IHG One Diamond Elite Status after $40,000 spend",
+    ],
+  },
+  
+  20: {
+    header: {
+      text: "Chase IHG One Rewards Premier Business",
+      link: cihgbcc,
+    },
+    image: {
+      src: "/assets/CCLogo/Chase_IHG_business.webp",
+      link: cihgbcc,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 140,000 points after spending $3,000 in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $95",
+      "<b>Multipliers:</b> 10x IHG Hotels and Resorts, 5x Dining, Social Media and Search Engine Advertising, Office Supply Stores, Gas Stations, 3x Base",
+      "<b>Credits:</b> $120 TSA Pre-check, Global Entry or Nexus",
+      "<b>Automatic Perks:</b> 40,000 IHG Point Anniversary Free Night, IHG One Silver Platinum Status, 4th Night Free, $25 United Travel Bank cash every 6 months, 20% Rewards Points Purchase Discount, Early Access to IHG Reward Night Sales",
+      "<b>Spend Perks:</b> 10,000 bonus points and $100 statement credit after $10,000 spend, IHG One Diamond Elite Status after $40,000 spend",
+    ],
+  },
 };
 
 // function to display the table
