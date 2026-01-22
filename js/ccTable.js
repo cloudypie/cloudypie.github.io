@@ -469,7 +469,7 @@ const tables = {
       link: biltpcc,
     },
     intro:
-      "<b>Welcome Offer:</b> $50,000 and Bilt Gold status after spending $4,000 in 3 months",
+      "<b>Welcome Offer:</b> 50,000x Bilt points and Bilt Gold status after spending $4,000 in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $495",
       "<b>Multipliers:</b> 2x Base, 4% Bilt cash Base",
