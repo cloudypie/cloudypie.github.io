@@ -471,7 +471,7 @@ const tables = {
     intro:
       "<b>Welcome Offer:</b> $50,000 and Bilt Gold status after spending $4,000 in 3 months",
     descriptions: [
-      "<b>Annual Fee:</b> $0",
+      "<b>Annual Fee:</b> $495",
       "<b>Multipliers:</b> 2x Base, 4% Bilt cash Base",
       "<b>Credits:</b> $200 Bilt Cash, 2x $200 Bilt Hotels",
       "<b>Automatic Perks:</b> Priority Pass",
