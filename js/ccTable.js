@@ -412,7 +412,79 @@ const tables = {
       "<b>Spend Perks:</b> 10,000 bonus points and $100 statement credit after $10,000 spend, IHG One Diamond Elite Status after $40,000 spend",
     ],
   },
+
+
+
+
+  //****************************/
+  //         Bilt Cards
+  //****************************/
+  21: {
+    header: {
+      text: "Bilt Blue",
+      link: biltbcc,
+    },
+    image: {
+      src: "/assets/CCLogo/Bilt_blue.webp",
+      link: biltbcc,
+    },
+    intro:
+      "<b>Welcome Offer:</b> $100 Bilt cash upon approval",
+    descriptions: [
+      "<b>Annual Fee:</b> $0",
+      "<b>Multipliers:</b> 1x Base, 4% Bilt cash Base",
+      "<b>Credits:</b> None",
+      "<b>Automatic Perks:</b> None",
+      "<b>Spend Perks:</b> None",
+    ],
+  },
+  
+  22: {
+    header: {
+      text: "Bilt Obsidian",
+      link: biltocc,
+    },
+    image: {
+      src: "/assets/CCLogo/Bilt_obsidian.webp",
+      link: biltocc,
+    },
+    intro:
+      "<b>Welcome Offer:</b> $200 Bilt cash upon approval",
+    descriptions: [
+      "<b>Annual Fee:</b> $95",
+      "<b>Multipliers:</b> 3x Groceries or Dining, 2x travel, 1x Base, 4% Bilt cash everything",
+      "<b>Credits:</b> 2x $50 Bilt Hotels",
+      "<b>Automatic Perks:</b> None",
+      "<b>Spend Perks:</b> None",
+    ],
+  },
+
+  23: {
+    header: {
+      text: "Bilt Palladium",
+      link: biltpcc,
+    },
+    image: {
+      src: "/assets/CCLogo/Bilt_palladium.webp",
+      link: biltpcc,
+    },
+    intro:
+      "<b>Welcome Offer:</b> $50,000 and Bilt Gold status after spending $4,000 in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $0",
+      "<b>Multipliers:</b> 2x Base, 4% Bilt cash Base",
+      "<b>Credits:</b> $200 Bilt Cash, 2x $200 Bilt Hotels",
+      "<b>Automatic Perks:</b> Priority Pass",
+      "<b>Spend Perks:</b> None",
+    ],
+  },
 };
+
+
+
+
+
+
 
 // function to display the table
 function displayTable(number, container) {

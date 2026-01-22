@@ -32,3 +32,9 @@ var cuncbcc = "https://creditcards.chase.com/business-credit-cards/united/united
 var cihgtcc = "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler?CELL=6TKV";
 var cihgpcc = "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier?CELL=6TKV";
 var cihgbcc = "https://creditcards.chase.com/business-credit-cards/IHG/business-premier?CELL=6TKV";
+
+
+var biltbcc = "https://support.biltrewards.com/hc/en-us/articles/42648751360653-About-the-Bilt-Card-2-0-Program";
+var biltocc = "https://support.biltrewards.com/hc/en-us/articles/42648751360653-About-the-Bilt-Card-2-0-Program";
+var biltpcc = "https://support.biltrewards.com/hc/en-us/articles/42648751360653-About-the-Bilt-Card-2-0-Program";
+

@@ -46,7 +46,12 @@ class footBar extends HTMLElement{connectedCallback(){
       <a id="cunqcc" href="#">a</a>
       <a id="cunccc" href="#">a</a>
       <a id="cuncbcc" href="#">a</a>
-
+      <a id="cihgtcc" href="#">a</a>
+      <a id="cihgpcc" href="#">a</a>
+      <a id="cihgbcc" href="#">a</a>
+      <a id="biltbcc" href="#">a</a>
+      <a id="biltocc" href="#">a</a>
+      <a id="biltpcc" href="#">a</a>
   </div>
     `}}
     
@@ -79,5 +84,8 @@ document.getElementById("cuncbcc").href=cuncbcc;
 document.getElementById("cihgtcc").href=cihgtcc;
 document.getElementById("cihgpcc").href=cihgpcc;
 document.getElementById("cihgbcc").href=cihgbcc;
+document.getElementById("biltbcc").href=biltbcc;
+document.getElementById("biltocc").href=biltocc;
+document.getElementById("biltpcc").href=biltpcc;
 
 
