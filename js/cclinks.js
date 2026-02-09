@@ -37,6 +37,11 @@ class footBar extends HTMLElement{connectedCallback(){
       <a id="amexhilbcc" href="#">a</a>
       <a id="amexmarbecc" href="#">a</a>
       <a id="amexmarbrcc" href="#">a</a>
+      <a id="amexmarbucc" href="#">a</a>
+      <a id="cmarbucc" href="#">a</a>
+      <a id="cmarblcc" href="#">a</a>
+      <a id="cmarbncc" href="#">a</a>
+      <a id="cmarrccc" href="#">a</a>
       <a id="cspcc" href="#">a</a>
       <a id="cfucc" href="#">a</a>
       <a id="cipcc" href="#">a</a>
@@ -72,6 +77,11 @@ document.getElementById("amexhilacc").href=amexhilaccv;
 document.getElementById("amexhilbcc").href=amexhilbccv;
 document.getElementById("amexmarbecc").href=amexmarbeccv;
 document.getElementById("amexmarbrcc").href=amexmarbrccv;
+document.getElementById("amexmarbucc").href=amexmarbuccv;
+document.getElementById("cmarbucc").href=cmarbuccv;
+document.getElementById("cmarblcc").href=cmarblccv;
+document.getElementById("cmarbncc").href=cmarbnccv;
+document.getElementById("cmarrccc").href=cmarrcccv;
 document.getElementById("cspcc").href=cspccv;
 document.getElementById("cfucc").href=cfucc;
 document.getElementById("cipcc").href=cipcc;

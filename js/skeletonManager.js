@@ -51,7 +51,7 @@ class navBar extends HTMLElement {
                       <li><a href="/Hotels/Hilton_Guide/">Hilton</a></li>
                       <!-- <a href="/Hotels/Hyatt_Guide/">Hyatt</a>-->
                       <li><a href="/Hotels/IHG_Guide/">IHG</a></li>
-                      <!-- <a href="/Hotels/Marriott_Guide/">Marriott</a>-->
+                      <li><a href="/Hotels/Marriott_Guide/">Marriott</a>/li>
                       <!-- <a href="/Hotels/Wyndham_Guide/">Wyndham</a>-->
                     </div>
                   </ul>
@@ -125,7 +125,7 @@ class navBar extends HTMLElement {
                   <a href="/Hotels/Hilton_Guide/">Hilton</a>
                   <!-- <a href="/Hotels/Hyatt_Guide/">Hyatt</a>-->
                   <a href="/Hotels/IHG_Guide/">IHG</a>
-                  <!-- <a href="/Hotels/Marriott_Guide/">Marriott</a>-->
+                  <a href="/Hotels/Marriott_Guide/">Marriott</a>
                   <!-- <a href="/Hotels/Wyndham_Guide/">Wyndham</a>-->
                 </div>
               </div>

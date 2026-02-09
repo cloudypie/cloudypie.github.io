@@ -91,7 +91,6 @@ ol li {
   padding-left: 1em;
 }
 
-
 /* Add Zoom Animation */
 .animate {
   -webkit-animation: animatezoom 0.6s;
@@ -312,7 +311,6 @@ article {
   width: 800px;
   align-items: center;
   justify-content: center;
-
 }
 
 .dateHeading {
@@ -320,7 +318,9 @@ article {
 }
 
 .indent1 {
-  text-indent: 2em;
+  padding-left: 4em;     /* space for all lines */
+  text-indent: -2em;     /* pull the first line back */
+  font-size: 18px;
 }
 
 .words img {
