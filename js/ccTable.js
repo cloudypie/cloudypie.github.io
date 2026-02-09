@@ -181,7 +181,7 @@ const tables = {
       "<b>Multipliers:</b> 12x Hilton, 6x US Restaurants/US Gas Stations/US Supermarkets, 4x Online Retail, 3x Base",
       "<b>Credits:</b> $50 Hilton each quarter",
       "<b>Automatic Perks:</b> Hilton Gold Status",
-      "<b>Spend Perks:</b> Free Night Certificate after $15,000, Hilton Diamond Status after $40,000 spend",
+      "<b>Spend Perks:</b> free night award after $15,000, Hilton Diamond Status after $40,000 spend",
     ],
   },
 
@@ -200,7 +200,7 @@ const tables = {
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 7x Hilton, 5x US Restaurants/US Gas Stations/US Supermarkets, 3x Base",
       "<b>Credits:</b> $50 for flights per quarter, $200 at Hilton resorts semi-annually, annual $100 at Waldorf Astoria or Conrad Hotels",
-      "<b>Automatic Perks:</b> 1 Hilton Free Night Certificate, Hilton Diamond Status, Clear, National Emerald Club Executive Status",
+      "<b>Automatic Perks:</b> 1 Hilton free night award, Hilton Diamond Status, Clear, National Emerald Club Executive Status",
       "<b>Spend Perks:</b> 1 FNC after both $30,000 and $60,000 spend",
     ],
   },
@@ -476,6 +476,164 @@ const tables = {
       "<b>Credits:</b> $200 Bilt Cash, 2x $200 Bilt Hotels",
       "<b>Automatic Perks:</b> Priority Pass",
       "<b>Spend Perks:</b> None",
+    ],
+  },
+
+  //****************************/
+  //          Marriott Cards
+  //****************************/
+  
+  24: {
+    header: {
+      text: "American Express Marriott Bonvoy"
+    },
+    image: {
+      src: "/assets/CCLogo/Amex_marriott_bonvoy.webp"
+    },
+    intro:
+      "Only Available via product change",
+    descriptions: [
+      "<b>Annual Fee:</b> $99",
+      "<b>Multipliers:</b> 6x Marriott, 2x Base",
+      "<b>Automatic Perks:</b> 35,000 Marriott Free Night Award",
+      "<b>Spend Perks:</b> 1 Elite Night Credit every $5,000, Marriott Gold after $35,000 spend",
+    ],
+  },
+
+  25: {
+    header: {
+      text: "American Express Bonvoy Bevy",
+      link: amexmarbeccv,
+    },
+    image: {
+      src: "/assets/CCLogo/Amex_marriott_bevy.webp",
+      link: amexmarbeccv,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 85,000 miles after spending $5,000 in 6 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $250",
+      "<b>Multipliers:</b> 6x Marriott, 4x Restaurants, US Supermarkets and 2x Base",
+      "<b>Automatic Perks:</b> 1,000 bonus Marriott points for every stay, Marriott Gold elite, 15 Elite Night Credits",
+      "<b>Spend Perks:</b> 1 50,000 Marriott point free night award after $15,000 spend",
+    ],
+  },
+
+
+  26: {
+    header: {
+      text: "American Express Bonvoy Brilliant",
+      link: amexmarbrccv,
+    },
+    image: {
+      src: "/assets/CCLogo/Amex_marriott_brilliant.webp",
+      link: amexmarbrccv,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 100,000 miles after spending $6,000 in 6 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $650",
+      "<b>Multipliers:</b> 6x Marriott, 3x Flights, Restaurants and 2x Base",
+      "<b>Credits:</b> $25 per month dining, $100 for minimum 2 night stay at Ritz Carlton or St Regis, $120 TSA Precheck/Global Entry",
+      "<b>Automatic Perks:</b> 85,000 point free night award, Marriott Platinum elite, 25 Elite Night Credits, Priority Pass",
+      "<b>Spend Perks:</b> Brilliant Earned Choice Award after $60,000 spend",
+    ],
+  },
+
+  27: {
+    header: {
+      text: "American Express Bonvoy Business",
+      link: amexmarbuccv,
+    },
+    image: {
+      src: "/assets/CCLogo/Amex_marriott_business.webp",
+      link: amexmarbuccv,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 3x 50,000 point Free Night Award after spending $6,000 in 6 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $125",
+      "<b>Multipliers:</b> 6x Marriott, 4x Restaurants, US Gas, Phone Services, Shipping and 2x Base",
+      "<b>Credits:</b> $25 per month dining, $100 for minimum 2 night stay at Ritz Carlton or St Regis, $120 TSA Precheck/Global Entry",
+      "<b>Automatic Perks:</b> 35,000 Marriott Free Night Award, 7% room rate discount, Marriott Gold, 15 Elite Night Credits",
+      "<b>Spend Perks:</b> 35,000 Marriott Free Night Award after $60,000 spend",
+    ],
+  },
+
+  28: {
+    header: {
+      text: "Chase Bonvoy Bold",
+      link: cmarblccv,
+    },
+    image: {
+      src: "/assets/CCLogo/Chase_marriott_bold.webp",
+      link: cmarblccv,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 2x 50,000 point Free Night Award after spending $1,000 in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $0",
+      "<b>Multipliers:</b> 3x Marriott, 2x Groceries, Rideshare, Food Delivery, Select streaming, Internet, Cable, Phone Services, and 1x Base",
+      "<b>Automatic Perks:</b> 0.8 cpp Pay Yourself Back ($750/year max), Marriott Silver, 5 Elite Night Credits",
+      "<b>Spend Perks:</b> 35,000 Marriott Free Night Award after $60,000 spend",
+    ],
+  },
+
+  29: {
+    header: {
+      text: "Chases Bonvoy Boundless",
+      link: cmarbuccv,
+    },
+    image: {
+      src: "/assets/CCLogo/Chase_marriott_boundless.webp",
+      link: cmarbuccv,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 5x 50,000 point Free Night Award after spending $3,000 in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $95",
+      "<b>Multipliers:</b> 6x Marriott, 3x Groceries, Gas, and Dining, and 2x Base",
+      "<b>Automatic Perks:</b> 35,000 Marriott Free Night Award, Marriott Silver, 5 Elite Night Credits",
+      "<b>Spend Perks:</b> 1 Elite Night Credit every $5,000, Marriott Gold after $35,000 spend",
+    ],
+  },
+
+  30: {
+    header: {
+      text: "Chase Bonvoy Bountiful",
+      link: cmarbnccv,
+    },
+    image: {
+      src: "/assets/CCLogo/Chase_marriott_bountiful.webp",
+      link: cmarbnccv,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 85,000 miles after spending $4,000 in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $250",
+      "<b>Multipliers:</b> 6x Marriott, 4x Restaurants, US Supermarkets (up to $15,000 a year) and 2x Base",
+      "<b>Automatic Perks:</b> 1,000 bonus Marriott points for every stay, Marriott Gold elite, 15 Elite Night Credits",
+      "<b>Spend Perks:</b> 1 50,000 Marriott point free night award after $15,000 spend",
+    ],
+  },
+
+  31: {
+    header: {
+      text: "Chase Ritz Carlton",
+      link: cmarrcccv,
+    },
+    image: {
+      src: "/assets/CCLogo/Chase_ritz_carlton.webp",
+      link: cmarrcccv,
+    },
+    intro:
+      "<b>Only Available via Product Change</b>",
+    descriptions: [
+      "<b>Annual Fee:</b> $450",
+      "<b>Multipliers:</b> 6x Marriott, 3x Dining, Car Rentals, Airlines, and 2x Base",
+      "<b>Credits:</b> $300 airline incidental fee, $100 for minimum 2 night stay at Ritz Carlton or St Regis, $120 TSA Precheck/Global Entry",
+      "<b>Automatic Perks:</b> 85,000 point free night award, Marriott Gold elite, 15 Elite Night Credits, Priority Pass, Sapphire Lounge Access, Unlimited Authorized Users with lounge access",
+      "<b>Spend Perks:</b> Marriott Platinum status after $75,000 spend",
     ],
   },
 };
