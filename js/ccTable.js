@@ -514,7 +514,7 @@ const tables = {
     descriptions: [
       "<b>Annual Fee:</b> $250",
       "<b>Multipliers:</b> 6x Marriott, 4x Restaurants, US Supermarkets and 2x Base",
-      "<b>Automatic Perks:</b> 1,000 bonus Marriott points for every stay, Marriott Gold elite, 15 Elite Night Credits",
+      "<b>Automatic Perks:</b> 1,000 bonus Marriott points for every stay, Marriott Gold elite, 15 qualifying night credits",
       "<b>Spend Perks:</b> 1 50,000 Marriott point free night award after $15,000 spend",
     ],
   },
@@ -535,7 +535,7 @@ const tables = {
       "<b>Annual Fee:</b> $650",
       "<b>Multipliers:</b> 6x Marriott, 3x Flights, Restaurants and 2x Base",
       "<b>Credits:</b> $25 per month dining, $100 for minimum 2 night stay at Ritz Carlton or St Regis, $120 TSA Precheck/Global Entry",
-      "<b>Automatic Perks:</b> 85,000 point free night award, Marriott Platinum elite, 25 Elite Night Credits, Priority Pass",
+      "<b>Automatic Perks:</b> 85,000 point free night award, Marriott Platinum elite, 25 qualifying night credits, Priority Pass",
       "<b>Spend Perks:</b> Brilliant Earned Choice Award after $60,000 spend",
     ],
   },
@@ -555,7 +555,7 @@ const tables = {
       "<b>Annual Fee:</b> $125",
       "<b>Multipliers:</b> 6x Marriott, 4x Restaurants, US Gas, Phone Services, Shipping and 2x Base",
       "<b>Credits:</b> $25 per month dining, $100 for minimum 2 night stay at Ritz Carlton or St Regis, $120 TSA Precheck/Global Entry",
-      "<b>Automatic Perks:</b> 35,000 Marriott Free Night Award, 7% room rate discount, Marriott Gold, 15 Elite Night Credits",
+      "<b>Automatic Perks:</b> 35,000 Marriott Free Night Award, 7% room rate discount, Marriott Gold, 15 qualifying night credits",
       "<b>Spend Perks:</b> 35,000 Marriott Free Night Award after $60,000 spend",
     ],
   },
@@ -574,7 +574,7 @@ const tables = {
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 3x Marriott, 2x Groceries, Rideshare, Food Delivery, Select streaming, Internet, Cable, Phone Services, and 1x Base",
-      "<b>Automatic Perks:</b> 0.8 cpp Pay Yourself Back ($750/year max), Marriott Silver, 5 Elite Night Credits",
+      "<b>Automatic Perks:</b> 0.8 cpp Pay Yourself Back ($750/year max), Marriott Silver, 5 qualifying night credits",
       "<b>Spend Perks:</b> 35,000 Marriott Free Night Award after $60,000 spend",
     ],
   },
@@ -593,7 +593,7 @@ const tables = {
     descriptions: [
       "<b>Annual Fee:</b> $95",
       "<b>Multipliers:</b> 6x Marriott, 3x Groceries, Gas, and Dining, and 2x Base",
-      "<b>Automatic Perks:</b> 35,000 Marriott Free Night Award, Marriott Silver, 5 Elite Night Credits",
+      "<b>Automatic Perks:</b> 35,000 Marriott Free Night Award, Marriott Silver, 5 qualifying night credits",
       "<b>Spend Perks:</b> 1 Elite Night Credit every $5,000, Marriott Gold after $35,000 spend",
     ],
   },
@@ -612,7 +612,7 @@ const tables = {
     descriptions: [
       "<b>Annual Fee:</b> $250",
       "<b>Multipliers:</b> 6x Marriott, 4x Restaurants, US Supermarkets (up to $15,000 a year) and 2x Base",
-      "<b>Automatic Perks:</b> 1,000 bonus Marriott points for every stay, Marriott Gold elite, 15 Elite Night Credits",
+      "<b>Automatic Perks:</b> 1,000 bonus Marriott points for every stay, Marriott Gold elite, 15 qualifying night credits",
       "<b>Spend Perks:</b> 1 50,000 Marriott point free night award after $15,000 spend",
     ],
   },
@@ -632,10 +632,50 @@ const tables = {
       "<b>Annual Fee:</b> $450",
       "<b>Multipliers:</b> 6x Marriott, 3x Dining, Car Rentals, Airlines, and 2x Base",
       "<b>Credits:</b> $300 airline incidental fee, $100 for minimum 2 night stay at Ritz Carlton or St Regis, $120 TSA Precheck/Global Entry",
-      "<b>Automatic Perks:</b> 85,000 point free night award, Marriott Gold elite, 15 Elite Night Credits, Priority Pass, Sapphire Lounge Access, Unlimited Authorized Users with lounge access",
+      "<b>Automatic Perks:</b> 85,000 point free night award, Marriott Gold elite, 15 qualifying night credits, Priority Pass, Sapphire Lounge Access, Unlimited Authorized Users with lounge access",
       "<b>Spend Perks:</b> Marriott Platinum status after $75,000 spend",
     ],
   },
+
+  32: {
+    header: {
+      text: "Chase World of Hyatt",
+      link: chyahccv,
+    },
+    image: {
+      src: "/assets/CCLogo/Chase_hyatt.webp",
+      link: chyahccv,
+    },
+    intro:
+      "<b>Welcome Offer:</b> 85,000 miles after spending $4,000 in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $95",
+      "<b>Multipliers:</b> 4x Hyatt, 2x Restaurants, Airlines, Transit, Fitness clubs/gyms, and 1x Base",
+      "<b>Automatic Perks:</b> Category 1–4 Hyatt Free Night Certificate, Discoverist status, 5 qualifying night credits",
+      "<b>Spend Perks:</b> Category 1–4 Hyatt Free Night Certificate after $15,000 spend, 2 qualifying night credits after each $5,000 in spend",
+    ],
+  },
+
+  33: {
+    header: {
+      text: "Chase World of Hyatt Business",
+      link: chyabccv,
+    },
+    image: {
+      src: "/assets/CCLogo/Chase_hyatt_business.webp",
+      link: chyabccv,
+    },
+    intro:
+      "<b>Only Available via Product Change</b>",
+    descriptions: [
+      "<b>Annual Fee:</b> $199",
+      "<b>Multipliers:</b> 4x Hyatt, 2x on top 3 spending categories (Dining, Shipping, Airlines, Transit, Advertising, Car Rental, Gas, Internet, Cable, Phone Services), and 1x Base",
+      "<b>Credits:</b> 2x $50 Hyatt for spending $50 each time",
+      "<b>Automatic Perks:</b> Hyatt Leverage Membership (up to 15% discount), Discoverist status",
+      "<b>Spend Perks:</b> 5 qualifying night credits after each $10,000 in spend (up to $50,000 a year), 10% redemption bonus up to 200,000 points after $50,000 in spend",
+    ],
+  },
+  
 };
 
 
