@@ -1,83 +1,513 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content= 
-        "width=device-width, initial-scale=1.0"> 
-    <title>Blogging Website Layout</title> 
-    <link rel="stylesheet" type="text/css" href="/src/css/app.css" />
-    <script src="/src/js/app.js"></script>
-    <script src="/src/js/skeletonManager.js"></script>
-</head> 
+<!DOCTYPE html>
+<html lang="en">
 
-<body> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Guide to Hyatt Hotels</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/css/desktop.css" />
+    <link rel="stylesheet" type="text/css" href="/css/mobile.css" />
+    <script src="/js/skeletonManager.js"></script>
+    <script src="/js/ccVar.js"></script>
+    <script src="/js/ccTable.js"></script>
+</head>
+
+<body>
     <nav-bar></nav-bar>
 
-    <div class="container"> 
-        <main> 
-            <div class="blogArticle"> 
-                <div class="words"> 
-                <h2>Domestic Economy Sweet Spots for Miles Within the United States</h2> 
-                <p class="post-meta"> 
-                    November 18, 2024 by Travel Train 
-                </p> 
-                <p> 
-                    Welcome to my first blog! The number one thing people ask me on how to use miles 
-                    is how they can travel to see family within the United States. This guide will 
-                    be specifically for economy, to get from point A to point B the cheapest.
-                    So grab onto your hats because we have some delving to do.
-                </p> 
-                <h3>Best Value Programs</h3> 
-                <h4>Alaska Airlines</h4> 
-                <p> 
-                    The best sweet spot hands down within short to medium distances is Alaska Airlines
-                    Mileage Plan. Mileage plan has the best short distance award chart PERIOD.
-                    <br>
-                </p>
-                <img src="/src/assets/Mileage_Plan_America_AC.png">
-                <p> 
-                    Between 0-1400 miles, Alaska Airlines clock in at or less than 7,500 miles. For
-                    their own metal, their taxes and fees comes in at the $5.60 the TSA charges per 
-                    passenger. If miles are set equal to 1 cent per point, this means that for flights 
-                    up to 700 miles, they cost <b>$50.60</b> one way. Between 701 and 1400 miles, it will be <b>$80.60</b>
-                    one way. In a lot of cases, this will represent fantastic value, even comparable 
-                    to budget airline flights. What's more, Alaska Airlines doesn't charge a change fees
-                    when changing or cancelling award tickets on their own metal.
-                    <br><br>
-                    Now, you might be thinking, "Hey, I don't live on the west coast so I don't fly on
-                    Alaska Airlines." The good news is that Alaska Airlines is a part of the Oneworld Alliance, meaning
-                    that they are able to book American Airline flights. 
-                    This is a fantastic deal, even with the partner award fee for American Airlines
-                    coming in at $12.50. Doing the same calculations, the flights under 700 miles comes to 
-                    <b>$57.50</b> and flights between 701 and 1400 miles cost <b>$87.50</b>. Unfortunately, 
-                    the partner booking fee is unrefundable if you do decide to change your ticket.
-                </p> 
+    <div class="container">
+        <div class="toc">
+            <h3>Table of Contents</h3>
+            <ul>
+                <li>
+                    <a href="#takeaway">Takeaways</a>
+                </li>
+                <li>
+                    <a href="#general">General Hyatt Stay Tips</a>
+                    <ol>
+                        <li>
+                            <a href="#earning--bestrate">Best Rate Guarantee</a>
+                        </li>
+                        <li>
+                            <a href="#earning--brand">Brand Explorer</a>
+                        </li>
+                        <li>
+                            <a href="#earning--goh">Guest of Honor</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#earning">Earning Hyatt Points</a>
+                    <ol>
+                        <li>
+                            <a href="#earning--stays">Hyatt Stays</a>
+                        </li>
+                        <li>
+                            <a href="#earning--buy">Buying Points</a>
+                        </li>
+                        <li>
+                            <a href="#earning--meetings">Meetings and Events</a>
+                        </li>
+                        <li>
+                            <a href="#earning--find">FIND Experience</a>
+                        </li>
+                        <li>
+                            <a href="#earning--transfer">Transfer Partners</a>
+                        </li>
+                        <li>
+                            <a href="#earning--everyday">Everyday Partners</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#redeeming">Redeeming Hyatt Points</a>
+                    <ol>
+                        <li>
+                            <a href="#redeeming--stays">Hyatt Stays</a>
+                        </li>
+                        <li>
+                            <a href="#redeeming--points+money">Pay with Points + Money</a>
+                        </li>
+                        <li>
+                            <a href="#redeeming--resortfee">No Resort Fees</a>
+                        </li>
+                        <li>
+                            <a href="#redeeming--pointspooling">Points Pooling</a>
+                        </li>
+                        <li>
+                            <a href="#redeeming--suiteupgrade">Suite Upgrades</a>
+                        </li>
+                        <li>
+                            <a href="#redeeming--dining">Dining, Spa, and more</a>
+                        </li>
+                        <li>
+                            <a href="#redeeming--find">FIND Experiences</a>
+                        </li>
+                        <li>
+                            <a href="#redeeming--meeting">Meetings</a>
+                        </li>
+                        <li>
+                            <a href="#redeeming--aa">AA Status for a Day</a>
+                        </li>
+                        <li>
+                            <a href="#redeeming--transfer">Transfer to Airlines</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#elitestatus">Elite Status</a>
+                    <ol>
+                        <li>
+                            <a href="#elitestatus--requirements"> Elite Status Requirements</a>
+                        </li>
+                        <li>
+                            <a href="#elitestatus--benefits"> Elite Status Benefits</a>
+                        </li>
+                        <li>
+                            <a href="#elitestatus--lifetime">Lifetime Globalist Status</a>
+                        </li>
+                        <li>
+                            <a href="#elitestatus--milestone">Milestone Rewards</a>
+                        </li>
+                        <li>
+                            <a href="#elitestatus--statusmatch">Corporate Fast Tack</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#cc">Hyatt Credit Cards</a>
+                    <ol>
+                        <li>
+                            <a href="#cc--basic">World of Hyatt</a>
+                        </li>
+                        <li>
+                            <a href="#cc--business">World of Hyatt Business</a>
+                        </li>
+                    </ol>
+                </li>
 
-                <h4>Turkish</h4> 
-                <p> 
-                    The next up is a Star Alliance power house, Turkish Airlines. Despite getting devalued
-                    earlier this year, the award chart within the United States still pose a great value. 
-                    <br>
+            </ul>
+        </div>
+        <div class="blogArticle">
+            <div class="words">
+                <h1>Ultimate Guide to Hyatt Hotels</h1>
+                <p class="post-meta">
+                    <i>February 19, 2025 by Worldly Express </i>
                 </p>
-                <img src="/src/assets/Miles_and_Smiles_America_AC.png">
-                <p> 
-                    Any award within the United States cost 10,000 miles plus $5.60 in TSA fees. By in the United
-                    States, I mean <b>IN</b> the United States. This means from East coast to Hawaii and Alaska
-                    all for the cost of 10,000 miles and $5.60. Now, again, you might be thinking, well Turkish Airlines
-                    doesn't fly within the United States. Fortunately, United Airlines do. These awards apply to United
-                    Airlines. When calculating total cost with 1 cent equal to 1 mile, this comes up to $105.6 one way.
-                    Name a time you could fly from New York to Hawaii for this price. I can't think of one. 
-                    <br><br>
-                    Now,a cautionary tale. United has been real stingy with award availability to partners recently
-                    so it may be harder and harder to find seats. Turkish Airlines also doesn't have the best award change
-                    policies or customer service so proceed with caution.
+                <p>
+                    Hyatt is the most rewarding hotel program for those that are loyal and stay often with them each year.
+                    I am here to walk you through how to get the most out of the Hyatt
+                    program!
                 </p>
+                <br>
+                <img src="/assets/Hyatt Guide/Hyatt_brands.webp"><br><br>
+                <section id="takeaway">
+                    <h2> Top 5 Takeaways</h2>
+                    <p>
+                    <ol>
+                        <li>
+                            <b>Redemptions: </b>Hyatt redemptions are typically a good value of 1.7-2 cents per point. There 
+                            are no resort fees on award bookings either.
+                        </li>
+                        <li>
+                            <b>Elite Recognition: </b>Globalist (highest status) offers the best benefits out of any hotel group. 
+                            Free breakfast or club access, guaranteed upgrades, free parking, no resort fees on paid stays, and guaranteed 4 pm 
+                            late checkout at non-resort properties give Hyatt an edge for loyalists.
+                        </li>
+                        <li>
+                            <b>Chase and Bilt: </b>With Hyatt points typically around 1.7-2 cents per point, transferring 1 Chase or Bilt point 
+                            to 1 Hyatt point is a good way to get value on a hotel stay.
+                        </li>
+                        <li>
+                            <b>Brand Explorer: </b>Hyatt incentivizes members to stay in as many different brands as they can. For every 5 brands stayed at, 
+                            the member gets a category 1-4 certificates.
+                        </li>
+                        <li>
+                            <b>American Airlines Partnership: </b>Hyatt allows for reciprocal perks when redeeming points for American 
+                            Airlines elite status for a day and milestone rewards.
+                        </li>
+                    </ol>
+                    </p>
+                </section>
+                <br><br>
+
+                <section id="general">
+                    <h2>General Hyatt Stay Tips</h2>
+                    <section id="general--bestrate">
+                        <h3>Best Rate Guarantee</h3>
+                        <p>
+                            If a lower price is available than what is offered by Hyatt for the same booking, Hyatt will <a href="https://www.hyatt.com/info/best-rate-guarantee">discount 20% on the lower price 
+                            room rate or award 5,000 points.</a>
+                        </p>
+                    </section>
+                    <section id="general--brand">
+                        <h3>Brand Explorer</h3>
+                        <p>
+                            For every 5 different <a href="https://world.hyatt.com/content/gp/en/landing/brand-explorer-award.html">Hyatt brands</a> stayed on cash or awards, 
+                        earn a category 1-4 certificate. This is a lifetime milestone, so won't ever reset.
+                        </p>
+                    </section>
+                    <section id="general--goh">
+                        <h3>Guest of Honor Awards</h3>
+                        <p>
+                            Each Guest of Honor Award will apply Globalist status and benefits to a paid or award stay, up to 7 nights. The giver will receive an qualifying night credit
+                            after the Guest of Honor stay was completed. Unfortunately, the award cannot be applied in conjunction with a suite upgrade or free night award. 
+                            Later sections will explain how to earn Guest of Honor awards.
+                        </p>
+                    </section>
+                </section>
+                <br><br>
+
+                <section id="earning">
+                    <h2> Earning Hyatt Points</h2>
+                    <section id="earning--stays">
+                        <h3>Hyatt Stays</h3>
+                        <p>
+                            The Hyatt points earning rate is based on the amount of money spent. No matter the tier, 
+                            each stay will earn 5 base points per dollar, with the rest of points earned being bonus points. Hyatt 
+                            Studios earn half, so 2.5 base points per dollar.
+                            More on the difference in a later section.<br><br>
+
+                            <b>General Member:</b> 5 base points per dollar <br>
+                            <b>Discoverist:</b> 5.5 points per dollar <br>
+                            <b>Explorist :</b> 6 points per dollar <br>
+                            <b>Globalist:</b> 6.5 points per dollar <br>
+                            <br>
+                            Please do note that like most other hotel programs, booking through third party like Expedia
+                            or travel portals
+                            don't earn points.
+                        </p>
+                    </section>
+                    <section id="earning--buy">
+                        <h3>Buying Points</h3>
+                        <p>
+                            Points typically go on sale for 2.4 cents per point, up to a maximum of 55,000 points per year. However, they frequently go on sale for 20% or 2.04 
+                            cents per point. Not the best value so would not recommend.
+                        </p>
+                    </section>
+                    <section id="earning--meetings">
+                        <h3>Meetings and Events</h3>
+                        <p>
+                            Earn 1 bonus point per dollar when hosting a meeting or event at a Hyatt hotel, up to 
+                            50,000 bonus points each year.
+                        </p>
+                    </section>
+                    <section id="earning--find">
+                        <h3>FIND Experience</h3>
+                        <p>
+                            Hyatt has various <a href="https://experiences.hyatt.com/">experiences</a> that can be booked to earn 10 base points per dollar
+                        </p>
+                    </section>
+                    <section id="earning--transfer">
+                        <h3>Transfer Partners</h3>
+                        <p>
+                            All of the below transfer partners represent a poor value at the ratio they are transferred. At
+                            the transfer ratio listed below, I would highly discourage transferring.<br>
+                            <div class="indent1">
+                                <b>Chase UR: </b>1 Ultimate Rewards point to 1 Hyatt point
+                            </div>
+                            <div class="indent1">
+                                <b>Bilt: </b>1 Bilt point to 1 Hyatt point
+                            </div>
+                        </p>
+                    </section>
+                    <section id="earning--everyday">
+                        <h3>Everyday Partners</h3>
+                        <p>
+                            <div class="indent1">
+                                <b>Peloton: </b> Complete a 10 minute plus ride or row at a Hyatt Hotel and earn 100 bonus points per workout, up to 1,000 bonus points per month
+                            </div>
+                            <div class="indent1">
+                                <b>Avis: </b>Enter Avis Worldwide Discount number K817700 to earn 500 Hyatt bonus points each rental.
+                            <a
+                                href="https://www.Hyatt.com/en/offers/car-rental/?cid=OH,WW,CarRentalEarn,MULTIPR,gridthreesixnine1,Landing,Brand-Hyatt-Honors-Partners">Alamo,
+                                Enterprise, or National</a>.
+                            </div>
+                        </p>
+                    </section>
+                </section>
+                <br><br>
+
+                <section id="redeeming">
+                    <h2> Redeeming Hyatt Points</h2>
+                    <section id="redeeming--stays">
+                        <h3>Hyatt Stays</h3>
+                        <p>
+                            Hyatt follows several award charts shown below. For a standard room, category 1 and 2 represent great value on the low end and are great
+                            for budget stays. Category 7 and 8 encompass the high end hotels, which may get more than 2 cents per point, as there isn't
+                            a real ceiling for cash prices of those hotels. Typically, Hyatt points are touted as holding 2 cents per point or greater. In practice,
+                            they are more often than not worth around 1.7 cents per point, which is still great value for points. <br><br>
+                        </p>
+                            <img src="/assets/Hyatt Guide/standard_ac.webp"><br><br>
+                        <p>
+                            All inclusive will fall into a different award chart, with the Miraval 
+                            brand (also all inclusive) falling into another award chart too. <br><br>
+                        </p>
+                            <img src="/assets/Hyatt Guide/all_inclusive_ac.webp"><br><br>
+                            <img src="/assets/Hyatt Guide/miraval_ac.webp"><br><br>
+                        <p>
+                            Hyatt also allows for the flexibility of booking 
+                            directly into club rooms, suites, and premium suites without charging an arm and a leg. Unfortunately, the one exception to the award charts are Mr and Mrs Smith properties.
+                            Their redemptions are dynamic and usually mirror close to cash value, or 1 cent per point. For more information on how much hotel and all inclusive club rooms, suites, and premium 
+                            suites cost, visit <a href="https://world.hyatt.com/content/gp/en/rewards/free-nights-upgrades.html">Hyatt's website.</a>
+                        </p>
+                    </section>
+                    <section id="redeeming--points+money">
+                        <h3>Pay with Points and Money </h3>
+                        <p>
+                            Hyatt allows for the flexibility to pay with half of the points required for a stay and the rest in cash. 
+                            The cash component is 50% to 70% of the 
+                            standard cash rate. At 50%, the value is good, but anymore and I would not recommend this method.
+                    </section>
+                    <section id="redeeming--resortfee">
+                        <h3>No Resort Fees</h3>
+                        <p>
+                            Award stays don't have resort fees imposed.
+                        </p>
+                    </section>
+                    <section id="redeeming--pointspooling">
+                        <h3>Points Pooling</h3>
+                        <p>
+                            Members can transfer unlimited points, but only transfer or receive points once every 30 days.
+                            To do this, you must complete a <a href="https://world.hyatt.com/content/dam/world-of-hyatt/images/Point-Combining-Request-Form-En.pdf">pdf form</a>.
+                            After that, send it to combinepoints@hyatt.com.
+                        </p>
+                    </section>
+                    <section id="redeeming--suiteupgrade">
+                        <h3>Suite Upgrades</h3>
+                        <p>
+                            Hyatt allows for redeeming points on a paid stay to upgrade to a suite. Resort hotels require a deluxe room booking, while 
+                            all other hotels just require a standard room booking. The cost for a suite upgrade is 6,000 points while a premium suite 
+                            upgrade is 9000 points.
+                        </p>
+                    </section>
+                    <section id="redeeming--dining">
+                        <h3>Dining, Spa, and more</h3>
+                        <p>
+                            Regardless of whether you stay at a Hyatt property, Hyatt points can be used to cover dining and spa charges at the rate below.
+                            In-room movies, parking, transportation and other charges could also be redeemed for below.<br><br>
+                            <img src="/assets/Hyatt Guide/dining_redemption.webp">
+                        </p>
+                    </section>
+                    <section id="redeeming--find">
+                        <h3>FIND Experiences</h3>
+                        <p>
+                            Redeem points for <a href="https://experiences.hyatt.com/">Hyatt Find Experiences.</a>
+                        </p>
+                    </section>
+                    <section id="redeeming--meeting">
+                        <h3>Meetings</h3>
+                        <p>
+                            Redeem Hyatt points at a rate seen below. Redemption rate is below 1.5 cents per point.<br><br>
+                            <img src="/assets/Hyatt Guide/hyatt_meeting.webp">
+                        </p>
+                    </section>
+                    <section id="redeeming--american">
+                        <h3>American Airlines Status for a Day</h3>
+                        <p>
+                            Redeem Hyatt points for American Airlines status for a day. Redeeming for status for a day could be helpful for adding checked bags, selecting seats, and 
+                            getting into Oneworld lounges. AAdvantage Platinum Pro could even get you into <b>FIRST</b> classes lounges, like ones from Cathay Pacific, Qantas, and 
+                            Japan Airlines. <br><br>
+                            Hyatt Explorists and Globalists: <br>
+                            <ul>
+                                <li>
+                                    Redeem 5,000 Hyatt points for 1 Day AAdvantage Gold status.
+                                </li>
+                                <li>
+                                    Redeem 8,000 Hyatt points for 1 Day AAdvantage Platinum status.
+                                </li>
+                            </ul>
+                        </p>
+
+                        <p>
+                            Hyatt Globalists only:
+                            <ul>
+                                <li>
+                                    Redeem 12,000 Hyatt points for 1 Day AAdvantage Platinum Pro status.
+                                </li>
+                            </ul>
+
+                        </p>
+                    </section>
+                    <section id="redeeming--airline">
+                        <h3>Transfer to Airlines</h3>
+                        <p>
+                            Hyatt points can be transferred to airline miles at a rate of less than 1 to 1. I would highly discourage this method of redemption, as the 
+                            transfer rate is quite low.
+                        </p>
+                    </section>
+                </section>
+                <br><br>
+
+                <section id="elitestatus">
+                    <h2> Hyatt Elite Status</h2>
+                    <section id="elitestatus--requirements">
+                        <h3>Elite Status Requirements</h3>
+                        <p>
+                            Hyatt now has 3 tiers of elite status after general members. Notice how the requirements say base points, 
+                            rather than bonus points. Extra points earned by elite status, credit cards  do not help qualify for elite status with Hyatt.
+                            Here are the requirements to earn each status tier:<br><br>
+
+                            <img src="/assets/Hyatt Guide/elite_qual.webp"><br>
+                            <br>
+
+                            Just like all major hotel groups, qualifying nights and points are only earned when booking
+                            direct or through portals like Amex FHR and Chase the Edit. It is
+                            my opinion that the easiest way to qualify for Hyatt elite status is to hold the applicable credit card.
+                        </p>
+
+                    </section>
+                    <section id="elitestatus--benefits">
+                        <h3>Elite Status Benefits</h3>
+                        <p>
+                            <img src="/assets/Hyatt Guide/elite_benefit.webp"> <br><br>
+                            Honestly, the only status worth chasing after is Globalist. Explorist benefits are pretty nonexistent 
+                            over Discoverist. The chart doesn't show it, but an additional Globalist benefit is no resort fees on <b>paid</b> stays.
+                            Most of the benefits I value are are from Globalist tier but free bottle is as below: <br>
+                        <ul>
+                            <li>
+                                Free breakfast
+                            </li>
+                            <li>
+                                Free parking
+                            </li>
+                            <li>
+                                No resort fees on paid stays
+                            </li>
+                            <li>
+                                Guaranteed 4 pm late check-out (except resorts)
+                            </li>
+                            <li>
+                                Free bottle water
+                            </li>
+                            <li>
+                                Welcome amenity at Hyatt Studios
+                            </li>
+                        </ul>
+                        </p>
+                    </section>
+                    <section id="elitestatus--lifetime">
+                        <h3>Lifetime Globalist Status</h3>
+                        <p>
+                            Earn lifetime Globalist status after earning 1 million base points. If earning base points strictly on 
+                            Hyatt stays, it requires $200,000 in spend to obtain this status. Also earn 5 guest of honor certificates each 
+                            year on March 1st.
+                        </p>
+                    </section>
+                    <section id="elitestatus--milestone">
+                        <h3>Milestone Rewards</h3>
+                        <p>
+                            After staying 20 nights, for each 10 nights stayed, earn an additional reward along the way. Milestone rewards can also 
+                            be earned when earning base points. This is also 
+                            where another part of the American Airline partnership comes into play, with additional milestone rewards to choose from. The choice 
+                            benefits are in order of which options I would consider first. <br><br>
+                            Key rewards to look out for: 
+                            <ul>
+                                <li>
+                                    <b>30 nights: </b>Category 1-4 free night award
+                                </li>
+                                <li>
+                                    <b>40 nights: </b>Guest of Honor award (useful before getting Globalist at 60 nights)
+                                </li>
+                                <li>
+                                    <b>60 & 100 nights: </b>Category 1-7 free night award
+                                </li>
+                                <li>
+                                    <b>100 nights: </b>AAdvantage Platinum status (Oneworld Sapphire)
+                                </li>
+                                <li>
+                                    <b>150 nights: </b>Ultimate free night award
+                                </li>
+                            </ul>
+                            <img src="/assets/Hyatt Guide/Hyatt_milestone.webp">
+                        </p>
+                    </section>
+                    <section id="elitestatus--statusmatch">
+                        <h3>Corporate Fast Tack</h3> </h3>
+                        <p>
+                            Hyatt offers a <a href="https://world.hyatt.com/content/gp/en/offers/2026-elite-tier-offer.html/">fast track to status</a> for many companies. 
+                            The status match comes in the form of a 90 day
+                            trial. Explorist status comes immediately upon approval for the status match. Staying 10 nights will retain Explorist for for the rest of the year,
+                            next year, and until end of February on the following year. Staying 20 nights will promote your status to Globalist for the same duration 
+                            as mentioned for stay 10 nights to get Explorist.
+                        </p>
+                    </section>
+                </section>
+
+                <section id="cc">
+                    <h2>Hyatt Credit Cards</h2>
+                    <p>
+                        Hyatt lineup is, in my opinion, over hyped. The best way to earn Hyatt points is by spending on Chase's core cards and the Bilt cards. 
+                        There are 2 card options, both help you obtain Hyatt elite status.<br>
+                    </p>
+                    <section id="cc--basic">
+                        <h3>World of Hyatt</h3>
+                        <div id="table-container" data-table="32"></div>
+                        <p>
+                            The card's main perks are to obtain a category 1-4 free night certificate on anniversary and 15k in spend and obtain 
+                            qualifying nights to accelerate the path to status. For the amount of spend needed and that people put on to reach globalist, 
+                            this card is definitely over hyped compared to the free night certificate obtained from the Amex Hilton Aspire 
+                            and Amex Hilton Surpass cards. 
+                        </p>
+                    </section>
+                    <section id="cc--business">
+                        <h3>World of Hyatt Business</h3>
+                        <div id="table-container" data-table="33"></div>
+                        <p>
+                            The primary perks of this card is to obtain more qualifying nights for less spend than the personal Hyatt card, up to $50,000 in spend 
+                            per year. It also comes with a 10% award discount and Hyatt leverage membership that could be useful. However, for the annual fee, 
+                            it is hard to recommend this card. 
+                        </p>
+                    </section>
+                </section>
             </div>
-        </div> 
-        </main> 
-    </div> 
+        </div>
+    </div>
 
     <foot-bar></foot-bar>
-</body> 
+    <end-links></end-links>
+    <script src="/js/cclinks.js"></script>
+</body>
 
 </html>

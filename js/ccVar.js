@@ -45,3 +45,6 @@ var biltbcc = "https://www.bilt.com/card#three-cards";
 var biltocc = "https://www.bilt.com/card#three-cards";
 var biltpcc = "https://www.bilt.com/card#three-cards";
 
+
+var chyahccv = "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card";
+var chyabccv = "https://creditcards.chase.com/business-credit-cards/world-of-hyatt/hyatt-business-card?iCELL=6227";
