@@ -7,7 +7,37 @@
   <!-- Homepage -->
   <url>
     <loc>https://www.worldlyexpress.com/index.html</loc>
-    <lastmod>2025-04-15</lastmod>
+    <lastmod>2026-02-20</lastmod>
+  </url>
+
+  <!-- Hyatt Hotel Guide -->
+  <url>
+    <loc>https://worldlyexpress.com/Hotels/Hyatt_Guide/index.html</loc>
+    <lastmod>2026-02-19</lastmod>
+  </url>
+
+  <!-- Marriott Hotel Guide -->
+  <url>
+    <loc>https://worldlyexpress.com/Hotels/Marriott_Guide/index.html</loc>
+    <lastmod>2026-02-09</lastmod>
+  </url>
+
+  <!-- Bilt 2.0 -->
+  <url>
+    <loc>https://worldlyexpress.com/Articles/Why_Bilt_2.0_is_Better_Than_it_Seems/index.html</loc>
+    <lastmod>2026-01-21</lastmod>
+  </url>
+
+  <!-- IHG Hotel Guide -->
+  <url>
+    <loc>https://worldlyexpress.com/Hotels/IHG_Guide/index.html</loc>
+    <lastmod>2026-01-10</lastmod>
+  </url>
+
+  <!-- United Airlines Guide -->
+  <url>
+    <loc>https://worldlyexpress.com/Airlines/United_Airlines_Guide/index.html</loc>
+    <lastmod>2026-01-10</lastmod>
   </url>
 
   <!-- Hilton Hotel Guide -->
@@ -25,7 +55,7 @@
   <!-- Delta Airlines Guide -->
   <url>
     <loc>https://www.worldlyexpress.com/airlines/delta-airlines-guide/index.html</loc>
-    <lastmod>2025-02-02</lastmod>
+    <lastmod>2026-01-10</lastmod>
   </url>
 
   <!-- Domestic Sweet Spot Guide -->
