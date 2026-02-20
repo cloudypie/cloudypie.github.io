@@ -32,7 +32,7 @@ const tables = {
       link: amexdelgccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 50,000 SkyMiles after spending $2,000 in 6 months",
+      "<b>Welcome Offer:</b> 70,000 SkyMiles after spending $3,000 in 6 months and 20,000 SkyMiles after spending $5,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0 for the first year, $150 thereafter",
       "<b>Multipliers:</b> 2x Delta, 2x Dining, 2x Groceries, 1x Base",
@@ -51,7 +51,7 @@ const tables = {
       link: amexdelbgccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 60,000 SkyMiles after spending $4,000 in 6 months",
+      "<b>Welcome Offer:</b> 90,000 SkyMiles after spending $6,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0 for the first year, $150 thereafter",
       "<b>Multipliers:</b> 2x US Shipping Providers/US Advertising, 1x Base",
@@ -71,7 +71,7 @@ const tables = {
       link: amexdelpccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 60,000 SkyMiles after spending $3,000 in 6 months",
+      "<b>Welcome Offer:</b> 80,000 SkyMiles after spending $4,000 in 6 months and 20,000 SkyMiles after spending $6,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $350",
       "<b>Multipliers:</b> 3x Delta, 3x Hotels, 2x Dining, 2x Groceries, 1x Base",
@@ -91,7 +91,7 @@ const tables = {
       link: amexdelbpccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 70,000 SkyMiles after spending $6,000 in 6 months",
+      "<b>Welcome Offer:</b> 100,000 SkyMiles after spending $8,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $350",
       "<b>Multipliers:</b> 3x Delta, 1.5x Transit/US Shipping/5k+ purchases, 1x Base",
@@ -111,7 +111,7 @@ const tables = {
       link: amexdelrccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 70,000 SkyMiles after spending $5,000 in 6 months",
+      "<b>Welcome Offer:</b> 1000,000 SkyMiles after spending $6,000 in 6 months and 25,000 SkyMiles after spending $9,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $650",
       "<b>Multipliers:</b> 3x Delta, 1x Base",
@@ -130,7 +130,7 @@ const tables = {
       link: amexdelbrccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 80,000 SkyMiles after spending $10,000 in 6 months",
+      "<b>Welcome Offer:</b> 125,000 SkyMiles after spending $15,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $650",
       "<b>Multipliers:</b> 3x Delta, 1.5x Transit/US Shipping/US Office Supply Stores, 1x Base",
@@ -259,7 +259,7 @@ const tables = {
       link: cunecc,
     },
     intro:
-      "<b>Welcome Offer:</b> 60,000 miles after spending $3,000 and 10,000 miles after adding an authorized user card in 3 months",
+      "<b>Welcome Offer:</b> 70,000 miles after spending $3,000 and 10,000 miles after adding an authorized user card in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $0 for the first year and $150 thereafter",
       "<b>Multipliers:</b> 2x United, Hotel Stays, Dining and 1x Base",
@@ -279,7 +279,7 @@ const tables = {
       link: cunbcc,
     },
     intro:
-      "<b>Welcome Offer:</b> 75,000 miles and 2,000 PQP after spending $5,000 and 10,000 miles after adding an employee card in 3 months",
+      "<b>Welcome Offer:</b> 100,000 points and 2,000 PQP after spending $5,000 and 10,000 miles after adding an authorized user card in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $0 for the first year and $150 thereafter",
       "<b>Multipliers:</b> 2x United, Gas Station, Dining Office Supply, Local Transit and 1x Base",
@@ -299,7 +299,7 @@ const tables = {
       link: cunqcc,
     },
     intro:
-      "<b>Welcome Offer:</b> 70,000 miles and 1,000 PQP after spending $4,000 and 10,000 miles after adding an authorized user card in 3 months",
+      "<b>Welcome Offer:</b> 80,000 miles and 3,000 PQP after spending $4,000 and 10,000 miles after adding an authorized user card in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $350",
       "<b>Multipliers:</b> 3x United, 2x Other Travel, Dining and 1x Base",
@@ -339,7 +339,7 @@ const tables = {
       link: cuncbcc,
     },
     intro:
-      "<b>Welcome Offer:</b> 80,000 points and 2,000 PQP after spending $5,000 and 10,000 miles after adding an authorized user card in 3 months",
+      "<b>Welcome Offer:</b> 100,000 points and 2,000 PQP after spending $5,000 and 10,000 miles after adding an authorized user card in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $695",
       "<b>Multipliers:</b> 5x Renowned Hotels and Resorts, 2x United, 1.5x Base",
@@ -363,7 +363,7 @@ const tables = {
       link: cihgtcc,
     },
     intro:
-      "<b>Welcome Offer:</b> 80,000 points after spending $2,000 in 3 months",
+      "<b>Welcome Offer:</b> 90,000 points after spending $2,000 in 3 months and additional 3x points per dollar, up to $10,000, in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 5x IHG Hotels and Resorts, 3x Dining, Utilities, Select Streaming Services, Gas Stations, 2x Base",
@@ -383,7 +383,7 @@ const tables = {
       link: cihgpcc,
     },
     intro:
-      "<b>Welcome Offer:</b> 140,000 points after spending $3,000 in 3 months",
+      "<b>Welcome Offer:</b> 175,000 points after spending $5,000 in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $95",
       "<b>Multipliers:</b> 10x IHG Hotels and Resorts, 5x Dining, Travel, Gas Stations, 3x Base",
@@ -647,7 +647,7 @@ const tables = {
       link: chyahccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 85,000 miles after spending $4,000 in 3 months",
+      "<b>Welcome Offer:</b> 3 free nights after spending $5,000 in 3 months and 2 free nights after spending $15,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $95",
       "<b>Multipliers:</b> 4x Hyatt, 2x Restaurants, Airlines, Transit, Fitness clubs/gyms, and 1x Base",
@@ -666,7 +666,7 @@ const tables = {
       link: chyabccv,
     },
     intro:
-      "<b>Only Available via Product Change</b>",
+      "<b>60,000 bonus points after spending $5,000 in 3 months</b>",
     descriptions: [
       "<b>Annual Fee:</b> $199",
       "<b>Multipliers:</b> 4x Hyatt, 2x on top 3 spending categories (Dining, Shipping, Airlines, Transit, Advertising, Car Rental, Gas, Internet, Cable, Phone Services), and 1x Base",
