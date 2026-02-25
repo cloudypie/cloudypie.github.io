@@ -62,6 +62,7 @@ class navBar extends HTMLElement {
                   <ul class="sub-menu">
                     <div>
                       <li><a href="/Sweet_Spots/Domestic/">Domestic</a></li>
+                      <li><a href="/Sweet_Spots/Europe">Domestic</a></li>
                     </div>
                   </ul>
                 </li>
@@ -134,6 +135,7 @@ class navBar extends HTMLElement {
                 <button onclick="myFunction3()" class="dropbtn">Sweet Spots</button>
                 <div id="mySS" class="dropdown-content">
                   <a href="/Sweet_Spots/Domestic/">Domestic</a>
+                  <a href="/Sweet_Spots/Europe/">Europe</a>
                 </div>
               </div>
               <!-- <a href="/Tierlist">Tierlist</a> -->
