@@ -155,7 +155,7 @@ const tables = {
       link: amexhilhccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 80,000 points after spending $2,000 in 6 months",
+      "<b>Welcome Offer:</b> 70,000 points and 1 Free Night award after spending $2,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 7x Hilton, 5x US Restaurants/US Gas Stations/US Supermarkets, 3x Base",
@@ -175,7 +175,7 @@ const tables = {
       link: amexhilsccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 130,000 points after spending $3,000 in 6 months",
+      "<b>Welcome Offer:</b> 130,000 points and 1 Free Night award after spending $3,000 in 6 months",
     descriptions: [ 
       "<b>Annual Fee:</b> $150",
       "<b>Multipliers:</b> 12x Hilton, 6x US Restaurants/US Gas Stations/US Supermarkets, 4x Online Retail, 3x Base",
@@ -195,7 +195,7 @@ const tables = {
       link: amexhilaccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 150,000 points after spending $6,000 in 6 months",
+      "<b>Welcome Offer:</b> 175,000 points after spending $6,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 7x Hilton, 5x US Restaurants/US Gas Stations/US Supermarkets, 3x Base",
@@ -215,7 +215,7 @@ const tables = {
       link: amexhilbccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 130,000 points after spending 6,000 in 6 months",
+      "<b>Welcome Offer:</b> 175,000 points and 1 Free Night award after spending 6,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 12x Hilton, 5x Base until $100,000, then 3x Base",
