@@ -403,7 +403,7 @@ const tables = {
       link: cihgbcc,
     },
     intro:
-      "<b>Welcome Offer:</b> 140,000 points after spending $3,000 in 3 months",
+      "<b>Welcome Offer:</b> 140,000 points after spending $4,000 in 3 months, and 60,000 points after spending $9,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $95",
       "<b>Multipliers:</b> 10x IHG Hotels and Resorts, 5x Dining, Social Media and Search Engine Advertising, Office Supply Stores, Gas Stations, 3x Base",
@@ -510,7 +510,7 @@ const tables = {
       link: amexmarbeccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 85,000 miles after spending $5,000 in 6 months",
+      "<b>Welcome Offer:</b> 175,000 miles after spending $5,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $250",
       "<b>Multipliers:</b> 6x Marriott, 4x Restaurants, US Supermarkets and 2x Base",
@@ -530,7 +530,7 @@ const tables = {
       link: amexmarbrccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 100,000 miles after spending $6,000 in 6 months",
+      "<b>Welcome Offer:</b> 200,000 miles after spending $6,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $650",
       "<b>Multipliers:</b> 6x Marriott, 3x Flights, Restaurants and 2x Base",
@@ -570,7 +570,7 @@ const tables = {
       link: cmarblccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 2x 50,000 point Free Night Award after spending $1,000 in 3 months",
+      "<b>Welcome Offer:</b> 30,000 points after spending $1,000 in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 3x Marriott, 2x Groceries, Rideshare, Food Delivery, Select streaming, Internet, Cable, Phone Services, and 1x Base",
@@ -589,7 +589,7 @@ const tables = {
       link: cmarbuccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 5x 50,000 point Free Night Award after spending $3,000 in 3 months",
+      "<b>Welcome Offer:</b> 3 free night awards after spending $3,000 in 3 months and 1 addtional free night award after spending $4,000 in 4 months",
     descriptions: [
       "<b>Annual Fee:</b> $95",
       "<b>Multipliers:</b> 6x Marriott, 3x Groceries, Gas, and Dining, and 2x Base",
@@ -666,7 +666,7 @@ const tables = {
       link: chyabccv,
     },
     intro:
-      "<b>60,000 bonus points after spending $5,000 in 3 months</b>",
+      "<b>80,000 bonus points after spending $10,000 in 3 months</b>",
     descriptions: [
       "<b>Annual Fee:</b> $199",
       "<b>Multipliers:</b> 4x Hyatt, 2x on top 3 spending categories (Dining, Shipping, Airlines, Transit, Advertising, Car Rental, Gas, Internet, Cable, Phone Services), and 1x Base",
