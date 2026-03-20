@@ -62,7 +62,7 @@ class navBar extends HTMLElement {
                   <ul class="sub-menu">
                     <div>
                       <li><a href="/Sweet_Spots/Domestic/">Domestic</a></li>
-                      <li><a href="/Sweet_Spots/Europe">Domestic</a></li>
+                      <li><a href="/Sweet_Spots/Europe">Europe</a></li>
                     </div>
                   </ul>
                 </li>
