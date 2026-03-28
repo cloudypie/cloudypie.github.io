@@ -15,3 +15,14 @@ function gtag() {
 // Configure GA
 gtag("js", new Date());
 gtag("config", "G-EFPT5EJVYB");
+
+
+(function() {
+  var adScript = document.createElement('script');
+  adScript.async = true;
+  adScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3457882836187512";
+  adScript.crossOrigin = "anonymous";
+  
+  // Append to the head of the document
+  document.head.appendChild(adScript);
+})();
