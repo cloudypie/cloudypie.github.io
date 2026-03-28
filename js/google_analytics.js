@@ -6,12 +6,12 @@
   document.head.appendChild(gtagScript);
 })();
 
-// Your existing Google Analytics code follows...
-(function () {
-  var gtagScript = document.createElement("script");
-  gtagScript.async = true;
-  gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-EFPT5EJVYB";
-  document.head.appendChild(gtagScript);
+(function() {
+  var adScript = document.createElement('script');
+  adScript.async = true;
+  adScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3457882836187512";
+  adScript.crossOrigin = "anonymous";
+  document.head.appendChild(adScript);
 })();
 
 // Initialize dataLayer and gtag
