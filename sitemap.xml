@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://sitemaps.org/schemas/sitemap/0.9
+        http://sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <!-- Homepage -->
   <url>
-    <loc>https://www.worldlyexpress.com/index.html</loc>
+    <loc>https://worldlyexpress.com/index.html</loc>
     <lastmod>2026-02-20</lastmod>
   </url>
 
@@ -48,25 +48,25 @@
 
   <!-- Hilton Hotel Guide -->
   <url>
-    <loc>https://www.worldlyexpress.com/Hotels/Hilton_Guide/index.html</loc>
+    <loc>https://worldlyexpress.com/Hotels/Hilton_Guide/index.html</loc>
     <lastmod>2025-03-27</lastmod>
   </url>
 
   <!-- Delta's Hidden Award Chart -->
   <url>
-    <loc>https://www.worldlyexpress.com/Articles/Delta_Hidden_Award_Chart/index.html</loc>
+    <loc>https://worldlyexpress.com/Articles/Delta_Hidden_Award_Chart/index.html</loc>
     <lastmod>2025-04-09</lastmod>
   </url>
 
   <!-- Delta Airlines Guide -->
   <url>
-    <loc>https://www.worldlyexpress.com/Airlines/Delta_Airlines_Guide/index.html</loc>
+    <loc>https://worldlyexpress.com/Airlines/Delta_Airlines_Guide/index.html</loc>
     <lastmod>2026-01-10</lastmod>
   </url>
 
   <!-- Domestic Sweet Spot Guide -->
   <url>
-    <loc>https://www.worldlyexpress.com/Sweet_Spots/Domestic/index.html</loc>
+    <loc>https://worldlyexpress.com/Sweet_Spots/Domestic/index.html</loc>
     <lastmod>2024-11-18</lastmod>
   </url>
 
