@@ -32,7 +32,7 @@ class navBar extends HTMLElement {
                       <!-- <a href="/Airlines/Air_Canada_Guide/">Air Canada</a>-->
                       <!-- <a href="/Airlines/Air_France_KLM_Guide">Air France/KLM</a>-->
                       <!-- <a href="/Airlines/Alaska_Airlines_Guide/">Alaska</a>-->
-                      <!-- <a href="/Airlines/American_Airlines_Guide/">American</a>-->
+                      <a href="/Airlines/American_Airlines_Guide/">American</a>
                       <li><a href="/Airlines/Delta_Airlines_Guide/">Delta</a></li>
                       <!-- <a href="/Airlines/Frontier_Airlines_Guide/">Frontier</a>-->
                       <!-- <a href="/Airlines/Qatar_Airways_Guide/">Qatar Airways</a>-->
@@ -109,7 +109,7 @@ class navBar extends HTMLElement {
                   <!-- <a href="/Airlines/Air_Canada_Guide/">Air Canada</a>-->
                   <!-- <a href="/Airlines/Air_France_KLM_Guide">Air France/KLM</a>-->
                   <!-- <a href="/Airlines/Alaska_Airlines_Guide/">Alaska</a>-->
-                  <!-- <a href="/Airlines/American_Airlines_Guide/">American</a>-->
+                  <a href="/Airlines/American_Airlines_Guide/">American</a>
                   <a href="/Airlines/Delta_Airlines_Guide/">Delta</a>
                   <!-- <a href="/Airlines/Frontier_Airlines_Guide/">Frontier</a>-->
                   <!-- <a href="/Airlines/Qatar_Airways_Guide/">Qatar Airways</a>-->

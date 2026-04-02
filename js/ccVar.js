@@ -48,3 +48,9 @@ var biltpcc = "https://www.bilt.com/card#three-cards";
 
 var chyahccv = "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card";
 var chyabccv = "https://creditcards.chase.com/business-credit-cards/world-of-hyatt/hyatt-business-card?iCELL=6227";
+
+var ciaamccv = "https://www.citi.com/credit-cards/aadvantage-mile-up-credit-card?category=view-all-credit-cards&afc=161";
+var ciaapccv = "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-world-elite-mastercard?category=view-all-credit-cards&afc=161";
+var ciaapbccv = "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card?category=view-all-credit-cards&afc=161";
+var ciaagccv = "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard?category=view-all-credit-cards&afc=161";
+var ciaaeccv = "https://www.citi.com/credit-cards/citi-aadvantage-executive-world-elite-mastercard?category=view-all-credit-cards&afc=161";

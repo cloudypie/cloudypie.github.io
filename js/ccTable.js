@@ -264,7 +264,7 @@ const tables = {
       "<b>Annual Fee:</b> $0 for the first year and $150 thereafter",
       "<b>Multipliers:</b> 2x United, Hotel Stays, Dining and 1x Base",
       "<b>Credits: </b> 2x $50 for United Hotels (used separately), $5 a month for ride share, $10 a month Instacart, $100 a year for JSX, 2x $25 for Avis or Budget car rental (used separately), $120 Global Entry/TSA Precheck/Nexus",
-      "<b>Automatic Perks:</b> Free checked bag, 2 United Club passes, Group 2 boarding, Premier Upgrade Priority, expanded saver award availability, 25% off United inflight purchases and Club premium drinks",
+      "<b>Automatic Perks:</b> 1 Free checked bag, 2 United Club passes, Group 2 boarding, Premier Upgrade Priority, expanded saver award availability, 25% off United inflight purchases and Club premium drinks",
       "<b>Spend Perks:</b> 10,000 mile award discount after $20,000 spend, 1 PQP per $20 up to 1,000 PQP",
     ],
   },
@@ -284,7 +284,7 @@ const tables = {
       "<b>Annual Fee:</b> $0 for the first year and $150 thereafter",
       "<b>Multipliers:</b> 2x United, Gas Station, Dining Office Supply, Local Transit and 1x Base",
       "<b>Credits: </b> 2x $50 for United Hotels (used separately), $125 United Travel credit after 5 flights of $100 or more, $5 a month for ride share, $10 a month Instacart, $100 a year for JSX, 2x $25 for Avis or Budget car rental (used separately), $25 in FareLock, $120 Global Entry/TSA Precheck/Nexus",
-      "<b>Automatic Perks:</b> 5,000 miles when holding a personal United card, Free checked bag, 2 United Club passes, Group 2 boarding, Premier Upgrade Priority, expanded saver award availability, 25% off United inflight purchases and Club premium drinks",
+      "<b>Automatic Perks:</b> 5,000 miles when holding a personal United card, 1 Free checked bag, 2 United Club passes, Group 2 boarding, Premier Upgrade Priority, expanded saver award availability, 25% off United inflight purchases and Club premium drinks",
       "<b>Spend Perks:</b> 2 United continental US Economy Plus seat upgrades after $25,000 spend, 1 PQP per $20 up to 4,000 PQP",
     ],
   },
@@ -675,10 +675,79 @@ const tables = {
       "<b>Spend Perks:</b> 5 qualifying night credits after each $10,000 in spend (up to $50,000 a year), 10% redemption bonus up to 200,000 points after $50,000 in spend",
     ],
   },
+
+  //****************************/
+  //          American Airline Cards
+  //****************************/
   
+  34: {
+    header: {
+      text: "Citi AAdvantage MileUp"
+    },
+    image: {
+      src: "/assets/CCLogo/"
+    },
+    intro:
+      "15,000 bonus miles after spending $500 in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $0",
+      "<b>Multipliers:</b> 2x American Airline, Groceries, 1x Base",
+      "<b>Automatic Perks:</b> 25% Savings on Inflight Purchases",
+      "<b>Spend Perks:</b> 1 Loyalty Point per dollar spent.",
+    ],
+  },
+
+  35: {
+    header: {
+      text: "Citi AAdvantage MileUp"
+    },
+    image: {
+      src: "/assets/CCLogo/"
+    },
+    intro:
+      "50,000 bonus miles after spending $2,500 in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $0 for the first year and $99 thereafter",
+      "<b>Multipliers:</b> 2x American Airline, Restaurants, Gas Stations, 1x Base",
+      "<b>Automatic Perks:</b> 1 Free Checked Bag, Group 5 Boarding, 25% Savings on Inflight Purchases",
+      "<b>Spend Perks:</b> 1 Loyalty Point per dollar spent, $125 AA flight discount after spending $20,000",
+    ],
+  },
+
+  35: {
+    header: {
+      text: "Citi AAdvantage MileUp"
+    },
+    image: {
+      src: "/assets/CCLogo/"
+    },
+    intro:
+      "50,000 bonus miles after spending $2,500 in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $0 for the first year and $99 thereafter",
+      "<b>Multipliers:</b> 2x American Airline, Restaurants, Gas Stations, 1x Base",
+      "<b>Automatic Perks:</b> 1 Free Checked Bag, Group 5 Boarding, 25% Savings on Inflight Purchases",
+      "<b>Spend Perks:</b> 1 Loyalty Point per dollar spent, $125 AA flight discount after spending $20,000",
+    ],
+  },
+
+  34: {
+    header: {
+      text: "Citi AAdvantage MileUp"
+    },
+    image: {
+      src: "/assets/CCLogo/"
+    },
+    intro:
+      "15,000 bonus miles after spending $500 in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $0",
+      "<b>Multipliers:</b> 2x American Airline, Groceries, 1x Base",
+      "<b>Automatic Perks:</b> 25% Savings on Inflight Purchases",
+      "<b>Spend Perks:</b> 1 Loyalty Point per dollar spent.",
+    ],
+  },
 };
-
-
 
 
 
