@@ -114,6 +114,7 @@ const tables = {
       "<b>Welcome Offer:</b> 1000,000 SkyMiles after spending $6,000 in 6 months and 25,000 SkyMiles after spending $9,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $650",
+      "<b>Authorized User Fee:</b> $175",
       "<b>Multipliers:</b> 3x Delta, 1x Base",
       "<b>Credits:</b> $200 annual Delta Stays, $10 monthly rideshare, $20 monthly Resy, $120 Global Entry/TSA Precheck",
       "<b>Automatic Perks:</b> Annual 15 Delta Club visits, Centurion and Escape Lounge access, annual Main Cabin or First Class Companion Certificate, Takeoff 15, Free Checked Bag, Zone 5 Boarding, Hertz President Circle Status, Complimentary Upgrade List",
@@ -133,6 +134,7 @@ const tables = {
       "<b>Welcome Offer:</b> 125,000 SkyMiles after spending $15,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $650",
+      "<b>Authorized User Fee:</b> $175",
       "<b>Multipliers:</b> 3x Delta, 1.5x Transit/US Shipping/US Office Supply Stores, 1x Base",
       "<b>Credits:</b> $250 annual Delta Stays, $10 monthly rideshare, $20 monthly Resy, $120 Global Entry/TSA Precheck",
       "<b>Automatic Perks:</b> Annual 15 Delta Club visits, Centurion and Escape Lounge access, annual Main Cabin or First Class Companion Certificate, Takeoff 15, Free Checked Bag, Zone 5 Boarding, Hertz President Circle Status, Complimentary Upgrade List",
@@ -452,6 +454,7 @@ const tables = {
       "<b>Welcome Offer:</b> $200 Bilt cash upon approval",
     descriptions: [
       "<b>Annual Fee:</b> $95",
+      "<b>Authorized User Fee:</b> $50",
       "<b>Multipliers:</b> 3x Groceries or Dining, 2x travel, 1x Base, 4% Bilt cash everything",
       "<b>Credits:</b> 2x $50 Bilt Hotels",
       "<b>Automatic Perks:</b> None",
@@ -472,6 +475,7 @@ const tables = {
       "<b>Welcome Offer:</b> 50,000x Bilt points and Bilt Gold status after spending $4,000 in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $495",
+      "<b>Authorized User Fee:</b> $95",
       "<b>Multipliers:</b> 2x Base, 4% Bilt cash Base",
       "<b>Credits:</b> $200 Bilt Cash, 2x $200 Bilt Hotels",
       "<b>Automatic Perks:</b> Priority Pass",
@@ -637,6 +641,10 @@ const tables = {
     ],
   },
 
+  //****************************/
+  //          World of Hyatt Cards
+  //****************************/
+
   32: {
     header: {
       text: "Chase World of Hyatt",
@@ -685,7 +693,7 @@ const tables = {
       text: "Citi AAdvantage MileUp"
     },
     image: {
-      src: "/assets/CCLogo/"
+      src: "/assets/CCLogo/Citi_AA_mileup.webp"
     },
     intro:
       "15,000 bonus miles after spending $500 in 3 months",
@@ -699,51 +707,73 @@ const tables = {
 
   35: {
     header: {
-      text: "Citi AAdvantage MileUp"
+      text: "Citi AAdvantage Platinum Select"
     },
     image: {
-      src: "/assets/CCLogo/"
+      src: "/assets/CCLogo/Citi_AA_platinum_select.webp"
     },
     intro:
       "50,000 bonus miles after spending $2,500 in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $0 for the first year and $99 thereafter",
       "<b>Multipliers:</b> 2x American Airline, Restaurants, Gas Stations, 1x Base",
+      "<b>Credits:</b> $100 Inflight Purchases, $30 monthly Turo (up to $240)",
       "<b>Automatic Perks:</b> 1 Free Checked Bag, Group 5 Boarding, 25% Savings on Inflight Purchases",
       "<b>Spend Perks:</b> 1 Loyalty Point per dollar spent, $125 AA flight discount after spending $20,000",
     ],
   },
 
-  35: {
+  36: {
     header: {
-      text: "Citi AAdvantage MileUp"
+      text: "Citi Business AAdvantage Platinum Select"
     },
     image: {
-      src: "/assets/CCLogo/"
+      src: "/assets/CCLogo/Citi_AA_platinum_select_business.webp"
     },
     intro:
-      "50,000 bonus miles after spending $2,500 in 3 months",
+      "75,000 bonus miles after spending $5,000 in 5 months",
     descriptions: [
       "<b>Annual Fee:</b> $0 for the first year and $99 thereafter",
-      "<b>Multipliers:</b> 2x American Airline, Restaurants, Gas Stations, 1x Base",
+      "<b>Multipliers:</b> 2x American Airline, Car Rentals, Gas Stations, Telecommunications, Cable, Satellite Providers, 1x Base",
+      "<b>Credits:</b> $100 Inflight Purchases, $30 monthly Turo (up to $240)",
       "<b>Automatic Perks:</b> 1 Free Checked Bag, Group 5 Boarding, 25% Savings on Inflight Purchases",
-      "<b>Spend Perks:</b> 1 Loyalty Point per dollar spent, $125 AA flight discount after spending $20,000",
+      "<b>Spend Perks:</b> 1 Loyalty Point per dollar spent, AA Companion Certificate after spending $30,000",
     ],
   },
 
-  34: {
+  37: {
     header: {
-      text: "Citi AAdvantage MileUp"
+      text: "Citi AAdvantage Globe"
     },
     image: {
-      src: "/assets/CCLogo/"
+      src: "/assets/CCLogo/Citi_AA_globe.webp"
     },
     intro:
-      "15,000 bonus miles after spending $500 in 3 months",
+      "60,000 bonus miles after spending $4,000 in 3 months",
     descriptions: [
-      "<b>Annual Fee:</b> $0",
-      "<b>Multipliers:</b> 2x American Airline, Groceries, 1x Base",
-      "<b>Automatic Perks:</b> 25% Savings on Inflight Purchases",
+      "<b>Annual Fee:</b> $350",
+      "<b>Multipliers:</b> 6x AAdvantage Hotels, 3x American Airlines, 2x Dining, Ground Transit,  1x Base",
+      "<b>Credits:</b> $100 Inflight Purchases, $30 monthly Turo (up to $240), $100 1stDibs/eligible AAdvantage Hotels bookings/Future Personal Training/Live Nation, $120 TSA Precheck/Global Entry",
+      "<b>Automatic Perks:</b> AA Companion Certificate, 4 Admiral's Club Passes, 1 Free Checked Bag, 5,000 Loyalty Points after every 4 AA flights (up to 15,000 LPs), Group 5 Boarding, 25% Savings on Inflight Purchases",
+      "<b>Spend Perks:</b> 1 Loyalty Point per dollar spent.",
+    ],
+  },
+
+  38: {
+    header: {
+      text: "Citi AAdvantage Executive"
+    },
+    image: {
+      src: "/assets/CCLogo/Citi_AA_executive.webp"
+    },
+    intro:
+      "70,000 bonus miles after spending $7,000 in 3 months",
+    descriptions: [
+      "<b>Annual Fee:</b> $595",
+      "<b>Authorized User Fee:</b> $175 for 3, the $175 for each after the first 3",
+      "<b>Multipliers:</b> 10x AAdvantage Hotels, AAdvantage Car Rentals, 4x American Airline (up to $150,000/year), 1x Base",
+      "<b>Credits:</b> $120 Avis and Budget, $10 Lyft after 3 rides per month, $10 monthly Grubhub, $120 TSA Precheck/Global Entry",
+      "<b>Automatic Perks:</b> Admiral's Club Membership, 1 Free Checked Bag, 10,000 Loyalty Points after reaching both 50,000 and 90,000 Loyalty Point threshold, Priority Check-in, Group 5 Boarding, 25% Savings on Inflight Purchases",
       "<b>Spend Perks:</b> 1 Loyalty Point per dollar spent.",
     ],
   },
