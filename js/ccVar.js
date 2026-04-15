@@ -24,7 +24,7 @@ var cmarrcccv = "https://marriott.chase.com/ritz-carlton";
 
 
 var cspccv = "https://www.referyourchasecard.com/19r/IOIGBSCW5Al";
-var cfuccv = "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred?CELL=6TKV";
+var cfuccv = "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited?CELL=6TKV";
 var cipccv = "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred?CELL=6TKV";
 
 

@@ -32,7 +32,7 @@ const tables = {
       link: amexdelgccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 70,000 SkyMiles after spending $3,000 in 6 months and 20,000 SkyMiles after spending $5,000 in 6 months",
+      "<b>Welcome Offer:</b> As high as 80,000 SkyMiles after spending $2,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0 for the first year, $150 thereafter",
       "<b>Multipliers:</b> 2x Delta, 2x Dining, 2x Groceries, 1x Base",
@@ -51,7 +51,7 @@ const tables = {
       link: amexdelbgccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 90,000 SkyMiles after spending $6,000 in 6 months",
+      "<b>Welcome Offer:</b> 60,000 SkyMiles after spending $4,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0 for the first year, $150 thereafter",
       "<b>Multipliers:</b> 2x US Shipping Providers/US Advertising, 1x Base",
@@ -71,7 +71,7 @@ const tables = {
       link: amexdelpccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 80,000 SkyMiles after spending $4,000 in 6 months and 20,000 SkyMiles after spending $6,000 in 6 months",
+      "<b>Welcome Offer:</b> As high as 90,000 SkyMiles after spending $3,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $350",
       "<b>Multipliers:</b> 3x Delta, 3x Hotels, 2x Dining, 2x Groceries, 1x Base",
@@ -91,7 +91,7 @@ const tables = {
       link: amexdelbpccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 100,000 SkyMiles after spending $8,000 in 6 months",
+      "<b>Welcome Offer:</b> 70,000 SkyMiles after spending $6,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $350",
       "<b>Multipliers:</b> 3x Delta, 1.5x Transit/US Shipping/5k+ purchases, 1x Base",
@@ -111,7 +111,7 @@ const tables = {
       link: amexdelrccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 1000,000 SkyMiles after spending $6,000 in 6 months and 25,000 SkyMiles after spending $9,000 in 6 months",
+      "<b>Welcome Offer:</b> As high as 100,000 SkyMiles after spending $5,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $650",
       "<b>Authorized User Fee:</b> $175",
@@ -131,7 +131,7 @@ const tables = {
       link: amexdelbrccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 125,000 SkyMiles after spending $15,000 in 6 months",
+      "<b>Welcome Offer:</b> 80,000 SkyMiles after spending $12,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $650",
       "<b>Authorized User Fee:</b> $175",
@@ -157,7 +157,7 @@ const tables = {
       link: amexhilhccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 70,000 points and 1 Free Night award after spending $2,000 in 6 months",
+      "<b>Welcome Offer:</b> 80,000 points after spending $2,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 7x Hilton, 5x US Restaurants/US Gas Stations/US Supermarkets, 3x Base",
@@ -177,7 +177,7 @@ const tables = {
       link: amexhilsccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 130,000 points and 1 Free Night award after spending $3,000 in 6 months",
+      "<b>Welcome Offer:</b> 130,000 points after spending $3,000 in 6 months",
     descriptions: [ 
       "<b>Annual Fee:</b> $150",
       "<b>Multipliers:</b> 12x Hilton, 6x US Restaurants/US Gas Stations/US Supermarkets, 4x Online Retail, 3x Base",
@@ -197,7 +197,7 @@ const tables = {
       link: amexhilaccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 175,000 points after spending $6,000 in 6 months",
+      "<b>Welcome Offer:</b> 150,000 points after spending $6,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 7x Hilton, 5x US Restaurants/US Gas Stations/US Supermarkets, 3x Base",
@@ -217,7 +217,7 @@ const tables = {
       link: amexhilbccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 175,000 points and 1 Free Night award after spending 6,000 in 6 months",
+      "<b>Welcome Offer:</b> 130,000 points after spending 6,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 12x Hilton, 5x Base until $100,000, then 3x Base",
@@ -321,7 +321,7 @@ const tables = {
       link: cunccc,
     },
     intro:
-      "<b>Welcome Offer:</b> 90,000 points after spending $5,000 and 10,000 miles after adding an authorized user card in 3 months",
+      "<b>Welcome Offer:</b> 1100,000 points and 3,000 PQP after spending $5,000 and 10,000 miles after adding an authorized user card in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $695",
       "<b>Multipliers:</b> 5x Renowned Hotels and Resorts, 4x United, 2x Other Travel, Dining and 1x Base",
@@ -365,7 +365,7 @@ const tables = {
       link: cihgtcc,
     },
     intro:
-      "<b>Welcome Offer:</b> 90,000 points after spending $2,000 in 3 months and additional 3x points per dollar, up to $10,000, in 6 months",
+      "<b>Welcome Offer:</b> 80,000 points after spending $2,000 in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 5x IHG Hotels and Resorts, 3x Dining, Utilities, Select Streaming Services, Gas Stations, 2x Base",
@@ -385,7 +385,7 @@ const tables = {
       link: cihgpcc,
     },
     intro:
-      "<b>Welcome Offer:</b> 175,000 points after spending $5,000 in 3 months",
+      "<b>Welcome Offer:</b> 140,000 points after spending $3,000 in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $95",
       "<b>Multipliers:</b> 10x IHG Hotels and Resorts, 5x Dining, Travel, Gas Stations, 3x Base",
