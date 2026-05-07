@@ -7,9 +7,9 @@ class footBar extends HTMLElement{connectedCallback(){
         <span class="footer-logo">Worldly Express</span>
         <p class="footer-tagline">Guides, sweet spots, and credit cards<br>Travel further for less.</p>
         <div class="footer-links">
-          <a href="/privacy-policy/">Privacy Policy</a>
+          <a href="/privacy-policy.html">Privacy Policy</a>
           <span class="footer-divider">·</span>
-          <a href="/disclaimer/">Disclaimer &amp; Affiliate Disclosure</a>
+          <a href="/disclaimer.html">Disclaimer &amp; Affiliate Disclosure</a>
         </div>
       </div>
 
