@@ -365,7 +365,7 @@ const tables = {
       link: cihgtcc,
     },
     intro:
-      "<b>Welcome Offer:</b> 80,000 points after spending $2,000 in 3 months",
+      "<b>Welcome Offer:</b> 90,000 points after spending $2,000 in 3 months and 35,000 points after spending $6,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 5x IHG Hotels and Resorts, 3x Dining, Utilities, Select Streaming Services, Gas Stations, 2x Base",
@@ -385,7 +385,7 @@ const tables = {
       link: cihgpcc,
     },
     intro:
-      "<b>Welcome Offer:</b> 140,000 points after spending $3,000 in 3 months",
+      "<b>Welcome Offer:</b> 150,000 points after spending $2,000 in 3 months and 35,000 points after spending $6,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $95",
       "<b>Multipliers:</b> 10x IHG Hotels and Resorts, 5x Dining, Travel, Gas Stations, 3x Base",
@@ -593,7 +593,7 @@ const tables = {
       link: cmarbuccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 3 free night awards after spending $3,000 in 3 months and 1 addtional free night award after spending $4,000 in 4 months",
+      "<b>Welcome Offer:</b> 3 free night awards after spending $3,000 in 3 months and 1 additional free night award after spending $4,000 in 4 months",
     descriptions: [
       "<b>Annual Fee:</b> $95",
       "<b>Multipliers:</b> 6x Marriott, 3x Groceries, Gas, and Dining, and 2x Base",
@@ -674,7 +674,7 @@ const tables = {
       link: chyabccv,
     },
     intro:
-      "<b>80,000 bonus points after spending $10,000 in 3 months</b>",
+      "<b>60,000 bonus points after spending $5,000 in 3 months</b>",
     descriptions: [
       "<b>Annual Fee:</b> $199",
       "<b>Multipliers:</b> 4x Hyatt, 2x on top 3 spending categories (Dining, Shipping, Airlines, Transit, Advertising, Car Rental, Gas, Internet, Cable, Phone Services), and 1x Base",

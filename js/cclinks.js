@@ -1,24 +1,37 @@
 class footBar extends HTMLElement{connectedCallback(){
   this.innerHTML=`
-
   <div class="containerBottom">
-      <h2>Sign Up for Updates!</h2>
-        <form action="https://api.web3forms.com/submit" method="POST" class = "contactleft">
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <span class="footer-logo">Worldly Express</span>
+        <p class="footer-tagline">Guides, sweet spots, and credit cards<br>Travel further for less.</p>
+        <div class="footer-links">
+          <a href="/privacy-policy/">Privacy Policy</a>
+          <span class="footer-divider">·</span>
+          <a href="/disclaimer/">Disclaimer &amp; Affiliate Disclosure</a>
+        </div>
+      </div>
+
+      <div class="footer-form-wrap">
+        <p class="footer-form-label">Stay in the loop</p>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contactleft">
           <input type="hidden" name="access_key" value="438fae80-70e9-43dd-bc0b-9adf25ed77dc">
-
-          <!-- Form Inputs. Each input must have a name="" attribute -->
-          <input type="text" name="name" placeholder = "Name" required>
-          <input type="email" name="email" placeholder = "Email" required>
-          <textarea name="message" placeholder = "Message (Optional)" ></textarea>
-
-          <!-- Honeypot Spam Protection -->
-          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-
-          <!-- Custom Confirmation / Success Page -->
-          <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
-
-          <button type="submit">Submit Form</button>
+          <div class="footer-name-email">
+            <input type="text"  name="name"  placeholder="Name"  required>
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <textarea name="message" placeholder="Message (Optional)"></textarea>
+          <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
+          <button type="submit">Subscribe</button>
         </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; ${new Date().getFullYear()} Worldly Express. All rights reserved.</span>
+    </div>
   </div>
 
   <div class="hidelinks">
