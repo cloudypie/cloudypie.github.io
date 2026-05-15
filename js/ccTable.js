@@ -514,7 +514,7 @@ const tables = {
       link: amexmarbeccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 175,000 miles after spending $5,000 in 6 months",
+      "<b>Welcome Offer:</b> 80,000 points after spending $5,000 and an additional 50,000 points after spending an additional $2,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $250",
       "<b>Multipliers:</b> 6x Marriott, 4x Restaurants, US Supermarkets and 2x Base",
@@ -534,7 +534,7 @@ const tables = {
       link: amexmarbrccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 200,000 miles after spending $6,000 in 6 months",
+      "<b>Welcome Offer:</b> 100,000 points after spending $6,000 and an additional 50,000 points after spending an additional $2,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $650",
       "<b>Multipliers:</b> 6x Marriott, 3x Flights, Restaurants and 2x Base",
@@ -554,7 +554,7 @@ const tables = {
       link: amexmarbuccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 3x 50,000 point Free Night Award after spending $6,000 in 6 months",
+      "<b>Welcome Offer:</b> 150,000 points and $125 statement credit after spending $8,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $125",
       "<b>Multipliers:</b> 6x Marriott, 4x Restaurants, US Gas, Phone Services, Shipping and 2x Base",
