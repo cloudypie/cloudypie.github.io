@@ -5,7 +5,7 @@ const tables = {
 
   1: {
     header: {
-      text: "American Express Delta Gold",
+      text: "American Express Delta Blue",
       link: amexdelbccv,
     },
     image: {
@@ -131,7 +131,7 @@ const tables = {
       link: amexdelbrccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 80,000 SkyMiles after spending $12,000 in 6 months",
+      "<b>Welcome Offer:</b> 125,000 SkyMiles after spending $12,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $650",
       "<b>Authorized User Fee:</b> $175",
@@ -261,10 +261,10 @@ const tables = {
       link: cunecc,
     },
     intro:
-      "<b>Welcome Offer:</b> 70,000 miles after spending $3,000 and 10,000 miles after adding an authorized user card in 3 months",
+      "<b>Welcome Offer:</b> 50,000 miles after spending $3,000 and 10,000 miles after adding an authorized user card in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $0 for the first year and $150 thereafter",
-      "<b>Multipliers:</b> 2x United, Hotel Stays, Dining and 1x Base",
+      "<b>Multipliers:</b> 3x United, 2x Hotel Stays, Dining and 1x Base",
       "<b>Credits: </b> 2x $50 for United Hotels (used separately), $5 a month for ride share, $10 a month Instacart, $100 a year for JSX, 2x $25 for Avis or Budget car rental (used separately), $120 Global Entry/TSA Precheck/Nexus",
       "<b>Automatic Perks:</b> 1 Free checked bag, 2 United Club passes, Group 2 boarding, Premier Upgrade Priority, expanded saver award availability, 25% off United inflight purchases and Club premium drinks",
       "<b>Spend Perks:</b> 10,000 mile award discount after $20,000 spend, 1 PQP per $20 up to 1,000 PQP",
@@ -301,10 +301,10 @@ const tables = {
       link: cunqcc,
     },
     intro:
-      "<b>Welcome Offer:</b> 80,000 miles and 3,000 PQP after spending $4,000 and 10,000 miles after adding an authorized user card in 3 months",
+      "<b>Welcome Offer:</b> 60,000 miles and 500 PQP after spending $4,000 and 10,000 miles after adding an authorized user card in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $350",
-      "<b>Multipliers:</b> 3x United, 2x Other Travel, Dining and 1x Base",
+      "<b>Multipliers:</b> 4x United, 2x Other Travel, Dining and 1x Base",
       "<b>Credits: </b> $200 United Travel credit, $150 United Hotels or Renowned Hotels and Resorts, $8 a month ($12 in December) for ride share, $10 and 2x $5 a month Instacart (used separately), $150 a year for JSX, 2x $40 for Avis or Budget car rental (used separately), $120 Global Entry/TSA Precheck/Nexus",
       "<b>Automatic Perks:</b> 10,000 mile award discount, 2 Free checked bags, Group 2 boarding, Premier Upgrade Priority, expanded saver award availability, 25% off United inflight purchases and Club premium drinks",
       "<b>Spend Perks:</b> 10,000 mile award discount after $20,000 spend, 2 United continental US Economy Plus seat upgrades after $40,000 spend, 1 PQP per $20 up to 18,000 PQP",
@@ -321,10 +321,10 @@ const tables = {
       link: cunccc,
     },
     intro:
-      "<b>Welcome Offer:</b> 1100,000 points and 3,000 PQP after spending $5,000 and 10,000 miles after adding an authorized user card in 3 months",
+      "<b>Welcome Offer:</b> 80,000 points after spending $5,000 and 10,000 miles after adding an authorized user card in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $695",
-      "<b>Multipliers:</b> 5x Renowned Hotels and Resorts, 4x United, 2x Other Travel, Dining and 1x Base",
+      "<b>Multipliers:</b> 5x Renowned Hotels and Resorts, 5x United, 2x Other Travel, Dining and 1x Base",
       "<b>Credits: </b> $200 United Hotels or Renowned Hotels and Resorts, $8 a month ($12 in December) for ride share, 2x $10 a month Instacart (used separately), $200 a year for JSX, 2x $50 for Avis or Budget car rental (used separately), $120 Global Entry/TSA Precheck/Nexus",
       "<b>Automatic Perks:</b> United Club Membership, 4 United Club Passes with All Access Membership, 10% discount on United saver awards within continental US and Canada, 1,500 PQP, 2 Free checked bags, IHG One Platinum, Avis President's Club, Instacart+, Group 2 boarding, Premier Upgrade Priority, expanded saver award availability, 25% off United inflight purchases and Club premium drinks",
       "<b>Spend Perks:</b> 10,000 mile award discount after $20,000 spend, All Access membership after $50,000 spend, 1 PQP per $15 up to 28,000 PQP",
@@ -365,7 +365,7 @@ const tables = {
       link: cihgtcc,
     },
     intro:
-      "<b>Welcome Offer:</b> 90,000 points after spending $2,000 in 3 months and 35,000 points after spending $6,000 in 6 months",
+      "<b>Welcome Offer:</b> 80,000 points after spending $2,000 in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 5x IHG Hotels and Resorts, 3x Dining, Utilities, Select Streaming Services, Gas Stations, 2x Base",
@@ -385,7 +385,7 @@ const tables = {
       link: cihgpcc,
     },
     intro:
-      "<b>Welcome Offer:</b> 150,000 points after spending $2,000 in 3 months and 35,000 points after spending $6,000 in 6 months",
+      "<b>Welcome Offer:</b> 140,000 points after spending $3,000 in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $95",
       "<b>Multipliers:</b> 10x IHG Hotels and Resorts, 5x Dining, Travel, Gas Stations, 3x Base",
@@ -514,7 +514,7 @@ const tables = {
       link: amexmarbeccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 80,000 points after spending $5,000 and an additional 50,000 points after spending an additional $2,000 in 6 months",
+      "<b>Welcome Offer:</b> 125,000 points and a $150 statement credit after spending $5,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $250",
       "<b>Multipliers:</b> 6x Marriott, 4x Restaurants, US Supermarkets and 2x Base",
@@ -534,7 +534,7 @@ const tables = {
       link: amexmarbrccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 100,000 points after spending $6,000 and an additional 50,000 points after spending an additional $2,000 in 6 months",
+      "<b>Welcome Offer:</b> 150,000 points and a $250 statement credit after spending $5,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $650",
       "<b>Multipliers:</b> 6x Marriott, 3x Flights, Restaurants and 2x Base",
@@ -593,7 +593,7 @@ const tables = {
       link: cmarbuccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 3 free night awards after spending $3,000 in 3 months and 1 additional free night award after spending $4,000 in 4 months",
+      "<b>Welcome Offer:</b> 4 free night awards after spending $3,000 in 3 months and $50 airline credit semiannually after spending $500 on airlines",
     descriptions: [
       "<b>Annual Fee:</b> $95",
       "<b>Multipliers:</b> 6x Marriott, 3x Groceries, Gas, and Dining, and 2x Base",
@@ -655,7 +655,7 @@ const tables = {
       link: chyahccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 3 free nights after spending $5,000 in 3 months and 2 free nights after spending $15,000 in 6 months",
+      "<b>Welcome Offer:</b> 30,000 points after spending $3,000 in 3 months and 2x additional points up to $15,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $95",
       "<b>Multipliers:</b> 4x Hyatt, 2x Restaurants, Airlines, Transit, Fitness clubs/gyms, and 1x Base",
@@ -674,7 +674,7 @@ const tables = {
       link: chyabccv,
     },
     intro:
-      "<b>60,000 bonus points after spending $5,000 in 3 months</b>",
+      "<b>70,000 bonus points after spending $7,000 in 3 months</b>",
     descriptions: [
       "<b>Annual Fee:</b> $199",
       "<b>Multipliers:</b> 4x Hyatt, 2x on top 3 spending categories (Dining, Shipping, Airlines, Transit, Advertising, Car Rental, Gas, Internet, Cable, Phone Services), and 1x Base",
