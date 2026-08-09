@@ -5,6 +5,7 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <!-- Homepage -->
+
   <url>
     <loc>https://worldlyexpress.com/privacy-policy.html/</loc>
     <lastmod>2026-05-06</lastmod>
@@ -20,10 +21,23 @@
     <lastmod>2026-02-20</lastmod>
   </url>
 
-    <!-- UA Partner Award Chart-->
+
+  <!-- Best Credit Cards for Rent-->
   <url>
-    <loc>https://worldlyexpress.com/Articles/Why_Bilt_2.0_is_Better_Than_it_Seems/</loc>
+    <loc>https://worldlyexpress.com/Articles/Best_Credit_Cards_for_Rent/</loc>
+    <lastmod>2026-08-09</lastmod>
+  </url>
+  
+  <!-- UA Partner Award Chart-->
+  <url>
+    <loc>https://worldlyexpress.com/Articles/United_Partner_Award_Chart/</loc>
     <lastmod>2026-05-15</lastmod>
+  </url>
+
+  <!-- Ultimate guide to American Airlines-->
+  <url>
+    <loc>https://worldlyexpress.com/Airlines/American_Airlines_Guide/</loc>
+    <lastmod>2026-04-08</lastmod>
   </url>
 
   <!-- Europe Sweet Spots -->
