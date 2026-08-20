@@ -732,6 +732,7 @@ aside > h2 {
   font-size: 14px;
   line-height: 1.4;
   text-align: left;
+  vertical-align: middle;
 }
 
 .benefits-table tbody td:not(.benefits-feature):not(.benefits-section-row td) {

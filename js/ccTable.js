@@ -806,16 +806,17 @@ function displayTable(number, container) {
   html += `<th colspan="2"><a href="${tableData.header.link}" target="_blank">${tableData.header.text}</a></th>`;
   html += "</tr></thead><tbody>";
 
-  // First row: linked image with rowspan=6 and intro
-  html += "<tr>";
-  html += `<td rowspan="6"><a href="${tableData.image.link}" target="_blank"><img src="${tableData.image.src}" alt="Image"></a></td>`;
-  html += `<td>${tableData.intro}</td>`;
-  html += "</tr>";
+// First row: linked image with rowspan and intro
+const totalRows = tableData.descriptions.length + 1; // +1 for the intro row
+html += "<tr>";
+html += `<td rowspan="${totalRows}"><a href="${tableData.image.link}" target="_blank"><img src="${tableData.image.src}" alt="Image"></a></td>`;
+html += `<td>${tableData.intro}</td>`;
+html += "</tr>";
 
-  // Loop through remaining 5 description rows
-  tableData.descriptions.forEach((desc) => {
-    html += `<tr><td>${desc}</td></tr>`;
-  });
+// Loop through the remaining description rows
+tableData.descriptions.forEach((desc) => {
+  html += `<tr><td>${desc}</td></tr>`;
+});
 
   html += "</tbody></table>";
   container.innerHTML = html;
