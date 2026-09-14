@@ -32,7 +32,7 @@ const tables = {
       link: amexdelgccv,
     },
     intro:
-      "<b>Welcome Offer:</b> As high as 80,000 SkyMiles after spending $2,000 in 6 months",
+      "<b>Welcome Offer:</b> As high as 80,000 SkyMiles and $250 after spending $3,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0 for the first year, $150 thereafter",
       "<b>Multipliers:</b> 2x Delta, 2x Dining, 2x Groceries, 1x Base",
@@ -51,7 +51,7 @@ const tables = {
       link: amexdelbgccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 60,000 SkyMiles after spending $4,000 in 6 months",
+      "<b>Welcome Offer:</b> 90,000 SkyMiles after spending $6,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0 for the first year, $150 thereafter",
       "<b>Multipliers:</b> 2x US Shipping Providers/US Advertising, 1x Base",
@@ -71,7 +71,7 @@ const tables = {
       link: amexdelpccv,
     },
     intro:
-      "<b>Welcome Offer:</b> As high as 90,000 SkyMiles after spending $3,000 in 6 months",
+      "<b>Welcome Offer:</b> As high as 90,000 SkyMiles and $300 after spending $4,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $350",
       "<b>Multipliers:</b> 3x Delta, 3x Hotels, 2x Dining, 2x Groceries, 1x Base",
@@ -91,7 +91,7 @@ const tables = {
       link: amexdelbpccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 70,000 SkyMiles after spending $6,000 in 6 months",
+      "<b>Welcome Offer:</b> 100,000 SkyMiles after spending $8,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $350",
       "<b>Multipliers:</b> 3x Delta, 1.5x Transit/US Shipping/5k+ purchases, 1x Base",
@@ -111,7 +111,7 @@ const tables = {
       link: amexdelrccv,
     },
     intro:
-      "<b>Welcome Offer:</b> As high as 100,000 SkyMiles after spending $5,000 in 6 months",
+      "<b>Welcome Offer:</b> 50,000 SkyMiles and 2 roudtrip comfort+ flight certificates after spending $10,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $650",
       "<b>Authorized User Fee:</b> $175",
@@ -131,7 +131,7 @@ const tables = {
       link: amexdelbrccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 125,000 SkyMiles after spending $12,000 in 6 months",
+      "<b>Welcome Offer:</b> 200,000 SkyMiles after spending $20,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $650",
       "<b>Authorized User Fee:</b> $175",
@@ -157,7 +157,7 @@ const tables = {
       link: amexhilhccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 80,000 points after spending $2,000 in 6 months",
+      "<b>Welcome Offer:</b> 70,000 points + 1 Free Night Certificate after spending $2,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 7x Hilton, 5x US Restaurants/US Gas Stations/US Supermarkets, 3x Base",
@@ -177,7 +177,7 @@ const tables = {
       link: amexhilsccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 130,000 points after spending $3,000 in 6 months",
+      "<b>Welcome Offer:</b> 130,000 points + 1 Free Night Certificate after spending $3,000 in 6 months",
     descriptions: [ 
       "<b>Annual Fee:</b> $150",
       "<b>Multipliers:</b> 12x Hilton, 6x US Restaurants/US Gas Stations/US Supermarkets, 4x Online Retail, 3x Base",
@@ -197,7 +197,7 @@ const tables = {
       link: amexhilaccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 150,000 points after spending $6,000 in 6 months",
+      "<b>Welcome Offer:</b> 200,000 points after spending $6,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 7x Hilton, 5x US Restaurants/US Gas Stations/US Supermarkets, 3x Base",
@@ -217,7 +217,7 @@ const tables = {
       link: amexhilbccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 130,000 points after spending 6,000 in 6 months",
+      "<b>Welcome Offer:</b> 150,000 points + 1 Free Night Certificate after spending 6,000 in 6 months",
     descriptions: [
       "<b>Annual Fee:</b> $0",
       "<b>Multipliers:</b> 12x Hilton, 5x Base until $100,000, then 3x Base",
@@ -593,7 +593,7 @@ const tables = {
       link: cmarbuccv,
     },
     intro:
-      "<b>Welcome Offer:</b> 4 free night awards after spending $3,000 in 3 months and $50 airline credit semiannually after spending $500 on airlines",
+      "<b>Welcome Offer:</b> 3 free night awards after spending $3,000 in 3 months",
     descriptions: [
       "<b>Annual Fee:</b> $95",
       "<b>Multipliers:</b> 6x Marriott, 3x Groceries, Gas, and Dining, and 2x Base",
